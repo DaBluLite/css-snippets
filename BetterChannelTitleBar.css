@@ -9,7 +9,7 @@
 .searchBar-jGtisZ {
     padding: 8px;
     height: fit-content;
-    background-color: var(--background-primary);
+    background-color: transparent;
     transition: .3s !important;
     width: 40px;
 }
