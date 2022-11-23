@@ -1,0 +1,35 @@
+/*Bigger Channel Bar*/
+.content-1jQy2l::before {
+    content: none;
+}
+.title-31SJ6t {
+    margin: 8px;
+}
+/*Expandable search bar*/
+.searchBar-jGtisZ {
+    padding: 8px;
+    height: fit-content;
+    background-color: var(--background-primary);
+    transition: .3s !important;
+    width: 40px;
+}
+.focused-1xh-wG .searchBar-jGtisZ, .open-1F8u2c .searchBar-jGtisZ, .searchBar-jGtisZ:hover {
+    background-color: var(--background-tertiary);
+    width: 224px;
+    margin: 0 10px;
+}
+.search-39IXmY {
+    margin: 0;
+}
+.searchBar-jGtisZ .iconContainer-1RqWJj {
+    width: 24px;
+    height: 24px;
+    transition: .3s;
+}
+.focused-1xh-wG .searchBar-jGtisZ .iconContainer-1RqWJj, .open-1F8u2c .searchBar-jGtisZ .iconContainer-1RqWJj, .searchBar-jGtisZ:hover .iconContainer-1RqWJj {
+    width: 18px;
+    height: 18px;
+}
+.searchBar-jGtisZ .iconContainer-1RqWJj>svg {
+    color: var(--interactive-normal);
+}
