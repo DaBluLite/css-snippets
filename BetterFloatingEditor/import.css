@@ -1,0 +1,111 @@
+.floating-window {
+    padding-bottom: 0 !important;
+    box-shadow: 0 0 0 1px hsl(var(--primary-900-hsl)/0.3),var(--elevation-high);
+    border-radius: 16px;
+    min-width: 450px !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+.floating-window #bd-editor-controls {
+    position: absolute;
+    background-color: transparent;
+    box-shadow: none;
+    top: 0;
+    right: 65px;
+}
+.floating-window #bd-editor-controls button {
+    height: 30px;
+    padding-top: 0 !important;
+    border-radius: 50%;
+}
+.floating-window #bd-editor-controls > .controls-section:empty {
+    display: none;
+}
+.floating-window #bd-editor-controls > .controls-right {
+    order: -1;
+}
+.floating-window-titlebar {
+    height: 40px;
+    box-shadow: var(--elevation-stroke);
+    z-index: +1;
+    background-color: var(--background-primary);
+}
+.floating-window-buttons .button {
+    border-radius: 50%;
+    margin: 0 5px 0 0;
+    height: 30px;
+}
+#bd-editor-controls button,
+.floating-window-buttons .button {
+    background: var(--background-secondary-alt) !important;
+}
+.floating-window-titlebar .title {
+    padding: 0 16px;
+    color: var(--header-primary);
+    line-height: 40px;
+}
+#bd-editor-controls .controls-section.controls-right .checkboxElement-1qV33p {
+    margin: 0;
+}
+#bd-editor-controls .checkbox-inner {
+    position: relative;
+}
+#bd-editor-controls .checkbox {
+    width: 37px;
+    transform: translateX(-28px);
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+#bd-editor-controls .checkbox-inner::before {
+    content: "";
+    width: 28px;
+    height: 14px;
+    display: flex;
+    background-color: var(--background-secondary-alt);
+    border: 28px;
+    border-radius: 50px;
+    transform: translateX(calc(-25% - 20px));
+    transition: .15s;
+}
+#bd-editor-controls .checkbox-inner::after {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: flex;
+    background-color: #fff;
+    border: 28px;
+    border-radius: 50px;
+    transform: translateX(calc(-75% - 20px)) translateY(-87.5%);
+    transition: .15s;
+}
+#bd-editor-controls .checkbox-inner:has(:checked)::before {
+    background-color: var(--brand-experiment);
+}
+#bd-editor-controls .checkbox-inner:has(:checked)::after {
+    background-color: var(--brand-experiment-500);
+    filter: brightness(2);
+    transform: translateX(calc(50% - 20px)) translateY(-87.5%);
+}
+.checkbox-item .checkbox-label {
+    margin-right: 40px;
+}
+#customcss-tab #bd-editor-controls {
+    justify-content: end;
+    background-color: transparent;
+}
+#customcss-tab #bd-editor-controls > .controls-left {
+    order: +1;
+}
+#customcss-tab #bd-editor-controls button {
+    border-radius: 50%;
+    padding-top: 0 !important;
+    height: 30px;
+}
+#customcss-tab .bd-settings-title {
+    margin-bottom: 0;
+    line-height: 40px;
+}
+#customcss-tab #bd-editor-panel {
+    margin-top: -40px;
+}
