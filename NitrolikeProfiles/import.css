@@ -1,9 +1,7 @@
 :root {
     --custom-nitro-profile-primary: var(--background-primary);
     --custom-nitro-profile-secondary: var(--background-primary);
-    --custom-nitro-profile-banner: var(--background-floating);
 }
-
 .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) {
     padding: 4px;
     background: linear-gradient(var(--custom-nitro-profile-primary),var(--custom-nitro-profile-secondary));
@@ -22,7 +20,7 @@
 }
 .theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .overlayBackground-2aa7wt,
 .theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .userProfileInner-1ngKnf::before {
-    background: hsla(0,0%,100%,0.6) !important;
+    background: hsla(0,0%,85%,0.6) !important;
 }
 .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .profileBadges-2pItdR {
     background-color: var(--custom-nitro-profile-secondary);
@@ -31,4 +29,7 @@
     left: 26px;
     top: 20px;
     z-index: +1;
+}
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .popoutBanner-3cqRD9 {
+    border-radius: 4px 4px 0 0;
 }
