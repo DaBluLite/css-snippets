@@ -1,0 +1,34 @@
+:root {
+    --custom-nitro-profile-primary: var(--background-primary);
+    --custom-nitro-profile-secondary: var(--background-primary);
+    --custom-nitro-profile-banner: var(--background-floating);
+}
+
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) {
+    padding: 4px;
+    background: linear-gradient(var(--custom-nitro-profile-primary),var(--custom-nitro-profile-secondary));
+    border-radius: 4px;
+}
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .buttonColor-_0gSD_ {
+    background-color: var(--custom-nitro-profile-primary) !important;
+}
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) > div {
+    border-radius: 4px;
+    background: linear-gradient(var(--custom-nitro-profile-primary),var(--custom-nitro-profile-primary) 60px,var(--custom-nitro-profile-secondary));
+}
+.theme-dark .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .overlayBackground-2aa7wt,
+.theme-dark .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .userProfileInner-1ngKnf::before {
+    background: hsla(0,0%,0%,0.6) !important;
+}
+.theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .overlayBackground-2aa7wt,
+.theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .userProfileInner-1ngKnf::before {
+    background: hsla(0,0%,100%,0.6) !important;
+}
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .profileBadges-2pItdR {
+    background-color: var(--custom-nitro-profile-secondary);
+}
+.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .avatarWrapper-eenWra {
+    left: 26px;
+    top: 20px;
+    z-index: +1;
+}
