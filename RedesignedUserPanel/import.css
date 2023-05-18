@@ -1,0 +1,38 @@
+.panels-3wFtMD {
+    margin: 5px;
+    margin-top: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .2s;
+}
+.panels-3wFtMD:hover {
+    box-shadow: var(--light-elevation-border),var(--elevation-high);
+}
+.panels-3wFtMD .container-YkUktl {
+    flex-direction: column;
+    height: 88px;
+    padding: 8px;
+    background: var(--background-floating) !important;
+    margin-bottom: -36px;
+    transition: .2s;
+}
+.panels-3wFtMD:hover .container-YkUktl {
+    margin-bottom: 0;
+}
+.panels-3wFtMD .avatarWrapper-1B9FTW {
+    margin-right: 0;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    transition: .15s;
+}
+.panels-3wFtMD .directionRow-2Iu2A9 {
+    gap: 4px;
+}
+.panels-3wFtMD .directionRow-2Iu2A9 > button {
+    width: calc((224px/3) - 7px);
+    border-radius: 8px;
+    transition: .15s;
+}
