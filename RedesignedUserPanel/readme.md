@@ -3,7 +3,7 @@ A redesign to the classic user panel for Discord, based on Cyan's implementation
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/RedesignedUserPanel/import.css);
+@import url(//dablulite.github.io/css-snippets/RedesignedUserPanel/import.css);
 ```
 
 ### Screenshots:
