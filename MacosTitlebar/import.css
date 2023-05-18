@@ -1,0 +1,82 @@
+.winButtonClose-3Q8ZH5 {
+    order: 3;
+    margin-top: var(--mactitlebar-top-margin);
+    margin-left: var(--mactitlebar-left-margin);
+}
+.winButtonMinMax-3RsPUg {
+    order: 1;
+    margin-top: var(--mactitlebar-top-margin);
+}
+.winButtonMinMax-3RsPUg:last-child {
+    margin-top: var(--mactitlebar-top-margin);
+}
+.winButton-3UMjdg:hover {
+    background-color: transparent !important;
+}
+.withFrame-2dL45i {
+    box-shadow: none !important;
+}
+.wordmark-2u86JB, .withFrame-2dL45i:before, .withFrame-2dL45i:after {
+    display: none !important;
+}
+.winButtonClose-3Q8ZH5 > svg {
+    background: var(--mactitlebar-close-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonClose-3Q8ZH5 > svg > polygon {
+    display: none !important;
+}
+.winButtonMinMax-3RsPUg > svg {
+    background: var(--mactitlebar-max-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonMinMax-3RsPUg:last-child > svg {
+    background: var(--mactitlebar-min-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonMinMax-3RsPUg > svg > rect {
+    display: none !important;
+}
+.winButton-3UMjdg:hover {
+    background-color: transparent;
+}
+.winButton-3UMjdg {
+    width: var(--mactitlebar-button-width) !important;
+    height: var(--mactitlebar-button-height) !important;
+}
+.guilds-2JjMmN > ul {
+    margin-top: var(--macbuttons-serverlist-inner-top-margin);
+}
+.guilds-2JjMmN {
+    margin-top: var(--macbuttons-serverlist-outer-top-margin);
+    height: var(--macbuttons-serverlist-outer-height);
+}
+.typeWindows-2-g3UY {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    margin-top: 0;
+    position: absolute;
+    background-color: transparent;
+}
+.platform-win .closeButton-30b1gR {
+    width: 100% !important;
+    -webkit-app-region: drag;
+}
+.platform-win .container-ZMc96U {
+    width: 100% !important;
+    -webkit-app-region: drag;
+}
+.platform-win .title-31SJ6t {
+    width: 100% !important;
+    -webkit-app-region: drag;
+}
+.wordmark-2u86JB {
+    display: none;
+}
+.platform-win .sidebar-1tnWFu {
+    border-radius: 0;
+}
