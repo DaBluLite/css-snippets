@@ -1,0 +1,32 @@
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) {
+    border-radius: 16px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .bannerSVGWrapper-2CLfzN {
+    scale: 1;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .userPopoutInner-nv9Y92::after {
+    margin: 0;
+    width: calc(100% - 10px);
+    border-radius: 12px;
+    min-width: 330px !important;
+    -webkit-mask: none;
+}
+.userPopoutOuter-1OHwPL > .userProfileInnerThemedNonPremium-2AJg-H::before {
+    z-index: unset;
+}
+#app-mount .userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .overlayBackground-2aa7wt {
+    background: transparent !important;
+    margin-top: 48px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .profileBadges-2pItdR {
+    top: 60px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .avatarWrapper-eenWra {
+    left: 20px;
+    top: 72px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .customStatus-19KW6v,
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .nickname-3P1RuO,
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .userTag-3A4Fw4 > span {
+    color: var(--header-primary);
+}
