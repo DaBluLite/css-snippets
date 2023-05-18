@@ -1,0 +1,57 @@
+:root {
+    --custom-nitro-profile-primary: var(--background-primary);
+    --custom-nitro-profile-secondary: var(--background-primary);
+    --custom-nitro-profile-banner: var(--background-floating);
+}
+
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) {
+    padding: 4px;
+    background: linear-gradient(var(--custom-nitro-profile-primary),var(--custom-nitro-profile-secondary));
+    border-radius: 4px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .buttonColor-_0gSD_ {
+    background-color: var(--custom-nitro-profile-primary) !important;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) > div {
+    border-radius: 4px;
+    background: linear-gradient(var(--custom-nitro-profile-primary),var(--custom-nitro-profile-primary) 60px,var(--custom-nitro-profile-secondary));
+}
+.theme-dark .userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .overlayBackground-2aa7wt,
+.theme-dark .userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .userProfileInner-1ngKnf::before {
+    background: hsla(0,0%,0%,0.6) !important;
+}
+.theme-light .userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .overlayBackground-2aa7wt,
+.theme-light .userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .userProfileInner-1ngKnf::before {
+    background: hsla(0,0%,100%,0.6) !important;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .profileBadges-2pItdR {
+    background-color: var(--custom-nitro-profile-secondary);
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .avatarWrapper-eenWra {
+    left: 22px;
+    top: 76px;
+    z-index: +1;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .pencilContainer-18TrEJ {
+    display: none;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .bannerSVGWrapper-2CLfzN {
+    height: 120px;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .banner-1YaD3N {
+    background-color: transparent !important;
+}
+.userPopoutOuter-1OHwPL:has(.pencilContainer-18TrEJ) .userPopoutInner-nv9Y92::after {
+    content: "";
+    position: absolute;
+    background: var(--custom-nitro-profile-banner);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px 4px 0 0;
+    top: 4px;
+    left: 4px;
+    height: 120px;
+    width: 340px;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 340 120' style='min-width: 340px; min-height: 120px;' %3E%3Cpath d='M 0 0 L 0 120 L 12.785156 120 A 46 46 0 0 1 12 112 A 46 46 0 0 1 58 66 A 46 46 0 0 1 104 112 A 46 46 0 0 1 103.21484 120 L 340 120 L 340 0 L 0 0 z '/%3E%3C/svg%3E");
+}
