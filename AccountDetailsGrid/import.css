@@ -1,0 +1,51 @@
+.background-3d_SjE {
+    background-color: transparent;
+    padding: 0;
+}
+.fieldList-in8WkP {
+    background-color: transparent;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.field-21XZwa {
+    width: calc((100%/2) - 3px);
+    border-radius: 8px;
+    background-color: var(--background-primary);
+    max-height: unset;
+    flex-flow: column;
+    padding: 15px;
+    display: flex;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: scroll;
+    height: 120px;
+    margin-bottom: 0;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    background-color: var(--button-secondary-background) !important;
+    border-radius: 6px;
+    transition: .1s;
+}
+.field-21XZwa .fieldButton-14lHvK:hover {
+    background-color: var(--button-secondary-background-hover) !important;
+}
+.field-21XZwa .fieldButton-14lHvK:hover > div {
+    background-image: none !important;
+}
+.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
+    right: 5px;
+}
+.field-21XZwa .fieldButton-14lHvK {
+    width: 100%;
+    margin-right: 0;
+    position: relative;
+    right: 0 !important;
+}
+.field-21XZwa .fieldButtonList-28BYbB {
+    gap: 5px;
+}
