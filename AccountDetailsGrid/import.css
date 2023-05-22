@@ -10,7 +10,7 @@
     flex-direction: row;
 }
 .field-21XZwa {
-    width: calc((100%/2) - 3px);
+    width: calc((100%/2) - 2.5px);
     border-radius: 8px;
     background-color: var(--background-primary);
     max-height: unset;
