@@ -109,3 +109,13 @@
 #customcss-tab #bd-editor-panel {
     margin-top: -40px;
 }
+.minimap {
+    right: -120px !important;
+    opacity: 0;
+    transition: .4s;
+}
+.editor-scrollable:has(.scrollbar.vertical:hover) ~ .minimap,
+.minimap:hover {
+    right: 14px !important;
+    opacity: 1;
+}
