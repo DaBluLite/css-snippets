@@ -6,12 +6,6 @@ A replica of the nitro profile customization system.
 @import url(//dablulite.github.io/css-snippets/FreeNitroProfile/import.css);
 ```
 
-### Importing for Cyan:
-```css
-@import url(//dablulite.github.io/css-snippets/FreeNitroProfile/import.css);
-@import url(//dablulite.github.io/css-snippets/FreeNitroProfile/cyan-compat.import.css);
-```
-
 ### Customizing
 The variables below determine the 2 colors of the gradient and the banner color/image
 ```css
