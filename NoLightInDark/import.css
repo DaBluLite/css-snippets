@@ -1,7 +1,7 @@
 .footer-IubaaS {
     color: var(--header-primary);
 }
-.theme-dark .theme-light {
+.theme-dark .theme-light:not(.userProfileOuter-2tQwNf) {
     --guild-header-text-shadow: 0 1px 1px hsl(var(--black-500-hsl)/0.4);
     --elevation-stroke: 0 0 0 1px hsl(var(--primary-900-hsl)/0.15);
     --elevation-low: 0 1px 0 hsl(var(--primary-900-hsl)/0.2),0 1.5px 0 hsl(var(--primary-860-hsl)/0.05),0 2px 0 hsl(var(--primary-900-hsl)/0.05);
