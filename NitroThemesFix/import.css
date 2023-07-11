@@ -152,3 +152,9 @@
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color)/.4)),to(rgb(var(--bg-overlay-color)/.4))),var(--custom-theme-background);
     background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
 }
+.section-3G9aLW {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
+.wrapper-2RrXDg {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
