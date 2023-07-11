@@ -4,5 +4,5 @@
 
 ### Importing:
 ```css
-@import url(https://dablulite.github.io/css-snippets/NoLightInDark/import.css);
+@import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 ```
