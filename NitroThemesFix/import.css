@@ -53,3 +53,102 @@
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))),to(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)))),var(--custom-theme-background);
     background-image: linear-gradient(rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2)),rgb(var(--bg-overlay-color)/var(--bg-overlay-opacity-2))),var(--custom-theme-background);
 }
+.contentRegion-3HkfJJ,
+.root-2x5M19,
+.root-1CAIjD,
+.wrapper-2vIMkT,
+.themeEditor-1Ebyfp,
+.categoryItemDefaultCategorySelected-2YeRUu,
+.categoryItemDefaultCategorySelected-2YeRUu:hover {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
+.accountProfileCard-lbN7n-,
+.container-1SX9VC,
+.floating-window-titlebar,
+.header-1w9Q93,
+.tertiary-1e-lAP,
+.container-2oNtJn,
+.wrapper-22rqw6,
+.bd-search-wrapper {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.background-3d_SjE,
+.fieldList-in8WkP,
+.contentWrapper-3vHNP2,
+.footer-IubaaS,
+.container-1A0qQO,
+.secondary-2bzKEX,
+.friendRequestsButton-77veU7,
+.userProfileInnerThemedNonPremium-2AJg-H .overlayBackground-2aa7wt,
+.itemFilled-2Fo7lr,
+.wrapper-1NNaWG,
+.bd-addon-list .bd-addon-card,
+.notDetected-M3Ghh2 {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+#bd-editor-controls,
+.floating-window #bd-editor-controls,
+.userProfileInnerThemedNonPremium-2AJg-H,
+.card-x5zW6z,
+.iconWrapper-eK7GO6,
+.inspector-DFKXwB,
+.card-2TuZPZ,
+.iconMask-2fMR98,
+.bd-addon-list .bd-addon-header {
+    background: var(--bg-overlay-1,var(--background-secondary-alt));
+}
+.paymentNote-3dcb-Z,
+.wrapper-wOVKdL,
+.body-2qXItL {
+    background-color: transparent;
+}
+.modalHeader-gQTY3L {
+    background: none;
+}
+.side-1lrxIh .selected-1sf9UK.item-2GWPIy,
+.itemFilled-2Fo7lr[aria-checked=true],
+.navButtonActive-1EqC5l,
+.side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+    background: var(--bg-overlay-selected,var(--background-modifier-selected));
+}
+.side-1lrxIh .item-2GWPIy:hover,
+.itemFilled-2Fo7lr:hover,
+.side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl), .topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
+    background: var(--bg-overlay-hover,var(--background-modifier-hover));
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz,
+.buttonColor-1u-3JF,
+.container-x8Y1ix {
+    background: var(--bg-overlay-3,var(--button-secondary-background));
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:hover,
+.buttonColor-1u-3JF:hover,
+.container-YkUktl .lookBlank-FgPMy6:hover,
+#bd-editor-controls button:hover,
+.container-x8Y1ix:hover {
+    background: var(--bg-overlay-hover,var(--button-secondary-background-hover));
+}
+.lookFilled-1H2Jvj.colorPrimary-2-Lusz:active,
+.buttonColor-1u-3JF:active,
+.itemFilled-2Fo7lr:active,
+.container-YkUktl .lookBlank-FgPMy6:active,
+#bd-editor-controls button:active,
+.container-x8Y1ix:active {
+    background: var(--bg-overlay-active,var(--button-secondary-background-active));
+}
+.input-3O04eu,
+#app-mount .bioTextArea-dDGOeC {
+    background: var(--bg-overlay-app-frame,var(--input-background));
+}
+.auto-2TJ1RH::-webkit-scrollbar-thumb,
+.thin-RnSY0a::-webkit-scrollbar-thumb {
+    background-size: 200vh;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),to(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)))),var(--custom-theme-background);
+    background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
+}
+.auto-2TJ1RH::-webkit-scrollbar-track {
+    background-size: 200vh;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color)/.4)),to(rgb(var(--bg-overlay-color)/.4))),var(--custom-theme-background);
+    background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
+}
