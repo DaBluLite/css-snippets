@@ -4,48 +4,60 @@
 }
 .fieldList-in8WkP {
     background-color: transparent;
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
 }
 .field-21XZwa {
-    width: calc((100%/2) - 2.5px);
+    width: 100%;
     border-radius: 8px;
     background-color: var(--background-primary);
     max-height: unset;
-    flex-flow: column;
-    padding: 15px;
+    flex-direction: column;
     display: flex;
-    margin-top: 0 !important;
-    position: relative;
-    overflow-y: scroll;
+    padding: 15px;
+    margin-top: 0;
+    overflow-y: auto;
     height: 120px;
     margin-bottom: 0;
 }
-.field-21XZwa::-webkit-scrollbar {
-    width: 0;
-}
 .field-21XZwa .fieldButton-14lHvK {
-    background-color: var(--button-secondary-background) !important;
+    background-color: var(--button-secondary-background);
     border-radius: 6px;
-    transition: .1s;
+    -webkit-transition: background-color .17s ease,color .17s ease;
+    transition: background-color .17s ease,color .17s ease;
 }
 .field-21XZwa .fieldButton-14lHvK:hover {
-    background-color: var(--button-secondary-background-hover) !important;
+    background-color: var(--button-secondary-background-hover);
 }
 .field-21XZwa .fieldButton-14lHvK:hover > div {
-    background-image: none !important;
-}
-.field-21XZwa .fieldButton-14lHvK:nth-child(1) {
-    right: 5px;
+    background: none;
 }
 .field-21XZwa .fieldButton-14lHvK {
     width: 100%;
     margin-right: 0;
     position: relative;
-    right: 0 !important;
 }
 .field-21XZwa .fieldButtonList-28BYbB {
     gap: 5px;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+.field-21XZwa::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.field-21XZwa::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-auto-thumb);
+    min-height: 40px;
+}
+.field-21XZwa::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-auto-track);
+}
+.field-21XZwa::-webkit-scrollbar-thumb,
+.field-21XZwa::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
 }
