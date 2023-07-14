@@ -35,7 +35,7 @@
   width: 46px;
   height: 46px;
   background-color: var(--background-floating);
-  box-shadow: 0 0 0 5px var(--background-floating), 0 0 0 1px var(--background-tertiary);
+  box-shadow: 0 0 0 5px var(--background-floating);
 }
 #authorized-apps-tab .headerInfo-3UVPHi {
   flex-direction: column;
@@ -62,7 +62,6 @@
 #authorized-apps-tab .authedApp-8q3NA9 {
   background-color: var(--background-secondary-alt);
   transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,opacity .2s ease-in,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
-  cursor: pointer;
   border: none;
   border-radius: 8px;
 }
@@ -70,4 +69,7 @@
   background-color: var(--background-tertiary);
   transform: translateY(-1px);
   box-shadow: var(--elevation-high);
+}
+#authorized-apps-tab .authedApp-8q3NA9:hover .appAvatar-2htirv {
+  box-shadow: 0 0 0 5px var(--background-floating),var(--elevation-high);
 }
