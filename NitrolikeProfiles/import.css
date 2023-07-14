@@ -1,39 +1,40 @@
 :root {
-    --nitrolike-profile-primary: var(--background-primary);
-    --nitrolike-profile-secondary: var(--background-primary);
-    --nitrolike-profile-gradient: var(--bg-overlay-app-frame,var(--nitrolike-profile-gradient-default));
-    --nitrolike-profile-gradient-default: linear-gradient(var(--nitrolike-profile-primary),var(--nitrolike-profile-secondary));
+  --nitrolike-profile-primary: var(--background-primary);
+  --nitrolike-profile-secondary: var(--background-primary);
+  --nitrolike-profile-gradient: var(--bg-overlay-app-frame,var(--nitrolike-profile-gradient-default));
+  --nitrolike-profile-gradient-default: linear-gradient(var(--nitrolike-profile-primary),var(--nitrolike-profile-secondary));
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) {
-    padding: 4px;
-    border-radius: 4px;
+.userProfileOuterUnthemed-11rPfA {
+  padding: 4px;
+  border-radius: 4px;
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .buttonColor-_0gSD_ {
-    background-color: var(--nitrolike-profile-primary) !important;
+.userProfileOuterUnthemed-11rPfA .buttonColor-_0gSD_ {
+  background-color: var(--nitrolike-profile-primary) !important;
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) > div {
-    border-radius: 4px;
+.userProfileOuterUnthemed-11rPfA > div {
+  border-radius: 4px;
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H),
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) > div {
-    background: var(--nitrolike-profile-gradient);
+.userProfileOuterUnthemed-11rPfA,
+.userProfileOuterUnthemed-11rPfA > div {
+  background: var(--nitrolike-profile-gradient);
 }
-.theme-dark .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .overlayBackground-2aa7wt,
-.theme-dark .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .userProfileInner-1ngKnf::before {
-    background: hsla(0,0%,0%,0.6) !important;
+.theme-dark .userProfileOuterUnthemed-11rPfA .overlayBackground-2aa7wt,
+.theme-dark .userProfileOuterUnthemed-11rPfA .userProfileInner-1ngKnf::before {
+  background: hsla(0,0%,0%,0.6) !important;
 }
-.theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .overlayBackground-2aa7wt,
-.theme-light .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .userProfileInner-1ngKnf::before {
-    background: hsla(0,0%,85%,0.6) !important;
+.theme-light .userProfileOuterUnthemed-11rPfA .overlayBackground-2aa7wt,
+.theme-light .userProfileOuterUnthemed-11rPfA .userProfileInner-1ngKnf::before {
+  background: hsla(0,0%,85%,0.6) !important;
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .profileBadges-2pItdR {
-    background-color: var(--nitrolike-profile-secondary);
+.userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR,
+.userProfileOuterUnthemed-11rPfA .badgeList-2aoHPw {
+  background-color: var(--nitrolike-profile-secondary);
 }
 .userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .avatarWrapper-eenWra {
-    left: 26px;
-    top: 20px;
-    z-index: +1;
+  left: 26px;
+  top: 20px;
+  z-index: +1;
 }
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .popoutBanner-3cqRD9 {
-    border-radius: 4px 4px 0 0;
+.userProfileOuterUnthemed-11rPfA .banner-1YaD3N {
+  border-radius: 4px 4px 0 0;
 }
