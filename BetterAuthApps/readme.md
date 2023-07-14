@@ -3,7 +3,7 @@ A redesign to the Authorized app cards, as well as a counter at the top of the t
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/BetterAuthTabs/import.css);
+@import url(//dablulite.github.io/css-snippets/BetterAuthApps/import.css);
 ```
 
 ### Screenshots:
