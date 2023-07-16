@@ -1,14 +1,33 @@
 .theme-dark .sidebar-1tnWFu,
 .theme-dark .sidebarRegionScroller-FXiQOh,
 .theme-dark .searchResultsWrap-5RVOkx,
-.theme-dark .callContainer-HtHELf {
+.theme-dark .callContainer-HtHELf,
+.theme-dark .mainCard-3KBsBI,
+.theme-dark .replyBar-1oi75v,
+.theme-dark .attachedBars-2BCP3l,
+.theme-dark .container-2WMFjc,
+.theme-dark .container-jV-A82,
+.theme-dark .container-1iKw09,
+.theme-dark .iconContainer-3cz2oI,
+.theme-dark .box-3QCU9H {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
 .theme-light .sidebar-1tnWFu,
 .theme-light .sidebarRegionScroller-FXiQOh,
 .theme-light .searchResultsWrap-5RVOkx,
-.theme-light .callContainer-HtHELf {
+.theme-light .callContainer-HtHELf,
+.theme-light .mainCard-3KBsBI,
+.theme-light .replyBar-1oi75v,
+.theme-light .attachedBars-2BCP3l,
+.theme-light .container-2WMFjc,
+.theme-light .container-jV-A82,
+.theme-light .container-1iKw09,
+.theme-light .iconContainer-3cz2oI,
+.theme-light .box-3QCU9H {
     background: var(--bg-overlay-2,var(--background-secondary));
+}
+.mainCard-3KBsBI .input-3O04eu {
+    background: none;
 }
 .theme-dark .callContainer-HtHELf {
     background: var(--bg-overlay-1,var(--background-secondary)) !important;
@@ -25,7 +44,8 @@
 .homeWrapper-L4ors0 > .scroller-29cQFV {
     background: none;
 }
-.custom-theme-background .searchHeader-1r_ZSh {
+.custom-theme-background .searchHeader-1r_ZSh,
+.row-XYkFDK {
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
 }
 .theme-dark.custom-theme-background .contentRegionShownSidebar-fHXkEg::-webkit-scrollbar-thumb,
@@ -59,7 +79,8 @@
 .wrapper-2vIMkT,
 .themeEditor-1Ebyfp,
 .categoryItemDefaultCategorySelected-2YeRUu,
-.categoryItemDefaultCategorySelected-2YeRUu:hover {
+.categoryItemDefaultCategorySelected-2YeRUu:hover,
+.containerSidenav-3qiKqP {
     background: var(--bg-overlay-chat,var(--background-primary));
 }
 .accountProfileCard-lbN7n-,
@@ -69,7 +90,9 @@
 .tertiary-1e-lAP,
 .container-2oNtJn,
 .wrapper-22rqw6,
-.bd-search-wrapper {
+.bd-search-wrapper,
+.overlayBackground-2aa7wt,
+.badgeList-2hF9ig {
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
 }
 .background-3d_SjE,
@@ -94,7 +117,9 @@
 .inspector-DFKXwB,
 .card-2TuZPZ,
 .iconMask-2fMR98,
-.bd-addon-list .bd-addon-header {
+.bd-addon-list .bd-addon-header,
+.userProfileOuterUnthemed-11rPfA > .userPanelInnerThemed-3YO1BB,
+.stepNumber-1OYCPJ {
     background: var(--bg-overlay-1,var(--background-secondary-alt));
 }
 .paymentNote-3dcb-Z,
@@ -138,16 +163,19 @@
     background: var(--bg-overlay-active,var(--button-secondary-background-active));
 }
 .input-3O04eu,
-#app-mount .bioTextArea-dDGOeC {
+#app-mount .bioTextArea-dDGOeC,
+.circle-1ip_Nd {
     background: var(--bg-overlay-app-frame,var(--input-background));
 }
 .auto-2TJ1RH::-webkit-scrollbar-thumb,
-.thin-RnSY0a::-webkit-scrollbar-thumb {
+.thin-RnSY0a::-webkit-scrollbar-thumb,
+.contentPanel-2uDEUG::-webkit-scrollbar-thumb {
     background-size: 200vh;
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),to(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)))),var(--custom-theme-background);
     background-image: linear-gradient(rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4)),rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-4))),var(--custom-theme-background);
 }
-.auto-2TJ1RH::-webkit-scrollbar-track {
+.auto-2TJ1RH::-webkit-scrollbar-track,
+.contentPanel-2uDEUG::-webkit-scrollbar-track {
     background-size: 200vh;
     background-image: -webkit-gradient(linear,left top,left bottom,from(rgb(var(--bg-overlay-color)/.4)),to(rgb(var(--bg-overlay-color)/.4))),var(--custom-theme-background);
     background-image: linear-gradient(rgb(var(--bg-overlay-color)/.4),rgb(var(--bg-overlay-color)/.4)),var(--custom-theme-background);
@@ -179,4 +207,17 @@
 }
 .choiceContainer {
     background: var(--bg-overlay-chat,var(--background-primary));
+}
+*::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+.contentPanel-2uDEUG::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+.contentPanel-2uDEUG::-webkit-scrollbar-thumb,
+.contentPanel-2uDEUG::-webkit-scrollbar-track {
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    border-radius: 8px;
 }
