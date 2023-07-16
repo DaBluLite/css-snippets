@@ -158,3 +158,6 @@
 .wrapper-2RrXDg {
     background: var(--bg-overlay-3,var(--background-secondary));
 }
+#app-mount .ColorwaySelectorBtn:not(:hover) {
+    background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+}
