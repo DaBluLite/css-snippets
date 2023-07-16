@@ -161,3 +161,22 @@
 #app-mount .ColorwaySelectorBtn:not(:hover) {
     background: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
 }
+.theme-dark .colorwayPresetContainer,
+.theme-dark .settingRow,
+.theme-dark .colorwayCreatorPreviewPanel,
+.theme-dark .choiceContainer > .choice.active {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+
+.theme-light .colorwayPresetContainer,
+.theme-light .settingRow,
+.theme-light .colorwayCreatorPreviewPanel,
+.theme-light .choiceContainer > .choice.active {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
+.choiceContainer > .choice:hover {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.choiceContainer {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
