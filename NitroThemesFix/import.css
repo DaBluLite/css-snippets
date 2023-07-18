@@ -221,3 +221,38 @@
     background-clip: padding-box;
     border-radius: 8px;
 }
+.container-3XgAHv,
+.icon-2yhmi8,
+.messageContainer-3VTXBC,
+.previewMessage-2g_aBv {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
+.theme-dark .colorwayAuthor,
+.theme-dark .colorwayImport,
+.theme-dark .colorwayCodeblock,
+.theme-dark .markup-eYLPri code,
+.theme-dark .container-2ebMPP,
+.theme-dark .channelHeader-DFRX8q,
+.theme-dark .messagesPopoutWrap-3zryHW,
+.theme-dark .cameraWrapper-nG8dpo {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.theme-light .colorwayAuthor,
+.theme-light .colorwayImport,
+.theme-light .colorwayCodeblock,
+.theme-light .markup-eYLPri code,
+.theme-light .container-2ebMPP,
+.theme-light .channelHeader-DFRX8q,
+.theme-light .messagesPopoutWrap-3zryHW,
+.theme-light .cameraWrapper-nG8dpo {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
+.iconWrapper-3plkqh,
+.theme-dark .bar-2H7Q9u, .theme-dark .markDash-1ATsxA,
+.option-1QI4c9:not(.selected-18Wszc) {
+    background: var(--bg-overlay-4,var(--background-accent));
+}
+.jumpButton-1V_1FA,
+.cardPrimary-pAe8Ed.outline-3kFzf8 {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
