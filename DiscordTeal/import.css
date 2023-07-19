@@ -1,0 +1,28 @@
+:root {
+    --brand-100-hsl: var(--teal-100-hsl);
+    --brand-130-hsl: var(--teal-130-hsl);
+    --brand-160-hsl: var(--teal-160-hsl);
+    --brand-200-hsl: var(--teal-200-hsl);
+    --brand-230-hsl: var(--teal-230-hsl);
+    --brand-260-hsl: var(--teal-260-hsl);
+    --brand-300-hsl: var(--teal-300-hsl);
+    --brand-330-hsl: var(--teal-330-hsl);
+    --brand-345-hsl: var(--teal-345-hsl);
+    --brand-360-hsl: var(--teal-360-hsl);
+    --brand-400-hsl: var(--teal-400-hsl);
+    --brand-430-hsl: var(--teal-430-hsl);
+    --brand-460-hsl: var(--teal-460-hsl);
+    --brand-500-hsl: var(--teal-500-hsl);
+    --brand-530-hsl: var(--teal-530-hsl);
+    --brand-560-hsl: var(--teal-560-hsl);
+    --brand-600-hsl: var(--teal-600-hsl);
+    --brand-630-hsl: var(--teal-630-hsl);
+    --brand-660-hsl: var(--teal-660-hsl);
+    --brand-700-hsl: var(--teal-700-hsl);
+    --brand-730-hsl: var(--teal-730-hsl);
+    --brand-760-hsl: var(--teal-760-hsl);
+    --brand-800-hsl: var(--teal-800-hsl);
+    --brand-830-hsl: var(--teal-830-hsl);
+    --brand-860-hsl: var(--teal-860-hsl);
+    --brand-900-hsl: var(--teal-900-hsl);
+}
