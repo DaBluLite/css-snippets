@@ -21,6 +21,7 @@
 }
 .content-1OG56Q {
     padding: 20px 32px !important;
+    overflow: hidden overlay !important;
 }
 .templatesList-uohY49 + .footer-3ie9JP {
     flex-direction: row;
