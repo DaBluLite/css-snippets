@@ -1,3 +1,4 @@
+@import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
 .templatesList-uohY49 > div ~ .container-x8Y1ix {
     width: calc(50% - 4px);
 }
@@ -7,13 +8,19 @@
 }
 .templatesList-uohY49 > div {
     margin: 0;
+    text-transform: capitalize;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.125rem;
 }
 .templatesList-uohY49 {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     margin-top: 0;
-    padding-top: 20px;
+}
+.content-1OG56Q {
+    padding: 20px 32px !important;
 }
 .templatesList-uohY49 + .footer-3ie9JP {
     flex-direction: row;
@@ -159,4 +166,9 @@
 .planOption-187LtR {
     flex-direction: column;
     gap: 8px;
+}
+.templatesList-uohY49 + .footer-3ie9JP > h2 {
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.125rem;
 }
