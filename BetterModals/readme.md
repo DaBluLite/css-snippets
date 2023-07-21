@@ -1,5 +1,5 @@
 # Better Modals
-A redesign to the classic Discord modals, giving them a new breath of life. Looks better with "No Light in Dark" snippet.
+A redesign to the classic Discord modals, giving them a new breath of life.
 
 ### Importing:
 ```css
