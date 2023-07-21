@@ -1,39 +1,39 @@
 @import url(//dablulite.github.io/css-snippets/NoLightInDark/import.css);
-.templatesList-uohY49 > div ~ .container-x8Y1ix {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 > div ~ .container-x8Y1ix {
     width: calc(50% - 4px);
 }
-.templatesList-uohY49 > .container-x8Y1ix:first-child,
-.templatesList-uohY49 > div {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 > .container-x8Y1ix:first-child,
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 > div {
     width: 100%;
 }
-.templatesList-uohY49 > div {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 > div {
     margin: 0;
     text-transform: capitalize;
     line-height: 1;
     font-weight: 700;
     font-size: 1.125rem;
 }
-.templatesList-uohY49 {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
     margin-top: 0;
 }
-.content-1OG56Q {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .content-1OG56Q {
     padding: 20px 32px !important;
     overflow: hidden overlay !important;
 }
-.templatesList-uohY49 + .footer-3ie9JP {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP {
     flex-direction: row;
     gap: 8px;
     align-content: center;
     justify-content: center;
 }
-.templatesList-uohY49 + .footer-3ie9JP > * {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP > * {
     width: 100%;
     margin-bottom: 0;
 }
-.templatesList-uohY49 + .footer-3ie9JP > button {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP > button {
     align-self: center;
 }
 .optionsList-dmHy1l > .container-x8Y1ix + div {
@@ -74,22 +74,22 @@
 .footer-IubaaS > .back-Uv5ziB > a:active {
     background-color: var(--button-secondary-background-active);
 }
-.createGuild-2m1V10 {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .createGuild-2m1V10 {
     display: flex;
     flex-direction: row-reverse;
     gap: 24px;
     padding: 0 24px;
     padding-right: 16px !important;
 }
-.createGuild-2m1V10 > form > .nameInput-ph8KMi {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .createGuild-2m1V10 > form > .nameInput-ph8KMi {
     margin-top: 0;
 }
-.header-1ffhsl {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .header-1ffhsl {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 16px 32px;
 }
-.header-1ffhsl > h1 {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .header-1ffhsl > h1 {
     order: 1;
     width: calc(100% - 32px);
     text-align: left;
@@ -99,13 +99,13 @@
     display: flex;
     align-items: center;
 }
-.close-A4ZfTI {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .close-A4ZfTI {
     position: static;
     order: 2;
     margin: 0 !important;
     max-width: 32px;
 }
-.header-1ffhsl > div {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .header-1ffhsl > div:not(.tier2HeaderBackground-2XINxm) {
     order: 3;
     width: 100%;
     margin-top: 16px;
@@ -114,14 +114,23 @@
     line-height: 1.25;
     text-align: left;
 }
-.root-1CAIjD {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .header-1ffhsl > .tier2HeaderBackground-2XINxm {
+    order: 3;
+    width: calc(100% + 32px);
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    text-align: left;
+}
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) {
     min-width: 500px;
     border-radius: 16px;
     overflow: hidden;
 }
-.root-1CAIjD > .container-1Lk8p7,
-.root-1CAIjD > .container-1Lk8p7 > div,
-.root-1CAIjD > .container-1Lk8p7 > div > div {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) > .container-1Lk8p7,
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) > .container-1Lk8p7 > div,
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) > .container-1Lk8p7 > div > div {
     width: 100% !important;
 }
 .header-1ffhsl > .header-2hjw1J {
@@ -168,7 +177,7 @@
     flex-direction: column;
     gap: 8px;
 }
-.templatesList-uohY49 + .footer-3ie9JP > h2 {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP > h2 {
     line-height: 1;
     font-weight: 700;
     font-size: 1.125rem;
