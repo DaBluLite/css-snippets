@@ -22,6 +22,8 @@
 .root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .content-1OG56Q {
     padding: 20px 32px !important;
     overflow: hidden overlay !important;
+    width: 100%;
+    max-width: unset;
 }
 .root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP {
     flex-direction: row;
@@ -57,29 +59,29 @@
     border-radius: 8px;
 }
 .footer-IubaaS > .lookBlank-FgPMy6,
-.footer-IubaaS > .back-Uv5ziB > a {
-    background-color: var(--button-secondary-background);
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease;
-    color: var(--white-500);
+.footer-IubaaS > .back-Uv5ziB > a,
+.lookLink-13iF2K.colorPrimary-2-Lusz {
+    background: var(--bg-overlay-3,var(--button-secondary-background));
+    -webkit-transition: background .17s ease,color .17s ease;
+    transition: background .17s ease,color .17s ease;
+    color: var(--white-500) !important;
 }
 .footer-IubaaS > .back-Uv5ziB > a {
     text-decoration: none !important;
 }
 .footer-IubaaS > .lookBlank-FgPMy6:hover,
 .footer-IubaaS > .back-Uv5ziB > a:hover {
-    background-color: var(--button-secondary-background-hover);
+    background: var(--bg-overlay-hover,var(--button-secondary-background-hover));
 }
 .footer-IubaaS > .lookBlank-FgPMy6:active,
 .footer-IubaaS > .back-Uv5ziB > a:active {
-    background-color: var(--button-secondary-background-active);
+    background: var(--bg-overlay-active,var(--button-secondary-background-active));
 }
 .root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .createGuild-2m1V10 {
     display: flex;
     flex-direction: row-reverse;
-    gap: 24px;
-    padding: 0 24px;
-    padding-right: 16px !important;
+    gap: 32px;
+    padding: 0 32px !important;
 }
 .root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .createGuild-2m1V10 > form > .nameInput-ph8KMi {
     margin-top: 0;
@@ -152,26 +154,28 @@
 .planOptionClickableContainer-O-50CZ {
     width: 100%;
     border-radius: 8px;
-    -webkit-transition: background-color .17s ease,color .17s ease;
-    transition: background-color .17s ease,color .17s ease;
+    -webkit-transition: .17s ease;
+    transition: .17s ease;
 }
 .planOptionClickableContainer-O-50CZ * {
     color: var(--white-500);
 }
-.planOptionClickableContainer-O-50CZ:hover {
-    background-color: var(--button-secondary-background-hover);
+.planOptionClickableContainer-O-50CZ:hover,
+.lookLink-13iF2K.colorPrimary-2-Lusz:hover {
+    background: var(--bg-overlay-hover,var(--button-secondary-background-hover));
 }
-.planOptionClickableContainer-O-50CZ:active {
-    background-color: var(--button-secondary-background-active);
+.planOptionClickableContainer-O-50CZ:active,
+.lookLink-13iF2K.colorPrimary-2-Lusz:active {
+    background: var(--bg-overlay-active,var(--button-secondary-background-active));
 }
 .planOptionClickableContainer-O-50CZ[aria-checked="true"] {
-    background-color: var(--brand-experiment);
+    background: var(--brand-experiment);
 }
 .planOptionClickableContainer-O-50CZ[aria-checked="true"]:hover {
-    background-color: var(--brand-experiment-560);
+    background: var(--brand-experiment-560);
 }
 .planOptionClickableContainer-O-50CZ[aria-checked="true"]:active {
-    background-color: var(--brand-experiment-600);
+    background: var(--brand-experiment-600);
 }
 .planOption-187LtR {
     flex-direction: column;
@@ -181,4 +185,31 @@
     line-height: 1;
     font-weight: 700;
     font-size: 1.125rem;
+}
+.colorwaySelectorModal {
+    max-width: 564px;
+    width: 564px;
+}
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .content-1OG56Q:has(.colorwayCreationModal) {
+    width: 100%;
+}
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .content-1OG56Q .colorwayModalFooter {
+    margin-left: -32px;
+    margin-right: -32px;
+}
+.container-x8Y1ix {
+    -webkit-transition: background .17s ease,color .17s ease;
+    transition: background .17s ease,color .17s ease;
+}
+.container-x8Y1ix:hover {
+    background: var(--bg-overlay-hover,var(--button-secondary-background-hover));
+}
+.container-x8Y1ix:active {
+    background: var(--bg-overlay-active,var(--button-secondary-background-active));
+}
+.userProfileModalInner-3dx9L9::before {
+    border-radius: 12px;
+}
+.roundedBanner-uNt2w- {
+    border-radius: 12px 12px 0 0;
 }
