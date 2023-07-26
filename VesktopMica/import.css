@@ -1,0 +1,62 @@
+#app-mount,
+.app-2CXKsg,
+.base-2jDfDU,
+.container-ZMc96U,
+.sidebar-1tnWFu + div,
+.chatContent-3KubbW,
+.content-1SgpWY,
+.layer-86YKbF,
+.app-3xd6d0,
+.appMount-2yBXZl,
+body,
+.bg-1QIAus,
+.container-1um7CU,
+.container-2IKOsH,
+.header-3xB4vB {
+  background: none !important;
+}
+:root {
+	--background-primary: transparent;
+	--background-tertiary: transparent;
+	--background-secondary: transparent;
+	--background-secondary-alt: transparent;
+	--scrollbar-auto-track: transparent;
+	--channeltextarea-background: hsl(var(--primary-560-hsl)/.1);
+	--background-modifier-active: hsl(var(--primary-560-hsl)/0.2);
+    --background-modifier-hover: hsl(var(--primary-560-hsl)/0.1);
+    --background-modifier-selected: hsl(var(--primary-560-hsl)/0.3);
+	--button-secondary-background: hsl(var(--primary-560-hsl)/.1);
+	--scrollbar-auto-thumb: hsl(var(--primary-560-hsl)/.2);
+	--scrollbar-thin-thumb: hsl(var(--primary-560-hsl)/.2);
+    --button-secondary-background-active: hsl(var(--primary-560-hsl)/.3);
+    --button-secondary-background-disabled: var(--primary-430);
+    --button-secondary-background-hover: hsl(var(--primary-560-hsl)/.2);
+}
+.base-2jDfDU {
+    border-top-left-radius: 5px;
+}
+.innerWrapper-MqFL7z {
+	background-color: hsl(var(--primary-560-hsl)/.3) !important;
+}
+.theme-dark {
+	--channels-default: var(--white-560);
+	--channel-icon: var(--white-560);
+	--interactive-normal: var(--white-560);
+	--interactive-hover: var(--white-530);
+	--interactive-active: var(--white-500);
+	--channel-text-area-placeholder: var(--white-560);
+	--interactive-muted: var(--white-600);
+	--text-normal: var(--white-500);
+	--text-muted: var(--white-560);
+}
+.theme-light {
+	--channels-default: var(--black-400);
+	--channel-icon: var(--black-430);
+	--interactive-normal: var(--black-400);
+	--interactive-hover: var(--black-430);
+	--interactive-active: var(--black-500);
+	--channel-text-area-placeholder: var(--black-360);
+	--interactive-muted: var(--black-360);
+	--text-normal: var(--black-500);
+	--text-muted: var(--black-400);
+}
