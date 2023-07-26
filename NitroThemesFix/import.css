@@ -256,3 +256,6 @@
 .cardPrimary-pAe8Ed.outline-3kFzf8 {
     background: var(--bg-overlay-app-frame,var(--background-tertiary));
 }
+.folder-241Joy:not(:has(.expandedFolderIconWrapper-3RwQpD)) {
+    background: none !important;
+}
