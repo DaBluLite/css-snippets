@@ -60,3 +60,12 @@ body,
 	--text-normal: var(--black-500);
 	--text-muted: var(--black-400);
 }
+.content-1jQy2l:before,
+.form-3gdLxP:before,
+.children-3xh0VB:after {
+  content: none;
+}
+.header-3OsQeK,
+.searchBar-3TnChZ {
+  box-shadow: none;
+}
