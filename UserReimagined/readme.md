@@ -2,8 +2,13 @@
 A fresh idea for a user area.
 
 ### Importing:
+#### Normal:
 ```css
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+```
+#### User Area on top:
+```css
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import-ua-top.css);
 ```
 
 ### Screenshots:
