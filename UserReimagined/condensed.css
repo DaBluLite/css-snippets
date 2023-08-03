@@ -1,0 +1,39 @@
+@import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
+.container-YkUktl > .flex-2S1XBF {
+  position: relative;
+  padding-top: 12px;
+  margin-bottom: -38px;
+  transition: .2s ease;
+}
+.container-YkUktl > .flex-2S1XBF:hover {
+  margin-bottom: 0;
+  padding-top: 6px;
+}
+.container-YkUktl > .flex-2S1XBF::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background-color: var(--interactive-muted);
+  top: 7px;
+  left: calc(50% + 1px);
+  border-radius: 50px;
+  transform: rotate(12deg) translateX(-100%);
+  transition: .2s ease;
+}
+.container-YkUktl > .flex-2S1XBF::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 3px;
+  background-color: var(--interactive-muted);
+  top: 7px;
+  right: calc(50% + 1px);
+  border-radius: 50px;
+  transform: rotate(-12deg) translateX(100%);
+  transition: .2s ease;
+}
+.container-YkUktl > .flex-2S1XBF:hover::before,
+.container-YkUktl > .flex-2S1XBF:hover::after {
+  opacity: 0;
+}
