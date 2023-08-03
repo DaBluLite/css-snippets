@@ -13,18 +13,19 @@
 .contents-2MsGLg:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText-2z4IhQ .username-h_Y3Us::before {
   content: var(--clyde-nickname);
   font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.375rem;
-    color: var(--header-primary);
-    display: inline;
-    vertical-align: baseline;
-    position: relative;
-    overflow: hidden;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
+  font-weight: 500;
+  line-height: 1.375rem;
+  color: var(--header-primary);
+  display: inline;
+  vertical-align: baseline;
+  position: relative;
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
 }
 .userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq h1,
-.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms .overflow-1wOqNV {
+.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms .overflow-1wOqNV,
+.userProfileModalInner-3dx9L9:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div > .defaultColor-1EVLSt {
   display: none;
 }
 .userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq::before {
@@ -42,4 +43,15 @@
   text-overflow: ellipsis;
   overflow: hidden;
   position: relative;
+}
+.userProfileModalInner-3dx9L9:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div::before {
+  content: var(--clyde-nickname);
+  margin-right: 12px;
+  scrollbar-color: var(--profile-body-divider-color) var(--scrollbar-thin-track);
+  font-family: var(--font-primary);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--text-normal);
+  display: block;
 }
