@@ -1,0 +1,45 @@
+:root {
+  --clyde-nickname: "Clyde";
+}
+.contents-2MsGLg:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText-2z4IhQ .username-h_Y3Us,
+.contents-2MsGLg:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText-2z4IhQ .username-h_Y3Us {
+  font-size: 0;
+  height: fit-content;
+  display: flex;
+  width: fit-content;
+  float: left;
+}
+.contents-2MsGLg:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText-2z4IhQ .username-h_Y3Us::before,
+.contents-2MsGLg:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText-2z4IhQ .username-h_Y3Us::before {
+  content: var(--clyde-nickname);
+  font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color: var(--header-primary);
+    display: inline;
+    vertical-align: baseline;
+    position: relative;
+    overflow: hidden;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+.userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq h1,
+.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms .overflow-1wOqNV {
+  display: none;
+}
+.userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq::before {
+  content: var(--clyde-nickname);
+  font-family: var(--font-display);
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--header-primary);
+  display: block;
+}
+.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms::before {
+  content: var(--clyde-nickname);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  position: relative;
+}
