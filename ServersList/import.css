@@ -218,3 +218,6 @@
     box-sizing: border-box;
     padding: calc(var(--guild-list-height)/7);
 }
+.blobContainer-ikKyFs .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
+    content: none;
+}
