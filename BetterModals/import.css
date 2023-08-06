@@ -34,8 +34,7 @@
   align-content: center;
   justify-content: center;
 }
-.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP > .footerTitle-3Bslxi,
-.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP > .button-ejjZWC {
+.root-1CAIjD:not(:has(.imageWrapper-oMkQl4)) .templatesList-uohY49 + .footer-3ie9JP >  :is(.button-ejjZWC, .footerTitle-3Bslxi) {
   width: 100%;
   margin-bottom: 0;
 }
