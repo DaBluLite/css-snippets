@@ -1,0 +1,171 @@
+.guilds-2JjMmN {
+  width: 310px;
+}
+.listItem-3SmSlK,
+.wrapper-38slSD,
+.svg-2ifYOU,
+.blobContainer-ikKyFs,
+.listItem-3SmSlK > .wrapper-z5ab_q + div:not([class]),
+.wrapper-2PSQCG,
+.svg-2ifYOU > foreignObject {
+  width: 310px;
+  mask: none !important;
+}
+.expandedFolderBackground-1kSAf6 {
+  width: calc(310px - 24px);
+}
+.svg-2ifYOU > foreignObject {
+  transform: translateX(calc(-275% + 1px));
+}
+.wrapper-3kah-n,
+.folder-241Joy,
+.circleIconButton-1VxDrg {
+  margin-left: 12px;
+  width: calc(310px - 24px);
+  justify-content: start;
+  border-radius: 50px !important;
+}
+.wrapper-3kah-n img,
+.folderIconWrapper-1oRIZr,
+.childWrapper-1j_1ub {
+  border-radius: 50% !important;
+}
+.svg-2ifYOU {
+  position: static;
+}
+[data-dnd-name]:has(>.wrapper-2PSQCG)::after {
+  content: attr(data-dnd-name);
+  height: 48px;
+  width: calc(310px - 24px - 48px - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + 48px + 6px);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+  transition: color .15s ease-out,background-color .15s ease-out;
+}
+[data-dnd-name]:has(>.wrapper-2PSQCG .selected-1Drb7Z,>.wrapper-2PSQCG .hover-3m7-WT)::after {
+  color: var(--interactive-active);
+}
+.wrapperSimple-2SFl9K {
+  border-radius: 0 !important;
+}
+.circleIcon-3489FI {
+  margin-left: 12px;
+}
+.circleIconButton-1VxDrg::after {
+  content: attr(aria-label);
+  height: 48px;
+  width: calc(310px - 24px - 48px - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + 48px + 6px);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--green-360);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out,background-color .15s ease-out;
+  pointer-events: none;
+}
+.circleIconButton-1VxDrg.selected-2r1Hvo::after,
+.ColorwaySelectorBtn:hover::after {
+  color: var(--interactive-active);
+}
+.wrapper-3kah-n[data-list-item-id="guildsnav___favorites"]::after,
+.wrapper-3kah-n[data-list-item-id="guildsnav___home"]::after {
+  content: attr(aria-label);
+  height: 48px;
+  width: calc(310px - 24px - 48px - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(12px + 48px + 6px);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out,background-color .15s ease-out;
+  pointer-events: none;
+}
+.wrapper-3kah-n[data-list-item-id="guildsnav___favorites"].selected-1Drb7Z::after,
+.wrapper-3kah-n[data-list-item-id="guildsnav___home"].selected-1Drb7Z::after {
+  color: var(--interactive-active);
+}
+.colorwaySelectorIcon {
+  height: 48px !important;
+  width: 48px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.ColorwaySelectorBtn {
+  position: relative;
+  width: calc(310px - 24px) !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  justify-content: start !important;
+  gap: 6px;
+}
+.ColorwaySelectorBtn::before {
+  content: "";
+  position: absolute;
+  background-color: var(--background-primary);
+  border-radius: 50%;
+  height: 48px !important;
+  width: 48px !important;
+  transition: .15s ease-out;
+  left: 0;
+}
+.ColorwaySelectorBtn:hover::before {
+  background-color: var(--brand-experiment);
+  border-radius: 16px;
+}
+.ColorwaySelectorBtn::after {
+  content: "Colorways";
+  height: 48px;
+  width: calc(310px - 24px - 48px - 12px);
+  position: absolute;
+  top: 0;
+  left: calc(6px + 48px);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color: var(--channels-default);
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: color .15s ease-out,background-color .15s ease-out;
+  pointer-events: none;
+}
