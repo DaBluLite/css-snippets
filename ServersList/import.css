@@ -28,7 +28,7 @@
 .wrapper-3kah-n img,
 .folderIconWrapper-1oRIZr,
 .childWrapper-1j_1ub {
-  border-radius: 50% !important;
+  border-radius: 50px !important;
 }
 .svg-2ifYOU {
   position: static;
@@ -134,7 +134,7 @@
   content: "";
   position: absolute;
   background-color: var(--background-primary);
-  border-radius: 50%;
+  border-radius: 50px;
   height: 48px !important;
   width: 48px !important;
   transition: .15s ease-out;
