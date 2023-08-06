@@ -1,5 +1,8 @@
+:root {
+  --guild-list-width: 290px;
+}
 .guilds-2JjMmN {
-  width: 310px;
+  width: var(--guild-list-width);
 }
 .listItem-3SmSlK,
 .wrapper-38slSD,
@@ -8,20 +11,20 @@
 .listItem-3SmSlK > .wrapper-z5ab_q + div:not([class]),
 .wrapper-2PSQCG,
 .svg-2ifYOU > foreignObject {
-  width: 310px;
+  width: var(--guild-list-width);
   mask: none !important;
 }
 .expandedFolderBackground-1kSAf6 {
-  width: calc(310px - 24px);
+  width: calc(var(--guild-list-width) - 24px);
 }
 .svg-2ifYOU > foreignObject {
-  transform: translateX(calc(-275% + 1px));
+  transform: translateX(calc(((var(--guild-list-width)*-1)/2) + 50%));
 }
 .wrapper-3kah-n,
 .folder-241Joy,
 .circleIconButton-1VxDrg {
   margin-left: 12px;
-  width: calc(310px - 24px);
+  width: calc(var(--guild-list-width) - 24px);
   justify-content: start;
   border-radius: 50px !important;
 }
@@ -35,7 +38,7 @@
 }
 [data-dnd-name]:has(>.wrapper-2PSQCG)::after {
   content: attr(data-dnd-name);
-  width: calc(310px - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -67,7 +70,7 @@
 .circleIconButton-1VxDrg::after {
   content: attr(aria-label);
   height: 48px;
-  width: calc(310px - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
   position: absolute;
   top: 0;
   left: calc(12px + 48px + 6px);
@@ -92,7 +95,7 @@
 }
 .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
-  width: calc(310px - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -124,7 +127,7 @@
 }
 .ColorwaySelectorBtn {
   position: relative;
-  width: calc(310px - 24px) !important;
+  width: calc(var(--guild-list-width) - 24px) !important;
   border-radius: 0 !important;
   background-color: transparent !important;
   justify-content: start !important;
@@ -147,7 +150,7 @@
 .ColorwaySelectorBtn::after {
   content: "Colorways";
   height: 48px;
-  width: calc(310px - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
   position: absolute;
   top: 0;
   left: calc(6px + 48px);
