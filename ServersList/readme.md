@@ -6,6 +6,7 @@ A fully working server list with labels
 @import url(//dablulite.github.io/css-snippets/ServersList/import.css);
 :root {
   --guild-list-width: 290px;
+  --guild-list-height: 48px;
 }
 ```
 
