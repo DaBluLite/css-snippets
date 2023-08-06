@@ -1,5 +1,6 @@
 :root {
   --guild-list-width: 290px;
+  --guild-list-height: 48px;
 }
 .guilds-2JjMmN {
   width: var(--guild-list-width);
@@ -14,6 +15,11 @@
   width: var(--guild-list-width);
   mask: none !important;
 }
+.listItem-3SmSlK:not(:has(.guildSeparator-a4uisj)),
+.wrapper-2PSQCG,
+.svg-2ifYOU > foreignObject {
+  height: var(--guild-list-height);
+}
 .expandedFolderBackground-1kSAf6 {
   width: calc(var(--guild-list-width) - 24px);
 }
@@ -27,22 +33,26 @@
   width: calc(var(--guild-list-width) - 24px);
   justify-content: start;
   border-radius: 50px !important;
+  height: var(--guild-list-height);
 }
 .wrapper-3kah-n img,
 .folderIconWrapper-1oRIZr,
-.childWrapper-1j_1ub {
+.childWrapper-1j_1ub,
+.expandedFolderIconWrapper-3RwQpD,
+.closedFolderIconWrapper-3tRb2d {
   border-radius: 50px !important;
+  height: var(--guild-list-height);
+  width: var(--guild-list-height);
 }
 .svg-2ifYOU {
   position: static;
 }
 [data-dnd-name]:has(>.wrapper-2PSQCG)::after {
   content: attr(data-dnd-name);
-  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: calc(12px + 48px + 6px);
+  top: 0;
+  left: calc(12px + var(--guild-list-height) + 6px);
   flex-wrap: nowrap;
   align-items: center;
   white-space: nowrap;
@@ -50,7 +60,7 @@
   overflow: hidden;
   color: var(--channels-default);
   font-size: 16px;
-  line-height: 20px;
+  line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
@@ -66,22 +76,21 @@
 }
 .circleIcon-3489FI {
   margin-left: 12px;
+  height: var(--guild-list-height);
 }
 .circleIconButton-1VxDrg::after {
   content: attr(aria-label);
-  height: 48px;
-  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
   position: absolute;
   top: 0;
-  left: calc(12px + 48px + 6px);
-  display: flex;
+  left: calc(12px + var(--guild-list-height) + 6px);
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--green-360);
   font-size: 16px;
-  line-height: 20px;
+  line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
@@ -95,18 +104,17 @@
 }
 .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
-  width: calc(var(--guild-list-width) - 24px - 48px - 12px);
+  width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: calc(12px + 48px + 6px);
+  top: 0;
+  left: calc(12px + var(--guild-list-height) + 6px);
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--channels-default);
   font-size: 16px;
-  line-height: 20px;
+  line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
@@ -118,8 +126,8 @@
   color: var(--interactive-active);
 }
 .colorwaySelectorIcon {
-  height: 48px !important;
-  width: 48px !important;
+  height: var(--guild-list-height) !important;
+  width: var(--guild-list-height) !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,40 +140,44 @@
   background-color: transparent !important;
   justify-content: start !important;
   gap: 6px;
+  height: var(--guild-list-height) !important;
 }
 .ColorwaySelectorBtn::before {
   content: "";
   position: absolute;
   background-color: var(--background-primary);
   border-radius: 50px;
-  height: 48px !important;
-  width: 48px !important;
+  height: var(--guild-list-height) !important;
+  width: var(--guild-list-height) !important;
   transition: .15s ease-out;
   left: 0;
 }
 .ColorwaySelectorBtn:hover::before {
   background-color: var(--brand-experiment);
-  border-radius: 16px;
 }
 .ColorwaySelectorBtn::after {
   content: "Colorways";
-  height: 48px;
   width: calc(var(--guild-list-width) - 24px - 48px - 12px);
   position: absolute;
   top: 0;
   left: calc(6px + 48px);
-  display: flex;
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--channels-default);
   font-size: 16px;
-  line-height: 20px;
+  line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: color .15s ease-out,background-color .15s ease-out;
   pointer-events: none;
+}
+.wrapper-38slSD > [id*="folder-items-"] {
+  height: fit-content !important;
+}
+.expandedFolderBackground-1kSAf6 {
+  height: 100%;
 }
