@@ -13,7 +13,7 @@
     top: 0;
     right: 65px;
 }
-.floating-window #bd-editor-controls button {
+.floating-window #bd-editor-controls .btn {
     height: 30px;
     padding-top: 0 !important;
     border-radius: 50%;
@@ -35,7 +35,7 @@
     margin: 0 5px 0 0;
     height: 30px;
 }
-#bd-editor-controls button,
+#bd-editor-controls .btn,
 .floating-window-buttons .button {
     background: var(--background-secondary-alt) !important;
 }
@@ -97,7 +97,7 @@
 #customcss-tab #bd-editor-controls > .controls-left {
     order: +1;
 }
-#customcss-tab #bd-editor-controls button {
+#customcss-tab #bd-editor-controls .btn {
     border-radius: 50%;
     padding-top: 0 !important;
     height: 30px;
