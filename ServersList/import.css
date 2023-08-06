@@ -35,12 +35,12 @@
 }
 [data-dnd-name]:has(>.wrapper-2PSQCG)::after {
   content: attr(data-dnd-name);
-  height: 48px;
   width: calc(310px - 24px - 48px - 12px);
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: calc(12px + 48px + 6px);
-  display: flex;
+  flex-wrap: nowrap;
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -92,12 +92,11 @@
 }
 .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
-  height: 48px;
   width: calc(310px - 24px - 48px - 12px);
   position: absolute;
-  top: 0;
+  top: 50%;
+  transform: translateY(-50%);
   left: calc(12px + 48px + 6px);
-  display: flex;
   align-items: center;
   white-space: nowrap;
   text-overflow: ellipsis;
