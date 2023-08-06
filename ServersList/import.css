@@ -71,6 +71,9 @@
 [data-dnd-name]:has(>.wrapper-2PSQCG .selected-1Drb7Z,>.wrapper-2PSQCG .hover-3m7-WT)::after {
   color: var(--interactive-active);
 }
+:has(>.wrapper-2PSQCG .selected-1Drb7Z,>.wrapper-2PSQCG .hover-3m7-WT) :is(.wrapper-3kah-n, .folder-241Joy, .circleIconButton-1VxDrg) {
+  background-color: var(--background-primary) !important;
+}
 .wrapperSimple-2SFl9K {
   border-radius: 0 !important;
 }
@@ -180,4 +183,10 @@
 }
 .expandedFolderBackground-1kSAf6 {
   height: 100%;
+}
+.upperBadge-1d6YsW,
+.lowerBadge-3j0ZAg {
+  transform: translateX(-50%) !important;
+  box-shadow: 0 0 0 3px var(--background-floating);
+  border-radius: 50%;
 }
