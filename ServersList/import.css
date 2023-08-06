@@ -190,3 +190,31 @@
   box-shadow: 0 0 0 3px var(--background-floating);
   border-radius: 50%;
 }
+.pill-1NRFie,
+.wrapper-z5ab_q,
+.colorwaysBtnPill {
+    height: var(--guild-list-height) !important;
+    align-items: center;
+}
+.item-2LIpTv {
+    max-height: var(--guild-list-height);
+}
+.ColorwaySelectorBtn::after {
+    position: static;
+    height: unset !important;
+    line-height: var(--guild-list-height);
+    transform: translateX(6px);
+}
+.ColorwaySelectorBtn {
+    gap: 0 !important;
+}
+.circleIcon-3489FI {
+    margin-left: 0;
+}
+.circleIcon-3489FI {
+    width: var(--guild-list-height);
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: calc(var(--guild-list-height)/7);
+}
