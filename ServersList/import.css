@@ -90,8 +90,7 @@
 .ColorwaySelectorBtn:hover::after {
   color: var(--interactive-active);
 }
-.wrapper-3kah-n[data-list-item-id="guildsnav___favorites"]::after,
-.wrapper-3kah-n[data-list-item-id="guildsnav___home"]::after {
+.wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
   height: 48px;
   width: calc(310px - 24px - 48px - 12px);
@@ -113,8 +112,7 @@
   transition: color .15s ease-out,background-color .15s ease-out;
   pointer-events: none;
 }
-.wrapper-3kah-n[data-list-item-id="guildsnav___favorites"].selected-1Drb7Z::after,
-.wrapper-3kah-n[data-list-item-id="guildsnav___home"].selected-1Drb7Z::after {
+.wrapper-3kah-n[data-list-item-id*="guildsnav___"].selected-1Drb7Z::after {
   color: var(--interactive-active);
 }
 .colorwaySelectorIcon {
