@@ -7,6 +7,8 @@ A fully working server list with labels
 :root {
   --guild-list-width: 290px;
   --guild-list-height: 48px;
+  --guild-item-radius: 50px;
+  --guild-item-spacing: 8px;
 }
 ```
 
