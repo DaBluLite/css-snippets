@@ -1,52 +1,63 @@
 :root {
   --guild-list-width: 290px;
   --guild-list-height: 48px;
+  --guild-item-radius: 50px;
+  --guild-item-spacing: 8px;
 }
 .guilds-2JjMmN {
   width: var(--guild-list-width);
 }
+
 .listItem-3SmSlK,
 .wrapper-38slSD,
 .svg-2ifYOU,
 .blobContainer-ikKyFs,
-.listItem-3SmSlK > .wrapper-z5ab_q + div:not([class]),
+.listItem-3SmSlK>.wrapper-z5ab_q+div:not([class]),
 .wrapper-2PSQCG,
-.svg-2ifYOU > foreignObject {
+.svg-2ifYOU>foreignObject {
   width: var(--guild-list-width);
   mask: none !important;
 }
+
 .listItem-3SmSlK:not(:has(.guildSeparator-a4uisj)),
 .wrapper-2PSQCG,
-.svg-2ifYOU > foreignObject {
+.svg-2ifYOU>foreignObject {
   height: var(--guild-list-height);
 }
+
 .expandedFolderBackground-1kSAf6 {
   width: calc(var(--guild-list-width) - 24px);
+  border-radius: min(24px, var(--guild-item-radius));
 }
-.svg-2ifYOU > foreignObject {
+
+.svg-2ifYOU>foreignObject {
   transform: translateX(calc(((var(--guild-list-width)*-1)/2) + 50%));
 }
+
 .wrapper-3kah-n,
 .folder-241Joy,
 .circleIconButton-1VxDrg {
   margin-left: 12px;
   width: calc(var(--guild-list-width) - 24px);
   justify-content: start;
-  border-radius: 50px !important;
+  border-radius: var(--guild-item-radius) !important;
   height: var(--guild-list-height);
 }
+
 .wrapper-3kah-n img,
 .folderIconWrapper-1oRIZr,
 .childWrapper-1j_1ub,
 .expandedFolderIconWrapper-3RwQpD,
 .closedFolderIconWrapper-3tRb2d {
-  border-radius: 50px !important;
+  border-radius: var(--guild-item-radius) !important;
   height: var(--guild-list-height);
   width: var(--guild-list-height);
 }
+
 .svg-2ifYOU {
   position: static;
 }
+
 [data-dnd-name]:has(>.wrapper-2PSQCG)::after {
   content: attr(data-dnd-name);
   width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
@@ -66,21 +77,26 @@
   overflow: hidden;
   text-overflow: ellipsis;
   pointer-events: none;
-  transition: color .15s ease-out,background-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out;
 }
-[data-dnd-name]:has(>.wrapper-2PSQCG .selected-1Drb7Z,>.wrapper-2PSQCG .hover-3m7-WT)::after {
+
+[data-dnd-name]:has(>.wrapper-2PSQCG .selected-1Drb7Z, >.wrapper-2PSQCG .hover-3m7-WT)::after {
   color: var(--interactive-active);
 }
-:has(>.wrapper-2PSQCG .selected-1Drb7Z,>.wrapper-2PSQCG .hover-3m7-WT) :is(.wrapper-3kah-n, .folder-241Joy, .circleIconButton-1VxDrg) {
+
+:has(>.wrapper-2PSQCG .selected-1Drb7Z, >.wrapper-2PSQCG .hover-3m7-WT) :is(.wrapper-3kah-n, .folder-241Joy, .circleIconButton-1VxDrg) {
   background-color: var(--background-primary) !important;
 }
+
 .wrapperSimple-2SFl9K {
   border-radius: 0 !important;
 }
+
 .circleIcon-3489FI {
   margin-left: 12px;
   height: var(--guild-list-height);
 }
+
 .circleIconButton-1VxDrg::after {
   content: attr(aria-label);
   width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
@@ -98,13 +114,15 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: color .15s ease-out,background-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out;
   pointer-events: none;
 }
+
 .circleIconButton-1VxDrg.selected-2r1Hvo::after,
 .ColorwaySelectorBtn:hover::after {
   color: var(--interactive-active);
 }
+
 .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
   width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
@@ -122,12 +140,14 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: color .15s ease-out,background-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out;
   pointer-events: none;
 }
+
 .wrapper-3kah-n[data-list-item-id*="guildsnav___"].selected-1Drb7Z::after {
   color: var(--interactive-active);
 }
+
 .colorwaySelectorIcon {
   height: var(--guild-list-height) !important;
   width: var(--guild-list-height) !important;
@@ -136,6 +156,7 @@
   align-items: center;
   cursor: pointer;
 }
+
 .ColorwaySelectorBtn {
   position: relative;
   width: calc(var(--guild-list-width) - 24px) !important;
@@ -145,19 +166,22 @@
   gap: 6px;
   height: var(--guild-list-height) !important;
 }
+
 .ColorwaySelectorBtn::before {
   content: "";
   position: absolute;
   background-color: var(--background-primary);
-  border-radius: 50px;
+  border-radius: var(--guild-item-radius);
   height: var(--guild-list-height) !important;
   width: var(--guild-list-height) !important;
   transition: .15s ease-out;
   left: 0;
 }
+
 .ColorwaySelectorBtn:hover::before {
   background-color: var(--brand-experiment);
 }
+
 .ColorwaySelectorBtn::after {
   content: "Colorways";
   width: calc(var(--guild-list-width) - 24px - 48px - 12px);
@@ -175,49 +199,63 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: color .15s ease-out,background-color .15s ease-out;
+  transition: color .15s ease-out, background-color .15s ease-out;
   pointer-events: none;
 }
-.wrapper-38slSD > [id*="folder-items-"] {
+
+.wrapper-38slSD>[id*="folder-items-"] {
   height: fit-content !important;
 }
+
 .expandedFolderBackground-1kSAf6 {
   height: 100%;
 }
+
 .upperBadge-1d6YsW,
 .lowerBadge-3j0ZAg {
   transform: translateX(-50%) !important;
   box-shadow: 0 0 0 3px var(--background-floating);
   border-radius: 50%;
 }
+
 .pill-1NRFie,
 .wrapper-z5ab_q,
 .colorwaysBtnPill {
-    height: var(--guild-list-height) !important;
-    align-items: center;
+  height: var(--guild-list-height) !important;
+  align-items: center;
 }
+
 .item-2LIpTv {
-    max-height: var(--guild-list-height);
+  max-height: var(--guild-list-height);
 }
+
 .ColorwaySelectorBtn::after {
-    position: static;
-    height: unset !important;
-    line-height: var(--guild-list-height);
-    transform: translateX(6px);
+  position: static;
+  height: unset !important;
+  line-height: var(--guild-list-height);
+  transform: translateX(6px);
 }
+
 .ColorwaySelectorBtn {
-    gap: 0 !important;
+  gap: 0 !important;
 }
+
 .circleIcon-3489FI {
-    margin-left: 0;
+  margin-left: 0;
 }
+
 .circleIcon-3489FI {
-    width: var(--guild-list-height);
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    padding: calc(var(--guild-list-height)/7);
+  width: var(--guild-list-height);
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: calc(var(--guild-list-height)/7);
 }
+
 .blobContainer-ikKyFs .wrapper-3kah-n[data-list-item-id*="guildsnav___"]::after {
-    content: none;
+  content: none;
+}
+
+.listItem-3SmSlK {
+  margin: 0 0 var(--guild-item-spacing);
 }
