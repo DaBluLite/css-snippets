@@ -100,3 +100,14 @@
 .platform-osx .guilds-2JjMmN.wrapper-1_HaEi {
   margin-top: 0;
 }
+.platform-osx .header-3OsQeK {
+  padding-left: 84px;
+  height: fit-content;
+}
+.platform-osx .header-3OsQeK .name-3Uvkvr {
+  overflow: visible;
+  white-space: pre-wrap;
+}
+.platform-osx .header-3OsQeK .headerContent-2SNbie {
+  height: fit-content;
+}
