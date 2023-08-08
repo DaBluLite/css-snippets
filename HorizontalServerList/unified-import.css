@@ -1,0 +1,66 @@
+@import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css);
+.container-YkUktl .avatarWrapper-1B9FTW {
+  height: 48px;
+  padding: 0;
+  width: 48px;
+  min-width: unset;
+  margin-right: 0;
+  background: none !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW .svg-1G_H_8 .avatar-31d8He {
+  border-radius: 50%;
+  transition: .2s !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW:hover .svg-1G_H_8 .avatar-31d8He {
+  border-radius: 10px !important;
+}
+.container-YkUktl .avatarWrapper-1B9FTW .nameTag-sc-gpq {
+  display: none;
+}
+.container-YkUktl .avatarWrapper-1B9FTW .avatar-1EWyVD {
+  width: 48px !important;
+  height: 48px !important;
+}
+.container-YkUktl .svg-1G_H_8 {
+  width: 60px !important;
+  height: 60px !important;
+}
+.container-YkUktl .svg-1G_H_8 > :is(svg,.pointerEvents-2KjWnj) {
+  display: none;
+}
+.container-YkUktl .svg-1G_H_8,
+.container-YkUktl .svg-1G_H_8 > foreignObject {
+  mask: none !important;
+}
+.container-YkUktl {
+  width: fit-content;
+  padding-right: 7px;
+  min-width: unset;
+  gap: 7px;
+}
+.guilds-2JjMmN {
+  width: calc(100vw - 228px);
+  z-index: +2;
+}
+.container-YkUktl .button-ejjZWC {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: .2s;
+  background-color: var(--background-primary);
+}
+.container-YkUktl .button-ejjZWC:hover {
+  border-radius: 16px;
+  background-color: var(--brand-experiment);
+  color: var(--interactive-active);
+}
+.container-YkUktl > .flex-2S1XBF {
+  gap: 7px;
+}
+.container-YkUktl::after {
+  content: "";
+  width: 2px;
+  height: 32px;
+  border-radius: 1px;
+  background-color: var(--background-modifier-accent);
+}
