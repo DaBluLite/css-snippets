@@ -1,0 +1,94 @@
+.chat-2ZfjoI {
+  padding-bottom: 72px;
+}
+.container-1eFtFS {
+  display: block;
+  height: 100%;
+}
+.guilds-2JjMmN {
+  position: absolute;
+  z-index: +1;
+  height: 72px;
+  width: calc(100vw - 240px);
+  bottom: 0;
+  right: 0;
+}
+.base-2jDfDU {
+  height: 100%;
+}
+.tutorialContainer-1pL9QS {
+  display: flex;
+  width: fit-content;
+}
+.guilds-2JjMmN .scroller-3X7KbA {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto hidden !important;
+  align-items: center;
+  padding-right: 10px;
+  padding-top: 0;
+}
+.guilds-2JjMmN .scroller-3X7KbA::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.listItem-3SmSlK {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 0;
+}
+.listItem-3SmSlK + [aria-label] {
+  display: flex;
+}
+.expandedFolderBackground-1kSAf6 {
+  width: calc(100% - 7px);
+  height: 48px;
+  top: 0;
+  left: 7px;
+}
+.listItem-3SmSlK {
+  flex-direction: column;
+  margin-left: 7px;
+}
+.listItem-3SmSlK + [style]:not(ul) {
+  height: 48px !important;
+  width: 48px !important;
+  display: flex !important;
+}
+[id*="folder-items-"],
+.wrapper-38slSD {
+  width: fit-content !important;
+  height: 48px !important;
+  display: flex;
+  align-items: center;
+}
+.wrapper-z5ab_q,
+.colorwaysBtnPill {
+  top: unset;
+  bottom: -12px;
+  width: 48px !important;
+  height: 8px !important;
+  z-index: +1;
+}
+.wrapper-z5ab_q > .item-2LIpTv,
+.colorwaysBtnPill > .item-2LIpTv {
+  rotate: -90deg;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.guildSeparator-a4uisj {
+  width: 2px;
+  height: 32px;
+}
+.listItem-3SmSlK:has(.guildSeparator-a4uisj) {
+  width: 2px;
+  margin: 0 7px;
+}
+.container-YkUktl {
+  background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
+  height: 72px;
+  margin-bottom: 0;
+}
+.sidebar-1tnWFu {
+  border-radius: 0 !important;
+}
