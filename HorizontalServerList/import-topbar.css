@@ -1,4 +1,5 @@
-.chat-2ZfjoI {
+.chat-2ZfjoI,
+.container-3XgAHv {
   padding-top: 72px;
 }
 .container-1eFtFS {
@@ -96,4 +97,7 @@
   order: -1;
   display: flex;
   flex-direction: column-reverse;
+}
+.platform-osx .guilds-2JjMmN.wrapper-1_HaEi {
+  margin-top: 0;
 }
