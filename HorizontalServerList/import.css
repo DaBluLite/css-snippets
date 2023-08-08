@@ -114,3 +114,6 @@
 .platform-osx .header-3OsQeK .headerContent-2SNbie {
   height: fit-content;
 }
+.listItem-3SmSlK:has(.guildSeparator-a4uisj) {
+  margin-right: 0;
+}
