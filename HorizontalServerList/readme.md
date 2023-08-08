@@ -1,13 +1,23 @@
 # DaBluLite's Horizontal Server List
 A small redesign of the default Discord Toggles
 
-### Importing (Bottom):
+## Importing (Bottom):
+### Normal:
 ```css
 @import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css);
 ```
-### Importing (Top):
+### Unified With User Area:
+```css
+@import url(//dablulite.github.io/css-snippets/HorizontalServerList/unified-import.css);
+```
+## Importing (Top):
+### Normal:
 ```css
 @import url(//dablulite.github.io/css-snippets/HorizontalServerList/import-topbar.css);
+```
+### Unified With User Area:
+```css
+@import url(//dablulite.github.io/css-snippets/HorizontalServerList/unified-import-topbar.css);
 ```
 
 ### Screenshots:
@@ -16,3 +26,6 @@ Bottom:
 
 Top:
 ![image](https://github.com/DaBluLite/css-snippets/assets/73998678/303120a3-a2f3-4ac4-82a0-f8db9ed526af)
+
+Unified:
+![image](https://github.com/DaBluLite/css-snippets/assets/73998678/c288a3a9-9eca-4c39-b78d-5698bf2f4896)
