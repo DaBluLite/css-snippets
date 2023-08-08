@@ -1,5 +1,5 @@
 # DaBluLite's Horizontal Server List
-A small redesign of the default Discord Toggles
+A different impementation of Gibbu's original HSL snippet
 
 ## Importing (Bottom):
 ### Normal:
