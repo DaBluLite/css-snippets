@@ -1,4 +1,5 @@
-.chat-2ZfjoI {
+.chat-2ZfjoI,
+.container-3XgAHv {
   padding-bottom: 72px;
 }
 .container-1eFtFS {
@@ -91,4 +92,11 @@
 }
 .sidebar-1tnWFu {
   border-radius: 0 !important;
+}
+.pill-1NRFie {
+  top: unset;
+  bottom: 0;
+}
+.platform-osx .guilds-2JjMmN.wrapper-1_HaEi {
+  margin-top: 0;
 }
