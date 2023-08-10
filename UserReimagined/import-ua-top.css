@@ -47,3 +47,9 @@
   background: var(--inversed-overlay,var(--background-primary));
   transition: color .15s ease-out,background-color .15s ease-out;
 }
+.subtext-2HDqJ7,
+.panelSubtextContainer-7hU_Cm {
+  max-width: unset;
+  display: flex;
+  width: 100%;
+}
