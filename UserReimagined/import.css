@@ -95,3 +95,9 @@
     box-sizing: border-box;
     display: flex;
 }
+.subtext-2HDqJ7,
+.panelSubtextContainer-7hU_Cm {
+  max-width: unset;
+  display: flex;
+  width: 100%;
+}
