@@ -3,6 +3,7 @@
   --guild-list-height: 48px;
   --guild-item-radius: 50px;
   --guild-item-spacing: 8px;
+  --guild-item-font-size: 16px;
 }
 .guilds-2JjMmN {
   width: var(--guild-list-width);
@@ -70,7 +71,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--channels-default);
-  font-size: 16px;
+  font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
@@ -108,7 +109,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--green-360);
-  font-size: 16px;
+  font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
@@ -134,7 +135,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--channels-default);
-  font-size: 16px;
+  font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
@@ -193,7 +194,7 @@
   text-overflow: ellipsis;
   overflow: hidden;
   color: var(--channels-default);
-  font-size: 16px;
+  font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
   font-weight: 500;
   white-space: nowrap;
