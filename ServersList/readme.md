@@ -9,6 +9,7 @@ A fully working server list with labels
   --guild-list-height: 48px;
   --guild-item-radius: 50px;
   --guild-item-spacing: 8px;
+  --guild-item-font-size: 16px;
 }
 ```
 
