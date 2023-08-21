@@ -76,3 +76,8 @@
 .container-YkUktl > .flex-2S1XBF {
   gap: 7px;
 }
+.container-1NXEtd,
+.privateChannels-oVe7HL {
+    border-top-left-radius: 8px;
+    overflow: hidden;
+}
