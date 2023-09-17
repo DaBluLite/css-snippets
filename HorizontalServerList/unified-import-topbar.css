@@ -75,3 +75,18 @@
     padding-top: 0;
     margin-top: 72px;
 }
+.container-YkUktl:has(.flex-2S1XBF .button-ejjZWC:nth-of-type(4)) {
+    width: calc(227px + 56px) !important;
+}
+.guilds-2JjMmN:has(~ .base-2jDfDU .container-YkUktl .flex-2S1XBF .button-ejjZWC:nth-of-type(4)) {
+    width: calc(100vw - 228px - 56px) !important;
+}
+.sidebar-1tnWFu {
+    overflow: visible !important;
+}
+.ColorwaySelectorBtnContainer {
+    margin-bottom: 0;
+    width: 56px !important;
+    flex: 0 0 56px;
+    justify-content: end;
+}
