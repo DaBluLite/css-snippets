@@ -1,0 +1,86 @@
+@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+.container-ZMc96U {
+    position: absolute;
+    top: -31px;
+    left: -312px;
+    height: 31px;
+    min-height: unset;
+    width: calc(100vw - (46px*3));
+    background: none !important;
+    -webkit-app-region: drag;
+    padding-left: 0;
+}
+.chat-2ZfjoI,
+.base-2jDfDU,
+.container-1eFtFS,
+.layers-OrUESM>.layer-86YKbF,
+.notAppAsidePanel-3yzkgB,
+.app-3xd6d0,
+.app-2CXKsg,
+.layers-OrUESM {
+    overflow: visible !important;
+}
+.appAsidePanelWrapper-ev4hlp {
+    overflow: visible;
+    z-index: +10050;
+}
+.bg-1QIAus,
+.platform-win .layer-86YKbF {
+    top: 0 !important;
+    padding-top: 0;
+}
+.children-3xh0VB:after {
+    content: none;
+}
+.wordmarkWindows-2dq6rw {
+    display: none;
+}
+.topic-11NuQZ {
+    max-width: min-content !important;
+    display: flex;
+}
+.topicClickTarget-2GMi99 {
+    width: auto;
+    display: flex;
+    flex: 0 1 auto;
+}
+.container-ZMc96U .toolbar-3_r2xA,
+.container-ZMc96U .topicClickTarget-2GMi99 {
+    -webkit-app-region: no-drag;
+}
+.container-ZMc96U .divider-q3P9HC {
+    display: none;
+}
+.search-39IXmY,
+.search-2Mwzzq,
+.searchBar-jGtisZ {
+    height: 31px;
+    align-items: center;
+}
+.DraftEditor-root {
+    height: fit-content;
+}
+.container-ZMc96U .iconWrapper-2awDjA .icon-2xnN2Y {
+    scale: .8;
+}
+.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA {
+    margin: 0 3px;
+}
+.input-1nrc5P {
+    box-shadow: none !important;
+    border-radius: 0;
+}
+.container-ZMc96U .topPill-2vcLsa {
+    height: 31px;
+}
+.container-ZMc96U .tabBar-ra-EuL .item-3mHhwr {
+    margin: 0;
+    border-radius: 0;
+}
+.container-2cd8Mz .container-ZMc96U,
+.homeWrapper-L4ors0 .container-ZMc96U {
+    left: -72px;
+}
+.platform-win .standardSidebarView-E9Pc3j {
+    top: 0;
+}
