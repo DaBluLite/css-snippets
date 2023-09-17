@@ -170,3 +170,18 @@ html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521
 .topControls-23RE3h .justifyEnd-2G0m6w {
     padding: 8px 16px;
 }
+.searchBar-jGtisZ {
+    border-radius: 0;
+    padding: 0 4px;
+}
+.searchBar-jGtisZ:hover,
+.open-1F8u2c > .searchBar-jGtisZ {
+    background-color: var(--background-modifier-hover);
+}
+.search-39IXmY {
+    margin: 0;
+}
+.searchBar-jGtisZ:hover .icon-18rqoe,
+.open-1F8u2c > .searchBar-jGtisZ .icon-18rqoe {
+    color: var(--interactive-hover);
+}
