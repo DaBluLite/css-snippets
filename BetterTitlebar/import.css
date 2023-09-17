@@ -27,7 +27,8 @@
     font-family: var(--font-display);
     font-weight: 700;
 }
-html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after {
+html:has(#activeColorway:not(:empty)) .wordmarkWindows-2dq6rw::after,
+html:has(#activeColorwayCSS:not(:empty)) .wordmarkWindows-2dq6rw::after{
     content: "Colorways";
     background-color: var(--background-primary);
     padding: 2px 8px;
