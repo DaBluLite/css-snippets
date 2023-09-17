@@ -93,12 +93,24 @@
     top: 0;
 }
 html:has(#activeColorway:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA,
-html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA {
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA,
+html:has(#activeColorway:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d),
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d) {
     display: flex;
     gap: 4px;
 }
+html:has(#activeColorway:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d),
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d) {
+    margin-right: 12px;
+}
+html:has(#activeColorway:not(:empty)) .container-ZMc96U .avatar-3521_d,
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U .avatar-3521_d {
+    margin-right: 0;
+}
 html:has(#activeColorway:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA::after,
-html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA::after {
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U .children-3xh0VB > .iconWrapper-2awDjA::after,
+html:has(#activeColorway:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d)::after,
+html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521_d)::after {
     content: "Colorways";
     display: flex;
     width: fit-content;
