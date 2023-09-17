@@ -343,3 +343,6 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .callContainer-HtHELf {
     max-width: calc(100vw - 312px);
 }
+.vc-imgzoom-lens {
+    z-index: 10050;
+}
