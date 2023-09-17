@@ -81,3 +81,9 @@
     border-top-left-radius: 8px;
     overflow: hidden;
 }
+.container-YkUktl:has(.flex-2S1XBF .button-ejjZWC:nth-of-type(4)) {
+    height: calc(227px + 56px) !important;
+}
+.guilds-2JjMmN:has(~ .base-2jDfDU .container-YkUktl .flex-2S1XBF .button-ejjZWC:nth-of-type(4)) {
+    margin-bottom: calc(227px + 56px) !important;
+}
