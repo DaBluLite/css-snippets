@@ -157,3 +157,16 @@ html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521
 .container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA:has(path[d="M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"]):hover {
     background-color: var(--status-danger);
 }
+.callContainer-HtHELf {
+    overflow: visible;
+}
+.headerWrapper-1ULEPv {
+    margin: 0;
+}
+.topControls-23RE3h {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+}
+.topControls-23RE3h .justifyEnd-2G0m6w {
+    padding: 8px 16px;
+}
