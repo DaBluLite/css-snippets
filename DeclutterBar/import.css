@@ -185,3 +185,18 @@ html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521
 .open-1F8u2c > .searchBar-jGtisZ .icon-18rqoe {
     color: var(--interactive-hover);
 }
+.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA .iconBadge-3Mmg92 {
+    display: none;
+}
+.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA:has(.iconBadge-3Mmg92)::after {
+    content: "";
+    width: 46px;
+    height: 1px;
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    box-shadow: 0 1px 1px hsl(var(--red-400-hsl)/1),0 0px 4px hsl(var(--red-400-hsl)/1);
+}
+.container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA:has(.iconBadge-3Mmg92) {
+    overflow: hidden;
+}
