@@ -200,3 +200,6 @@ html:has(#activeColorwayCSS:not(:empty)) .container-ZMc96U div:has(>.avatar-3521
 .container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA:has(.iconBadge-3Mmg92) {
     overflow: hidden;
 }
+.autocompleteAttached-bt_md- {
+    z-index: +999;
+}
