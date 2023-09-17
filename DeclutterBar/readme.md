@@ -8,3 +8,4 @@ A modified version of the "Better Titlebar" snippet, that moves the channel acti
 
 ### Screenshots:
 ![image](https://github.com/DaBluLite/css-snippets/assets/73998678/4c1a6fb0-803d-451d-9cf6-df1fbe84122c)
+![image](https://github.com/DaBluLite/css-snippets/assets/73998678/e6c9bcb0-16d4-4645-8b7c-fec547839c93)
