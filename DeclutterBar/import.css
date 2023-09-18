@@ -10,6 +10,7 @@
     -webkit-app-region: drag;
     padding-left: 0;
     padding-right: 0;
+    box-shadow: none;
 }
 .chat-2ZfjoI,
 .base-2jDfDU,
@@ -34,7 +35,7 @@
 .tabBody-2dgbAs:before {
     content: none;
 }
-.wordmarkWindows-2dq6rw {
+#app-mount:has(.baseLayer-W6S8cY:not(.stop-animations)) .wordmarkWindows-2dq6rw {
     display: none;
 }
 .topic-11NuQZ {
@@ -343,6 +344,46 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .callContainer-HtHELf {
     max-width: calc(100vw - 312px);
 }
-.vc-imgzoom-lens {
-    z-index: 10050;
+.returnButton-1ptceW .contents-3NembX .text-xs-medium-311pdh {
+    font-size: 0 !important;
+}
+.returnButton-1ptceW {
+    border-radius: 0;
+    border: none;
+    transition: none;
+    margin: 0;
+    width: 46px;
+    padding: 0;
+    min-width: unset;
+}
+.returnButton-1ptceW .contents-3NembX {
+    display: flex;
+    margin: 0;
+    overflow: visible;
+    background-image: none !important;
+    gap: 4px;
+}
+.returnButton-1ptceW:hover {
+    background-color: var(--background-modifier-hover) !important;
+}
+.returnButton-1ptceW .contents-3NembX .returnIcon-2srF5c {
+    color: var(--interactive-normal) !important;
+    margin: 0;
+}
+.returnButton-1ptceW:hover .contents-3NembX .returnIcon-2srF5c {
+    color: var(--interactive-hover) !important;
+}
+.returnButton-1ptceW .contents-3NembX::before {
+    content: "<";
+    color: var(--interactive-normal);
+    width: fit-content;
+    height: 16px;
+    display: block;
+    font-family: var(--font-code);
+}
+.returnButton-1ptceW:hover .contents-3NembX::before {
+    color: var(--interactive-hover);
+}
+.returnButton-1ptceW .iconContainer-21RCa3 {
+    margin: 0;
 }
