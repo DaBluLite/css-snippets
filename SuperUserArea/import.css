@@ -1,0 +1,104 @@
+.panels-3wFtMD {
+    order: -1;
+}
+.container-YkUktl {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
+    justify-content: space-between;
+    padding: 0;
+    padding-bottom: 8px;
+    gap: 12px;
+    margin: 0;
+    height: fit-content;
+    padding-top: 12px;
+}
+.platform-win .container-YkUktl,
+.platform-osx .container-YkUktl {
+    padding-top: 4px;
+}
+.container-YkUktl .flex-2S1XBF > .button-12Fmur {
+    --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background: var(--nitro-overlay,var(--background-primary));
+    transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
+}
+.container-YkUktl .avatarWrapper-1B9FTW {
+    --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    width: 48px;
+    height: 48px;
+    min-width: unset;
+    border-radius: 50px;
+    background: var(--nitro-overlay,var(--background-primary));
+    padding: 0;
+    margin: 0;
+    flex: 0 0 48px;
+    transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
+    justify-content: center;
+    cursor: pointer;
+}
+.container-YkUktl .flex-2S1XBF {
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 12px;
+}
+.container-YkUktl .avatarWrapper-1B9FTW .nameTag-sc-gpq {
+    display: none;
+}
+.container-YkUktl .avatarWrapper-1B9FTW:hover,
+.container-YkUktl .avatarWrapper-1B9FTW[aria-expanded="true"],
+.container-YkUktl .flex-2S1XBF > .button-12Fmur:hover {
+    background: var(--brand-500);
+    border-radius: 16px;
+}
+.content-1jQy2l,
+.chatContent-3KubbW,
+.container-1NXEtd,
+.container-1-ERn5,
+.header-3OsQeK,
+.animatedContainer-2laTjx,
+.privateChannels-oVe7HL {
+    border-top-left-radius: 8px;
+}
+.content-1jQy2l:before {
+    content: none;
+}
+.sidebar-1tnWFu {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
+}
+.platform-win .chat-2ZfjoI,
+.platform-osx .chat-2ZfjoI {
+    border-top-left-radius: 8px;
+}
+.container-1zzFcN {
+    border-bottom: none;
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
+    padding: 0;
+    padding-bottom: 4px;
+}
+.actionButtons-2vEOUh {
+    display: flex;
+    gap: 12px;
+    padding-top: 0;
+    padding-right: 12px;
+}
+.actionButtons-2vEOUh .button-1EGGcP {
+    --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 50px;
+    flex: 0 0 48px;
+    background: var(--nitro-overlay,var(--background-primary));
+    transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
+}
+.actionButtons-2vEOUh .button-1EGGcP:hover,
+.actionButtons-2vEOUh .button-1EGGcP[aria-expanded="true"] {
+    background: var(--brand-500);
+    border-radius: 16px;
+}
+.connection-3k9QeF {
+    padding: 8px;
+    height: 60px;
+    box-sizing: border-box;
+}
