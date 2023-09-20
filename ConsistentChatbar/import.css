@@ -14,13 +14,15 @@
   border-radius: 0;
 }
 .base-3bcbY3 {
-  position: static;
-  width: 100%;
-  order: -1;
+  position: absolute;
+  width: calc(100% - 16px);
   display: flex;
   justify-content: space-between;
   padding: 0 8px;
   box-sizing: border-box;
+  top: -24px;
+  left: 0;
+  background: var(--bg-overlay-chat,var(--background-primary));
 }
 .base-3bcbY3 > .cooldownWrapper-2k1jHK {
   margin: 0;
@@ -28,9 +30,6 @@
 }
 .scroller-kQBbkU {
   position: static;
-}
-.scrollerSpacer-3AqkT9 {
-  height: 10px;
 }
 .scrollableContainer-15eg7h {
   border-radius: 0;
