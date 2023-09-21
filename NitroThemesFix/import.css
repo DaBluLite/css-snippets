@@ -331,3 +331,17 @@
 .theme-light .card-2xymMp {
     background: var(--bg-overlay-3,var(--background-secondary-alt));
 }
+.header-3_zmOb {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.theme-dark .container-18GwIk,
+.theme-dark .footer-VCsJQY {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.theme-light .container-18GwIk,
+.theme-light .footer-VCsJQY {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
+.container-2rzKKA {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
