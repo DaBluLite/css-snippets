@@ -262,3 +262,72 @@
 .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
   background: none !important;
 }
+.tooltip-33Jwqe,
+.lookFilled-GPyucw.select-Zz0IcO,
+.search-2RHhW6 {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
+}
+.messageGroupWrapper-1jf_7C,
+.wrapper-1xW8FI,
+.directoryContainer-z-0pgp,
+.headerIcon-4CEo5y,
+.commandName-SDgdgz {
+    background: var(--bg-overlay-chat,var(--background-primary));
+}
+.theme-dark .jumpButton-1ZwI_j,
+.theme-dark .upload-vLbqu-,
+.theme-dark .connection-YOVI9j,
+.theme-dark .paymentPane-ut5qKZ,
+.theme-dark .paginator-1eqD2g,
+.theme-dark .payment-2bOh4k,
+.theme-dark .codeRedemptionRedirect-2hYMSQ,
+.theme-dark .soundButtonSettingContainer-3G4JEB,
+.theme-dark .category-2OvQ93,
+.theme-dark .container-2NdZr9,
+.theme-dark .container-SidGiM,
+.theme-dark .list-1bztb- {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.theme-light .jumpButton-1ZwI_j,
+.theme-light .upload-vLbqu-,
+.theme-light .connection-YOVI9j,
+.theme-light .paymentPane-ut5qKZ,
+.theme-light .paginator-1eqD2g,
+.theme-light .payment-2bOh4k,
+.theme-light .codeRedemptionRedirect-2hYMSQ,
+.theme-light .soundButtonSettingContainer-3G4JEB,
+.theme-light .category-2OvQ93,
+.theme-light .container-2NdZr9,
+.theme-light .container-SidGiM,
+.theme-light .list-1bztb- {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
+.accountButtonInner-33vCDY {
+    background-color: transparent;
+}
+.wrapper-1xW8FI {
+    border-radius: 8px;
+    height: 48px;
+}
+.theme-dark .connectContainer-1hylYM,
+.theme-dark .connectionHeader-Ixbb1s,
+.theme-dark .bigPerkCard-1uwmWV,
+.theme-dark .innerWrapper-Eo2E86,
+.theme-dark .smallPerkCard-2sX_--,
+.theme-dark .guildContainer-o60hpj,
+.theme-dark .wrapper-3htY7x,
+.theme-dark .vc-addon-card,
+.theme-dark .card-2xymMp {
+    background: var(--bg-overlay-1,var(--background-secondary-alt));
+}
+.theme-light .connectContainer-1hylYM,
+.theme-light .connectionHeader-Ixbb1s,
+.theme-light .bigPerkCard-1uwmWV,
+.theme-light .innerWrapper-Eo2E86,
+.theme-light .smallPerkCard-2sX_--,
+.theme-light .guildContainer-o60hpj,
+.theme-light .wrapper-3htY7x,
+.theme-light .vc-addon-card,
+.theme-light .card-2xymMp {
+    background: var(--bg-overlay-3,var(--background-secondary-alt));
+}
