@@ -345,3 +345,22 @@
 .container-2rzKKA {
     background: var(--bg-overlay-chat,var(--background-primary));
 }
+.footer-5ji8u1,
+.button-1zW0-r {
+    background: var(--bg-overlay-app-frame,var(--background-tertiary));
+}
+.menu-2TXYjN {
+    background: var(--bg-overlay-1,var(--background-floating));
+}
+.theme-dark .embedFull-1HGV2S,
+.theme-dark .footer-GXWBBp,
+.theme-dark .hljs,
+.theme-dark .textContainer-36wgKK {
+    background: var(--bg-overlay-3,var(--background-secondary));
+}
+.theme-light .embedFull-1HGV2S,
+.theme-light .footer-GXWBBp,
+.theme-light .hljs,
+.theme-light .textContainer-36wgKK {
+    background: var(--bg-overlay-2,var(--background-secondary));
+}
