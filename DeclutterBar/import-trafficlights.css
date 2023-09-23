@@ -1,0 +1,61 @@
+@import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
+:root {
+    --mactitlebar-button-width: 20px;
+    --mactitlebar-button-height: 20px;
+    --mactitlebar-button-border-radius: 50px;
+    --mactitlebar-close-btn-back: #f25056;
+    --mactitlebar-min-btn-back: #fac536;
+    --mactitlebar-max-btn-back: #39ea49;
+}
+.winButtonClose-3Q8ZH5 {
+    order: 3;
+    margin: auto 0;
+}
+.winButtonMinMax-3RsPUg {
+    order: 1;
+    margin: auto 0;
+}
+.winButtonMinMax-3RsPUg:last-child {
+    margin: auto 0;
+}
+.winButton-3UMjdg:hover {
+    background-color: transparent !important;
+}
+.winButtonClose-3Q8ZH5 > svg {
+    background: var(--mactitlebar-close-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonClose-3Q8ZH5 > svg > polygon {
+    display: none !important;
+}
+.winButtonMinMax-3RsPUg > svg {
+    background: var(--mactitlebar-max-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonMinMax-3RsPUg:last-child > svg {
+    background: var(--mactitlebar-min-btn-back) !important;
+    background-size: contain !important;
+    border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButtonMinMax-3RsPUg > svg > rect {
+    display: none !important;
+}
+.winButton-3UMjdg:hover {
+    background-color: transparent;
+}
+.winButton-3UMjdg {
+    width: var(--mactitlebar-button-width) !important;
+    height: var(--mactitlebar-button-height) !important;
+}
+.typeWindows-2-g3UY {
+    justify-content: start;
+}
+.container-ZMc96U {
+    left: -240px;
+    width: calc(100vw - 72px);
+}
+.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ {
+    right: calc((-46px * 5.6));
+}
