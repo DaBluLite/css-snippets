@@ -470,3 +470,36 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .topic-11NuQZ .channelMention:not(:hover) {
     background-color: transparent;
 }
+.container-2cd8Mz .container-ZMc96U,
+.homeWrapper-L4ors0 .container-ZMc96U {
+    left: 0;
+}
+.topic-11NuQZ {
+    width: min-content !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    height: 31px;
+    white-space: nowrap;
+    line-height: 31px;
+    max-width: 50% !important;
+    min-width: unset !important;
+    position: relative;
+    flex: 0 0 auto;
+}
+.container-ZMc96U .children-3xh0VB {
+    overflow: hidden;
+}
+.topic-11NuQZ .channelMention {
+    width: fit-content;
+    display: inline-flex;
+}
+.topic-11NuQZ .emojiContainer-2XKwXX > .emoji {
+    height: 31px;  
+}
+.topic-11NuQZ .anchor-1X4H4q {
+    display: inline-flex;
+}
+.topicClickTarget-2GMi99 {
+    width: 100%;
+}
