@@ -51,3 +51,7 @@ html:has(#activeColorwayCSS:not(:empty)) .wordmarkWindows-2dq6rw::after{
 .winButtonClose-3Q8ZH5 {
     margin-right: -4px;
 }
+.platform-win .container-2RRFHK {
+    padding-top: 31px !important;
+    top: -31px !important;
+}
