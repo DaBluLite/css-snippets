@@ -1,9 +1,9 @@
 @import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
 .container-ZMc96U {
     position: absolute;
-    top: -31px;
+    top: -28px;
     left: -312px;
-    height: 31px;
+    height: 28px;
     min-height: unset;
     width: calc(100vw - (46px*3));
     background: none !important;
@@ -38,10 +38,6 @@
 #app-mount:has(.baseLayer-W6S8cY:not(.stop-animations)) .wordmarkWindows-2dq6rw {
     display: none;
 }
-.topic-11NuQZ {
-    max-width: min-content !important;
-    display: flex;
-}
 .topicClickTarget-2GMi99 {
     width: auto;
     display: flex;
@@ -57,7 +53,7 @@
 .search-39IXmY,
 .search-2Mwzzq,
 .searchBar-jGtisZ {
-    height: 31px;
+    height: 28px;
     align-items: center;
 }
 .DraftEditor-root {
@@ -77,7 +73,7 @@
     border-radius: 0;
 }
 .container-ZMc96U .topPill-2vcLsa {
-    height: 31px;
+    height: 28px;
     gap: 8px;
 }
 .container-ZMc96U .tabBar-ra-EuL .item-3mHhwr {
@@ -119,12 +115,12 @@
     -webkit-app-region: no-drag;
 }
 .container-ZMc96U .toolbar-3_r2xA {
-    height: 31px;
+    height: 28px;
 }
 .container-ZMc96U .toolbar-3_r2xA .iconWrapper-2awDjA {
     margin: 0;
     width: 46px;
-    height: 31px;
+    height: 28px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -274,9 +270,9 @@ html:has(#activeColorwayCSS:not(:empty)) .children-3xh0VB > .hiddenVisually-39QJ
 }
 .newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ {
     position: absolute;
-    top: -31px;
+    top: -28px;
     font-size: 0;
-    height: 31px;
+    height: 28px;
     width: 46px;
     -webkit-app-region: no-drag;
     padding: 0;
@@ -390,7 +386,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .followButton-1N-GGp {
     -webkit-app-region: no-drag;
     border-radius: 0;
-    height: 31px;
+    height: 28px;
     background-color: transparent !important;
     transition: none;
     margin-right: 0;
@@ -427,7 +423,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     display: flex;
     align-items: center;
     gap: 3px;
-    height: 31px;
+    height: 28px;
     color: var(--interactive-normal);
     padding: 0 2px;
     padding-right: 8px;
@@ -446,12 +442,9 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     display: inline-block;
     scale: .82;
 }
-.topic-11NuQZ {
-    align-items: center;
-}
 .topic-11NuQZ .channelMention {
     border-radius: 0;
-    height: 31px;
+    height: 28px;
     align-items: center;
     display: flex;
     margin: 0 0.25em;
@@ -470,14 +463,15 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     width: min-content !important;
     overflow: hidden;
     text-overflow: ellipsis;
-    display: inline-block;
-    height: 31px;
+    display: inline-flex;
+    height: 28px;
     white-space: nowrap;
-    line-height: 31px;
+    line-height: 28px;
     max-width: 50% !important;
     min-width: unset !important;
     position: relative;
     flex: 0 0 auto;
+    align-items: center;
 }
 .container-ZMc96U .children-3xh0VB {
     overflow: hidden;
@@ -487,7 +481,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     display: inline-flex;
 }
 .topic-11NuQZ .emojiContainer-2XKwXX > .emoji {
-    height: 31px;  
+    height: 28px;  
 }
 .topic-11NuQZ .anchor-1X4H4q {
     display: inline-flex;
