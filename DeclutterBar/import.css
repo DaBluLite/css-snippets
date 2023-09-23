@@ -330,10 +330,6 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 :root:has(.newMessagesBar-1hF-9G) .withFrame-2dL45i .winButton-3UMjdg {
     color: var(--interactive-hover);
 }
-.container-2RRFHK {
-    top: 0 !important;
-    padding-top: 0 !important;
-}
 .form-3gdLxP {
     z-index: 100;
 }
