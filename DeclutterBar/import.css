@@ -489,3 +489,8 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .topicClickTarget-2GMi99 {
     width: 100%;
 }
+.container-1bg4pR,
+.container-1bg4pR .input-1nrc5P {
+    height: 28px;
+    line-height: 28px;
+}
