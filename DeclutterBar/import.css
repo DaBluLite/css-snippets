@@ -470,10 +470,6 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .topic-11NuQZ .channelMention:not(:hover) {
     background-color: transparent;
 }
-.container-2cd8Mz .container-ZMc96U,
-.homeWrapper-L4ors0 .container-ZMc96U {
-    left: 0;
-}
 .topic-11NuQZ {
     width: min-content !important;
     overflow: hidden;
