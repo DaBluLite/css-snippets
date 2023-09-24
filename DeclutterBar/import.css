@@ -330,7 +330,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     z-index: 100;
 }
 .callContainer-HtHELf {
-    max-width: calc(100vw - 312px);
+    max-width: 100%;
 }
 .returnButton-1ptceW .contents-3NembX .text-xs-medium-311pdh {
     font-size: 0 !important;
