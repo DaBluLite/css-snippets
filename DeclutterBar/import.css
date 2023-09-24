@@ -498,3 +498,14 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
     height: 31px;
     box-sizing: border-box;
 }
+.upperContainer-2DCPUA {
+    align-items: center;
+}
+.container-1bg4pR,
+.container-1bg4pR .input-1nrc5P {
+    height: 28px;
+    line-height: 28px;
+}
+.guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU > .content-1SgpWY {
+    width: 100vw;
+}
