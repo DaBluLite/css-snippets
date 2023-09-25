@@ -509,3 +509,6 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G
 .guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU > .content-1SgpWY {
     width: 100vw;
 }
+.guilds-2JjMmN.hidden-10MsGQ + .base-2jDfDU > .content-1SgpWY .chatContent-3KubbW {
+    opacity: 0;
+}
