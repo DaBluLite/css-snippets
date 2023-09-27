@@ -1,0 +1,45 @@
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) {
+    border-radius: 8px;
+    background-color: #000;
+    padding: 16px;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) :is(.content-tXPNDw,.anchor-1X4H4q,.overflow-1wOqNV,.themed-1LCNAV .textLeft-1Noen0, .themed-1LCNAV .textRight-2IW704) {
+    color: #fff;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .overflow-1wOqNV {
+    text-transform: capitalize;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .barInner-3dHef4 {
+    background-color: #fff !important;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .contentImagesUserPopoutV2-2Mcg9w .state-2NT76I {
+    display: none;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL:nth-of-type(2) {
+    font-size: 0;
+    line-height: unset;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL:nth-of-type(2) .activityName-3YXl6e {
+    font-size: 14px;
+    opacity: .6;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .assetsLargeImageUserPopoutV2-9ksyvz {
+    border-radius: 4px;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .buttonColor-_0gSD_ {
+    background-color: transparent !important;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    transition: none !important;
+    color: #1fdf64 !important;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .platformIcon-k3yytQ {
+    display: none !important;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .iconButton-1li_a3 {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .buttonColor-_0gSD_:hover {
+    scale: 1.01;
+}
