@@ -1,0 +1,52 @@
+#account-status-picker--online {
+    --brand-experiment-560: var(--green-360);
+}
+#account-status-picker--dnd {
+    --brand-experiment-560: var(--red-400);
+}
+#account-status-picker--idle {
+    --brand-experiment-560: var(--yellow-330);
+}
+#account-status-picker--invisible {
+    --brand-experiment-560: var(--primary-400);
+}
+#account .submenu-3ycVEH .separator-12G2Op {
+    display: none;
+}
+#account .submenu-3ycVEH .description-1Dd2kv {
+    height: fit-content;
+    overflow: hidden;
+    max-height: 0rem;
+    transition: .2s ease !important;
+    width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+}
+#account .submenu-3ycVEH .item-5ApiZt.focused-3LIdPu .description-1Dd2kv {
+    max-height: 4rem;
+}
+.statusItem-38ArJn {
+    display: flex;
+    flex-wrap: wrap;
+}
+.statusItem-38ArJn .icon-eUBS01 {
+    margin-right: 10px;
+    flex: 0 0 10px;
+}
+.status-2xYiEF {
+    width: calc(100% - 20px);
+    display: flex;
+}
+#account-status-picker--idle .statusItem-38ArJn::after {
+    content: "Active but idle/away.";
+    height: fit-content;
+    overflow: hidden;
+    max-height: 0rem;
+    transition: .2s ease !important;
+    width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+}
+#account-status-picker--idle.focused-3LIdPu .statusItem-38ArJn::after {
+    max-height: 4rem;
+}
