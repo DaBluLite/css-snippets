@@ -123,8 +123,11 @@
     --font-display: "Spotify",var(--fallback-font);
     font-family: var(--font-display) !important;
 }
-.vc-spotify-artist:not(:last-of-type)::after {
-    content: ", "
+.vc-spotify-artist:not(:last-of-type)::after,
+.activityUserPopoutV2-3eKqzY:has(.spotifyButtonLogo-2wqT62) .contentImagesUserPopoutV2-2Mcg9w .textRow-1sENuL:nth-of-type(2) span:has(.activityName-3YXl6e):not(:last-of-type)::after {
+    content: ", ";
+    font-size: 14px;
+    color: var(--text-muted) !important;
 }
 .vc-spotify-ellipoverflow:has(>.vc-spotify-artist) {
     font-size: 0;
