@@ -1,5 +1,5 @@
-# SpotifyActivityRedesign
-A simple redesign for the Spotify activity portions in user popouts to match the actual Spotify UI
+# Spotify Activity (& Controls) Redesign
+A simple redesign for the Spotify activity portions in user popouts and Vencord's Spotify Controls to match the actual Spotify UI
 
 ### Importing:
 ```css
