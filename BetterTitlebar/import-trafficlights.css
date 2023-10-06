@@ -52,3 +52,7 @@
 .typeWindows-2-g3UY {
     justify-content: start;
 }
+.winButtonClose-3Q8ZH5 > svg:hover,
+.winButtonMinMax-3RsPUg > svg:hover {
+    filter: brightness(.6);
+}
