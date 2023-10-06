@@ -1,0 +1,57 @@
+.userProfileModalOverlayBackground-2dAaBg::before,
+.overlayBackground-2aa7wt::before {
+    content: "";
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)),var(--background-secondary-alt);
+}
+.userProfileModalOverlayBackground-2dAaBg::after,
+.overlayBackground-2aa7wt::after {
+    content: "";
+    width: calc(100%);
+    height: calc(100%);
+    position: absolute;
+    z-index: 2;
+    border-radius: 8px;
+    background: var(--profile-gradient-overlay-color);
+}
+.userProfileModalOverlayBackground-2dAaBg,
+.overlayBackground-2aa7wt {
+    overflow: visible;
+}
+.userProfileModalOverlayBackground-2dAaBg .body-1Ukv50,
+.overlayBackground-2aa7wt > :is(.section-28YDOf,.scroller-15bIdk,#account) {
+    z-index: 3;
+    background-color: var(--profile-body-background-color);
+}
+.overlayBackground-2aa7wt .divider-2dDziJ {
+    display: none;
+}
+.overlayBackground-2aa7wt .scroller-15bIdk:not(:has(~#account)),
+.overlayBackground-2aa7wt #account {
+    border-radius: 0 0 8px 8px;
+}
+.overlayBackground-2aa7wt .usernameSection-3FppkT {
+    border-radius: 8px 8px 0 0;
+}
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL,
+.userProfileOuterThemed-2BgJCM.userProfileOuter-2tQwNf {
+    padding: 0;
+}
+.userProfileModalInner-3dx9L9:before,
+.userPopoutInner-nv9Y92:before {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+.avatarPositionPremiumBanner-2EAbSH {
+    top: 72px;
+}
+.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM .avatarWrapper-eenWra {
+    left: 18px;
+}
