@@ -66,3 +66,7 @@
 .homeWrapper-L4ors0 .container-ZMc96U {
     left: 0;
 }
+.winButtonClose-3Q8ZH5 > svg:hover,
+.winButtonMinMax-3RsPUg > svg:hover {
+    filter: brightness(.6);
+}
