@@ -102,3 +102,29 @@
     height: 60px;
     box-sizing: border-box;
 }
+.peopleColumn-1wMU14 .inner-2pOSmK {
+    height: 60px;
+    padding: 0;
+}
+.nowPlayingColumn-1eCBCN .scroller-hE2gWq {
+    margin: 0;
+    overflow: hidden overlay !important;
+    padding-right: 16px !important;
+    border: none;
+}
+.nowPlayingColumn-1eCBCN .header-Imy05m {
+    margin: 0;
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    margin-top: -16px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 12px;
+    box-sizing: border-box;
+    background: var(--bg-overlay-4,var(--background-tertiary));
+    position: fixed;
+    z-index: +1;
+}
+.nowPlayingColumn-1eCBCN .header-Imy05m + .itemCard-3Etziu {
+    margin-top: 60px;
+}
