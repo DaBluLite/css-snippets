@@ -11,7 +11,7 @@
   background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
   margin-bottom: 0;
 }
-.panels-3wFtMD .avatarWrapper-1B9FTW {
+.panels-3wFtMD .avatarWrapper-12uuu4 {
   width: 100%;
   margin: 0 !important;
   padding: 4px;
@@ -19,13 +19,13 @@
   border-radius: 0;
   cursor: pointer;
 }
-.panels-3wFtMD .avatarWrapper-1B9FTW:hover {
+.panels-3wFtMD .avatarWrapper-12uuu4:hover {
   background: var(--bg-overlay-selected,var(--background-modifier-selected));
 }
-.panels-3wFtMD .avatarWrapper-1B9FTW:hover .avatar-19siqs {
+.panels-3wFtMD .avatarWrapper-12uuu4:hover .avatar-19siqs {
   background-color: var(--background-accent);
 }
-.panels-3wFtMD .avatarWrapper-1B9FTW .nameTag-sc-gpq {
+.panels-3wFtMD .avatarWrapper-12uuu4 .nameTag-sc-gpq {
   display: flex;
   align-items: center;
   gap: 8px;
