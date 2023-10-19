@@ -1,10 +1,10 @@
-.panels-3wFtMD .avatar-1EWyVD {
+.panels-3wFtMD .avatar-19siqs {
   border: 3px solid var(--background-tertiary);
   margin-top: -15px;
   transform: translateY(-2.5px);
   background-color: var(--background-tertiary);
 }
-.container-YkUktl {
+.container-1CH86i {
   flex-direction: column;
   padding: 0;
   height: fit-content;
@@ -22,7 +22,7 @@
 .panels-3wFtMD .avatarWrapper-1B9FTW:hover {
   background: var(--bg-overlay-hover,var(--background-modifier-hover));
 }
-.panels-3wFtMD .avatarWrapper-1B9FTW:hover .avatar-1EWyVD {
+.panels-3wFtMD .avatarWrapper-1B9FTW:hover .avatar-19siqs {
   border-color: var(--background-accent);
   background-color: var(--background-accent);
 }
@@ -33,13 +33,13 @@
   width: 100%;
   cursor: pointer;
 }
-.container-YkUktl > .flex-2S1XBF {
+.container-1CH86i > .flex-2S1XBF {
   width: 100%;
   gap: 6px;
   padding: 6px;
   box-sizing: border-box;
 }
-.container-YkUktl > .flex-2S1XBF > button {
+.container-1CH86i > .flex-2S1XBF > button {
   border-radius: 50px;
   width: 100%;
   padding: 6px 0;
