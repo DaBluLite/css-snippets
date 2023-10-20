@@ -1,51 +1,34 @@
 .winButtonClose-23zAIt {
     order: 3;
-    margin-top: var(--mactitlebar-top-margin);
     margin-left: var(--mactitlebar-left-margin);
 }
 .winButtonMinMax-nT2Irc {
     order: 1;
-    margin-top: var(--mactitlebar-top-margin);
-}
-.winButtonMinMax-nT2Irc:last-child {
-    margin-top: var(--mactitlebar-top-margin);
-}
-.winButton-3SigSb:hover {
-    background-color: transparent !important;
-}
-.withFrame-1sEfxu {
-    box-shadow: none !important;
-}
-.wordmarkWindows-1rsity, .withFrame-1sEfxu:before, .withFrame-1sEfxu:after {
-    display: none !important;
 }
 .winButtonClose-23zAIt > svg {
     background: var(--mactitlebar-close-btn-back) !important;
-    background-size: contain !important;
-    border-radius: var(--mactitlebar-button-border-radius);
-}
-.winButtonClose-23zAIt > svg > polygon {
-    display: none !important;
 }
 .winButtonMinMax-nT2Irc > svg {
     background: var(--mactitlebar-max-btn-back) !important;
-    background-size: contain !important;
-    border-radius: var(--mactitlebar-button-border-radius);
 }
 .winButtonMinMax-nT2Irc:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
+}
+.winButton-3SigSb > svg {
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-nT2Irc > svg > rect {
+.winButton-3SigSb > svg > :is(polygon, rect),
+.wordmarkWindows-1rsity,
+.withFrame-1sEfxu:before,
+.withFrame-1sEfxu:after {
     display: none !important;
-}
-.winButton-3SigSb:hover {
-    background-color: transparent;
 }
 .winButton-3SigSb {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
+    margin-top: var(--mactitlebar-top-margin);
+    background-color: transparent !important;
 }
 .guilds-2JjMmN > .tree-3agP2X {
     margin-top: var(--macbuttons-serverlist-inner-top-margin);
@@ -55,25 +38,13 @@
     height: var(--macbuttons-serverlist-outer-height);
 }
 .typeWindows-3ILlhq {
-    justify-content: flex-end;
     margin-top: 0;
     position: absolute;
     background-color: transparent;
 }
-.platform-win .closeButton-30b1gR {
-    width: 100% !important;
-    -webkit-app-region: drag;
-}
-.platform-win .container-ZMc96U {
-    width: 100% !important;
-    -webkit-app-region: drag;
-}
-.platform-win .title-31SJ6t {
-    width: 100% !important;
-    -webkit-app-region: drag;
-}
-.wordmarkWindows-1rsity {
-    display: none;
+.layer-86YKbF:not(.baseLayer-W6S8cY),
+.platform-win .container-ZMc96U :is(.toolbar-3_r2xA, .children-3xh0VB > .titleWrapper-24Kyzc:not(:last-of-type)) {
+    -webkit-app-region: no-drag;
 }
 .platform-win .sidebar-1tnWFu {
     border-radius: 0;
