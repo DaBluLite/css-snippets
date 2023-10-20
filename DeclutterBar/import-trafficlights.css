@@ -7,49 +7,49 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
-.winButtonClose-3Q8ZH5 {
+.winButtonClose-23zAIt {
     order: 3;
     margin: auto 0;
 }
-.winButtonMinMax-3RsPUg {
+.winButtonMinMax-nT2Irc {
     order: 1;
     margin: auto 0;
 }
-.winButtonMinMax-3RsPUg:last-child {
+.winButtonMinMax-nT2Irc:last-child {
     margin: auto 0;
 }
-.winButton-3UMjdg:hover {
+.winButton-3SigSb:hover {
     background-color: transparent !important;
 }
-.winButtonClose-3Q8ZH5 > svg {
+.winButtonClose-23zAIt > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose-3Q8ZH5 > svg > polygon {
+.winButtonClose-23zAIt > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax-3RsPUg > svg {
+.winButtonMinMax-nT2Irc > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-3RsPUg:last-child > svg {
+.winButtonMinMax-nT2Irc:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-3RsPUg > svg > rect {
+.winButtonMinMax-nT2Irc > svg > rect {
     display: none !important;
 }
-.winButton-3UMjdg:hover {
+.winButton-3SigSb:hover {
     background-color: transparent;
 }
-.winButton-3UMjdg {
+.winButton-3SigSb {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.typeWindows-2-g3UY {
+.typeWindows-3ILlhq {
     justify-content: start;
 }
 .container-ZMc96U {
@@ -59,14 +59,16 @@
 .newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ {
     right: calc((-46px * 5.6));
 }
-.container-2cd8Mz .container-ZMc96U, .homeWrapper-L4ors0 .container-ZMc96U {
+.container-2cd8Mz .container-ZMc96U,
+.homeWrapper-L4ors0 .container-ZMc96U,
+.shop-3sIaH8 .container-ZMc96U {
     left: 0;
 }
 .container-2cd8Mz .container-ZMc96U,
 .homeWrapper-L4ors0 .container-ZMc96U {
     left: 0;
 }
-.winButtonClose-3Q8ZH5 > svg:hover,
-.winButtonMinMax-3RsPUg > svg:hover {
+.winButtonClose-23zAIt > svg:hover,
+.winButtonMinMax-nT2Irc > svg:hover {
     filter: brightness(.6);
 }
