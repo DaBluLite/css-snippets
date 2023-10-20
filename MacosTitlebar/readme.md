@@ -1,4 +1,4 @@
-# macOS Titlebar for BetterDiscord
+# macOS Titlebar
 A replica of the macOS traffic lights.
 
 ### Importing:
