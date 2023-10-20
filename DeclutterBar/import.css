@@ -516,3 +516,10 @@ html:has(#activeColorwayCSS:not(:empty)) .chat-9g_3Xj:has(.newMessagesBar-1hF-9G
 .title-dzyan3 {
     margin-left: 0;
 }
+.form-3qe0Ni,
+.clipContainer-31nYlH {
+    margin-top: 0;
+}
+.scrollerSpacer-3AqkT9 {
+    height: 26px;
+}
