@@ -1,62 +1,60 @@
-.winButtonClose-3Q8ZH5 {
+.winButtonClose-23zAIt {
     order: 3;
     margin-top: var(--mactitlebar-top-margin);
     margin-left: var(--mactitlebar-left-margin);
 }
-.winButtonMinMax-3RsPUg {
+.winButtonMinMax-nT2Irc {
     order: 1;
     margin-top: var(--mactitlebar-top-margin);
 }
-.winButtonMinMax-3RsPUg:last-child {
+.winButtonMinMax-nT2Irc:last-child {
     margin-top: var(--mactitlebar-top-margin);
 }
-.winButton-3UMjdg:hover {
+.winButton-3SigSb:hover {
     background-color: transparent !important;
 }
-.withFrame-2dL45i {
+.withFrame-1sEfxu {
     box-shadow: none !important;
 }
-.wordmark-2u86JB, .withFrame-2dL45i:before, .withFrame-2dL45i:after {
+.wordmarkWindows-1rsity, .withFrame-1sEfxu:before, .withFrame-1sEfxu:after {
     display: none !important;
 }
-.winButtonClose-3Q8ZH5 > svg {
+.winButtonClose-23zAIt > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose-3Q8ZH5 > svg > polygon {
+.winButtonClose-23zAIt > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax-3RsPUg > svg {
+.winButtonMinMax-nT2Irc > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-3RsPUg:last-child > svg {
+.winButtonMinMax-nT2Irc:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-3RsPUg > svg > rect {
+.winButtonMinMax-nT2Irc > svg > rect {
     display: none !important;
 }
-.winButton-3UMjdg:hover {
+.winButton-3SigSb:hover {
     background-color: transparent;
 }
-.winButton-3UMjdg {
+.winButton-3SigSb {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.guilds-2JjMmN > ul {
+.guilds-2JjMmN > .tree-3agP2X {
     margin-top: var(--macbuttons-serverlist-inner-top-margin);
 }
 .guilds-2JjMmN {
     margin-top: var(--macbuttons-serverlist-outer-top-margin);
     height: var(--macbuttons-serverlist-outer-height);
 }
-.typeWindows-2-g3UY {
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
+.typeWindows-3ILlhq {
     justify-content: flex-end;
     margin-top: 0;
     position: absolute;
@@ -74,7 +72,7 @@
     width: 100% !important;
     -webkit-app-region: drag;
 }
-.wordmark-2u86JB {
+.wordmarkWindows-1rsity {
     display: none;
 }
 .platform-win .sidebar-1tnWFu {
