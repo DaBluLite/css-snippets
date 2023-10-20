@@ -1,3 +1,14 @@
+:root {
+    --mactitlebar-left-margin: 5px;
+    --mactitlebar-top-margin: 10px;
+    --mactitlebar-button-width: 20px;
+    --mactitlebar-button-height: 20px;
+    --mactitlebar-button-border-radius: 50px;
+    --mactitlebar-close-btn-back: #f25056;
+    --mactitlebar-min-btn-back: #fac536;
+    --mactitlebar-max-btn-back: #39ea49;
+    --macbuttons-serverlist-inner-top-margin: 32px;
+}
 .winButtonClose-23zAIt {
     order: 3;
     margin-left: var(--mactitlebar-left-margin);
@@ -6,17 +17,20 @@
     order: 1;
 }
 .winButtonClose-23zAIt > svg {
-    background: var(--mactitlebar-close-btn-back) !important;
+    background-color: var(--mactitlebar-close-btn-back) !important;
 }
 .winButtonMinMax-nT2Irc > svg {
-    background: var(--mactitlebar-max-btn-back) !important;
+    background-color: var(--mactitlebar-max-btn-back) !important;
 }
 .winButtonMinMax-nT2Irc:last-child > svg {
-    background: var(--mactitlebar-min-btn-back) !important;
+    background-color: var(--mactitlebar-min-btn-back) !important;
 }
 .winButton-3SigSb > svg {
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
+}
+.winButton-3SigSb > svg:hover {
+    filter: brightness(.7);
 }
 .winButton-3SigSb > svg > :is(polygon, rect),
 .wordmarkWindows-1rsity,
@@ -30,12 +44,9 @@
     margin-top: var(--mactitlebar-top-margin);
     background-color: transparent !important;
 }
-.guilds-2JjMmN > .tree-3agP2X {
-    margin-top: var(--macbuttons-serverlist-inner-top-margin);
-}
 .guilds-2JjMmN {
-    margin-top: var(--macbuttons-serverlist-outer-top-margin);
-    height: var(--macbuttons-serverlist-outer-height);
+    padding-top: var(--macbuttons-serverlist-inner-top-margin);
+    height: calc(100vh - var(--macbuttons-serverlist-inner-top-margin));
 }
 .typeWindows-3ILlhq {
     margin-top: 0;
@@ -43,9 +54,26 @@
     background-color: transparent;
 }
 .layer-86YKbF:not(.baseLayer-W6S8cY),
-.platform-win .container-ZMc96U :is(.toolbar-3_r2xA, .children-3xh0VB > .titleWrapper-24Kyzc:not(:last-of-type)) {
+.platform-win .container-ZMc96U :is(.toolbar-3_r2xA, .children-3xh0VB > .titleWrapper-24Kyzc:not(:last-of-type), .topic-11NuQZ) {
     -webkit-app-region: no-drag;
 }
 .platform-win .sidebar-1tnWFu {
     border-radius: 0;
+}
+.layer-86YKbF:not(.baseLayer-W6S8cY)::before,
+.platform-win .container-ZMc96U {
+    -webkit-app-region: drag;
+}
+.layer-86YKbF:not(.baseLayer-W6S8cY)::before {
+    content: "";
+    position: absolute;
+    height: calc(var(--mactitlebar-top-margin) + var(--mactitlebar-button-height));
+    width: calc(100vw - (var(--mactitlebar-button-width) * 3) - var(--mactitlebar-left-margin));
+    top: 0;
+    right: 0;
+}
+.platform-win .layer-86YKbF,
+.platform-win .standardSidebarView-E9Pc3j {
+    padding-top: 0;
+    top: 0;
 }
