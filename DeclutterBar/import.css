@@ -12,7 +12,7 @@
     padding-right: 0;
     box-shadow: none;
 }
-.chat-2ZfjoI,
+.chat-9g_3Xj,
 .base-2jDfDU,
 .container-1eFtFS,
 .layers-OrUESM>.layer-86YKbF,
@@ -22,7 +22,7 @@
 .layers-OrUESM {
     overflow: visible !important;
 }
-.appAsidePanelWrapper-ev4hlp {
+.appAsidePanelWrapper-VeklAl {
     overflow: visible;
     z-index: +10050;
 }
@@ -298,7 +298,7 @@ html:has(#activeColorwayCSS:not(:empty)) .children-3xh0VB > .hiddenVisually-39QJ
 .messagesWrapper-RpOMA3 {
     z-index: 100;
 }
-.chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .container-ZMc96U {
+.chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .container-ZMc96U {
     padding-right: 46px;
     background: var(--brand-600) !important;
 }
@@ -308,19 +308,19 @@ html:has(#activeColorwayCSS:not(:empty)) .children-3xh0VB > .hiddenVisually-39QJ
 :root:has(.newMessagesBar-1hF-9G) .withFrame-2dL45i {
     background: var(--brand-600) !important;
 }
-.chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .titleWrapper-24Kyzc {
+.chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .titleWrapper-24Kyzc {
     display: flex;
     gap: 8px;
     margin: 0;
 }
-.chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after {
+.chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after {
     content: "Discord | Unread messages";
 }
-html:has(#activeColorway:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after,
-html:has(#activeColorwayCSS:not(:empty)) .chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after {
+html:has(#activeColorway:not(:empty)) .chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after,
+html:has(#activeColorwayCSS:not(:empty)) .chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .children-3xh0VB > .hiddenVisually-39QJvl:first-of-type::after {
     content: "Colorways | Unread messages";
 }
-.chat-2ZfjoI:has(.newMessagesBar-1hF-9G) .container-ZMc96U :is(.icon-2xnN2Y,.icon-18rqoe,.topic-11NuQZ) {
+.chat-9g_3Xj:has(.newMessagesBar-1hF-9G) .container-ZMc96U :is(.icon-2xnN2Y,.icon-18rqoe,.topic-11NuQZ) {
     color: var(--interactive-hover);
 }
 :root:has(.newMessagesBar-1hF-9G) .withFrame-2dL45i .winButton-3UMjdg {
