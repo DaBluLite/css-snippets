@@ -14,7 +14,5 @@ A replica of the macOS traffic lights.
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
     --macbuttons-serverlist-inner-top-margin: 32px;
-    --macbuttons-serverlist-outer-top-margin: 0;
-    --macbuttons-serverlist-outer-height: 100%;
 }
 ```
