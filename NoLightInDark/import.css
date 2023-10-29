@@ -1,7 +1,7 @@
-.footer-IubaaS {
+.footer__89240 {
     color: var(--header-primary);
 }
-.theme-dark .theme-light:not(.userProfileOuter-2tQwNf) {
+.theme-dark .theme-light:not(.userProfileOuter__46bb7) {
     --guild-header-text-shadow: 0 1px 1px hsl(var(--black-500-hsl)/0.4);
     --elevation-stroke: 0 0 0 1px hsl(var(--primary-900-hsl)/0.15);
     --elevation-low: 0 1px 0 hsl(var(--primary-900-hsl)/0.2),0 1.5px 0 hsl(var(--primary-860-hsl)/0.05),0 2px 0 hsl(var(--primary-900-hsl)/0.05);
@@ -256,11 +256,11 @@
     --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5);
     --white: var(--white-500);
 }
-.theme-dark .theme-light .footerSeparator-3U8YsT {
+.theme-dark .theme-light .footerSeparator__57d95 {
     -webkit-box-shadow: inset 0 1px 0 hsl(var(--primary-630-hsl)/.6);
     box-shadow: inset 0 1px 0 hsl(var(--primary-630-hsl)/.6);
 }
-.theme-dark .theme-light .rootWithShadow-2hdL2J {
+.theme-dark .theme-light .rootWithShadow__073a7 {
     -webkit-box-shadow: var(--dark-elevation-border),var(--dark-elevation-high);
     box-shadow: var(--dark-elevation-border),var(--dark-elevation-high);
 }
