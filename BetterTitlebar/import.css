@@ -39,7 +39,8 @@ html:has(#activeColorwayCSS:not(:empty)) .wordmarkWindows__05c46::after{
     padding: 4px;
     height: fit-content;
 }
-.typeWindows__5fa63 > * {
+.typeWindows__5fa63 > .winButton__88672,
+.typeWindows__5fa63 > .wordmarkWindows__05c46 {
     position: relative;
 }
 .winButton__88672 {
