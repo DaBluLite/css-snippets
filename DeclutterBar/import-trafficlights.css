@@ -1,4 +1,4 @@
-@import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
+@import url("https://dablulite.github.io/css-snippets/DeclutterBar/import.css");
 :root {
     --mactitlebar-button-width: 20px;
     --mactitlebar-button-height: 20px;
@@ -7,68 +7,68 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
-.winButtonClose-23zAIt {
+.winButtonClose__73489 {
     order: 3;
     margin: auto 0;
 }
-.winButtonMinMax-nT2Irc {
+.winButtonMinMax__72f36 {
     order: 1;
     margin: auto 0;
 }
-.winButtonMinMax-nT2Irc:last-child {
+.winButtonMinMax__72f36:last-child {
     margin: auto 0;
 }
-.winButton-3SigSb:hover {
+.winButton__88672:hover {
     background-color: transparent !important;
 }
-.winButtonClose-23zAIt > svg {
+.winButtonClose__73489 > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose-23zAIt > svg > polygon {
+.winButtonClose__73489 > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax-nT2Irc > svg {
+.winButtonMinMax__72f36 > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-nT2Irc:last-child > svg {
+.winButtonMinMax__72f36:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax-nT2Irc > svg > rect {
+.winButtonMinMax__72f36 > svg > rect {
     display: none !important;
 }
-.winButton-3SigSb:hover {
+.winButton__88672:hover {
     background-color: transparent;
 }
-.winButton-3SigSb {
+.winButton__88672 {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.typeWindows-3ILlhq {
+.typeWindows__5fa63 {
     justify-content: start;
 }
-.container-ZMc96U {
+.container__11d72 {
     left: -240px;
     width: calc(100vw - 72px);
 }
-.newMessagesBar-1hF-9G .barButtonAlt-TQoCdZ {
+.newMessagesBar__8b6d7 .barButtonAlt__4b48f {
     right: calc((-46px * 5.6));
 }
-.container-2cd8Mz .container-ZMc96U,
-.homeWrapper-L4ors0 .container-ZMc96U,
-.shop-3sIaH8 .container-ZMc96U {
+.container__5c7e7 .container__11d72,
+.homeWrapper__59a03 .container__11d72,
+.shop-3sIaH8 .container__11d72 {
     left: 0;
 }
-.container-2cd8Mz .container-ZMc96U,
-.homeWrapper-L4ors0 .container-ZMc96U {
+.container__5c7e7 .container__11d72,
+.homeWrapper__59a03 .container__11d72 {
     left: 0;
 }
-.winButtonClose-23zAIt > svg:hover,
-.winButtonMinMax-nT2Irc > svg:hover {
+.winButtonClose__73489 > svg:hover,
+.winButtonMinMax__72f36 > svg:hover {
     filter: brightness(.6);
 }
