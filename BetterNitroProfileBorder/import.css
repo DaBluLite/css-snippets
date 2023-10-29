@@ -1,5 +1,5 @@
-.userProfileModalOverlayBackground-2dAaBg::before,
-.overlayBackground-2aa7wt::before {
+.userProfileModalOverlayBackground__52d65::before,
+.overlayBackground__86b78::before {
     content: "";
     width: calc(100% + 2px);
     height: calc(100% + 2px);
@@ -10,8 +10,8 @@
     border-radius: 8px;
     background: linear-gradient(to bottom, var(--profile-gradient-primary-color),var(--profile-gradient-secondary-color)),var(--background-secondary-alt);
 }
-.userProfileModalOverlayBackground-2dAaBg::after,
-.overlayBackground-2aa7wt::after {
+.userProfileModalOverlayBackground__52d65::after,
+.overlayBackground__86b78::after {
     content: "";
     width: calc(100%);
     height: calc(100%);
@@ -20,37 +20,37 @@
     border-radius: 8px;
     background: var(--profile-gradient-overlay-color);
 }
-.userProfileModalOverlayBackground-2dAaBg,
-.overlayBackground-2aa7wt {
+.userProfileModalOverlayBackground__52d65,
+.overlayBackground__86b78 {
     overflow: visible;
 }
-.userProfileModalOverlayBackground-2dAaBg .body-1Ukv50,
-.overlayBackground-2aa7wt > :is(.section-28YDOf,.scroller-15bIdk,#account) {
+.userProfileModalOverlayBackground__52d65 .body-1Ukv50,
+.overlayBackground__86b78 > :is(.section__6f61e,.scroller__83262,#account) {
     z-index: 3;
     background-color: var(--profile-body-background-color);
 }
-.overlayBackground-2aa7wt .divider-2dDziJ {
+.overlayBackground__86b78 .divider_ed0c1d {
     display: none;
 }
-.overlayBackground-2aa7wt .scroller-15bIdk:not(:has(~#account)),
-.overlayBackground-2aa7wt #account {
+.overlayBackground__86b78 .scroller__83262:not(:has(~#account)),
+.overlayBackground__86b78 #account {
     border-radius: 0 0 8px 8px;
 }
-.overlayBackground-2aa7wt .usernameSection-3FppkT {
+.overlayBackground__86b78 .usernameSection__53868 {
     border-radius: 8px 8px 0 0;
 }
-.userProfileOuter-2tQwNf {
+.userProfileOuter__46bb7 {
     padding: 0 !important;
 }
-.userProfileModalInner-3dx9L9:before,
-.userPopoutInner-nv9Y92:before {
+.userProfileModalInner__7c87d:before,
+.userPopoutInner_f545a3:before {
     width: 100%;
     height: 100%;
     border-radius: 0;
 }
-.avatarPositionPremiumBanner-2EAbSH {
+.avatarPositionPremiumBanner__1e83d {
     top: 72px;
 }
-.userPopoutOuter-1OHwPL.userProfileOuterThemed-2BgJCM .avatarWrapper-eenWra {
+.userPopoutOuter_d739b2.userProfileOuterThemed__6eb84 .avatarWrapper_f77579 {
     left: 18px;
 }
