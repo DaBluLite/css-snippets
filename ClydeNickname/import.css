@@ -1,16 +1,16 @@
 :root {
   --clyde-nickname: "Clyde";
 }
-.contents-2MsGLg:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText-2z4IhQ .username-h_Y3Us,
-.contents-2MsGLg:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText-2z4IhQ .username-h_Y3Us {
+.contents_f41bb2:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText_f47574 .username_d30d99,
+.contents_f41bb2:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText_f47574 .username_d30d99 {
   font-size: 0;
   height: fit-content;
   display: flex;
   width: fit-content;
   float: left;
 }
-.contents-2MsGLg:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText-2z4IhQ .username-h_Y3Us::before,
-.contents-2MsGLg:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText-2z4IhQ .username-h_Y3Us::before {
+.contents_f41bb2:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .headerText_f47574 .username_d30d99::before,
+.contents_f41bb2:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .headerText_f47574 .username_d30d99::before {
   content: var(--clyde-nickname);
   font-size: 1rem;
   font-weight: 500;
@@ -23,12 +23,12 @@
   -ms-flex-negative: 0;
   flex-shrink: 0;
 }
-.userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq h1,
-.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms .overflow-1wOqNV,
-.userProfileModalInner-3dx9L9:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div > .defaultColor-1EVLSt {
+.userPopoutInner_f545a3:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText__3e8b7 h1,
+.link__2e8e1:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name__02dbd .overflow__87fe8,
+.userProfileModalInner__7c87d:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div > .defaultColor__77578 {
   display: none;
 }
-.userPopoutInner-nv9Y92:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText-1_v2Cq::before {
+.userPopoutInner_f545a3:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .userText__3e8b7::before {
   content: var(--clyde-nickname);
   font-family: var(--font-display);
   font-size: 20px;
@@ -37,14 +37,14 @@
   color: var(--header-primary);
   display: block;
 }
-.link-39sEB3:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name-2m3Cms::before {
+.link__2e8e1:has(img[src="/assets/6024f311af925206143919b880e34a30.png"]) .name__02dbd::before {
   content: var(--clyde-nickname);
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
   position: relative;
 }
-.userProfileModalInner-3dx9L9:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div::before {
+.userProfileModalInner__7c87d:has(img[src="/assets/cb1043c312ec65507573c06c37f6ee63.gif"]) .container-3g15px > div::before {
   content: var(--clyde-nickname);
   margin-right: 12px;
   scrollbar-color: var(--profile-body-divider-color) var(--scrollbar-thin-track);
