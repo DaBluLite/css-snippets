@@ -104,3 +104,12 @@
 .hoverRoll__041cb {
     width: calc(100% - 32px);
 }
+:is(.wrapper__0ed4a:not(:empty), #vc-spotify-player) + .container_ca50b9 .avatar_f8541f {
+    margin-top: 0;
+    transform: none;
+}
+.wrapper__0ed4a:not(:empty) {
+    padding: 0 !important;
+    background: none !important;
+    border-bottom: none !important;
+}
