@@ -1,15 +1,15 @@
 @import url(//dablulite.github.io/css-snippets/UserReimagined/import.css);
-.container-1CH86i > .flex-2S1XBF {
+.container_ca50b9 > .flex_f5fbb7 {
   position: relative;
   padding-top: 12px;
   margin-bottom: -38px;
   transition: .2s ease;
 }
-.container-1CH86i > .flex-2S1XBF:hover {
+.container_ca50b9 > .flex_f5fbb7:hover {
   margin-bottom: 0;
   padding-top: 6px;
 }
-.container-1CH86i > .flex-2S1XBF::before {
+.container_ca50b9 > .flex_f5fbb7::before {
   content: "";
   position: absolute;
   width: 15px;
@@ -21,7 +21,7 @@
   transform: rotate(12deg) translateX(-100%);
   transition: .2s ease;
 }
-.container-1CH86i > .flex-2S1XBF::after {
+.container_ca50b9 > .flex_f5fbb7::after {
   content: "";
   position: absolute;
   width: 15px;
@@ -33,7 +33,7 @@
   transform: rotate(-12deg) translateX(100%);
   transition: .2s ease;
 }
-.container-1CH86i > .flex-2S1XBF:hover::before,
-.container-1CH86i > .flex-2S1XBF:hover::after {
+.container_ca50b9 > .flex_f5fbb7:hover::before,
+.container_ca50b9 > .flex_f5fbb7:hover::after {
   opacity: 0;
 }
