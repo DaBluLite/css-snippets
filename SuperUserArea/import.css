@@ -1,7 +1,7 @@
-.panels-3wFtMD {
+.panels__58331 {
     order: -1;
 }
-.container-1CH86i {
+.container_ca50b9 {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
     justify-content: space-between;
     padding: 0;
@@ -11,11 +11,11 @@
     height: fit-content;
     padding-top: 12px;
 }
-.platform-win .container-1CH86i,
-.platform-osx .container-1CH86i {
+.platform-win .container_ca50b9,
+.platform-osx .container_ca50b9 {
     padding-top: 4px;
 }
-.container-1CH86i .flex-2S1XBF > .button-12Fmur {
+.container_ca50b9 .flex_f5fbb7 > .button__4f306 {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -23,7 +23,7 @@
     background: var(--nitro-overlay,var(--background-primary));
     transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
 }
-.container-1CH86i .avatarWrapper-12uuu4 {
+.container_ca50b9 .avatarWrapper_ba5175 {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -37,52 +37,52 @@
     justify-content: center;
     cursor: pointer;
 }
-.container-1CH86i .flex-2S1XBF {
+.container_ca50b9 .flex_f5fbb7 {
     justify-content: space-between;
     width: 100%;
     padding-right: 12px;
 }
-.container-1CH86i .avatarWrapper-12uuu4 .nameTag-2Q56-H {
+.container_ca50b9 .avatarWrapper_ba5175 .nameTag__0e320 {
     display: none;
 }
-.container-1CH86i .avatarWrapper-12uuu4:hover,
-.container-1CH86i .avatarWrapper-12uuu4[aria-expanded="true"],
-.container-1CH86i .flex-2S1XBF > .button-12Fmur:hover {
+.container_ca50b9 .avatarWrapper_ba5175:hover,
+.container_ca50b9 .avatarWrapper_ba5175[aria-expanded="true"],
+.container_ca50b9 .flex_f5fbb7 > .button__4f306:hover {
     background: var(--brand-500);
     border-radius: 16px;
 }
-.content-1jQy2l,
-.chatContent-3KubbW,
-.container-1NXEtd,
-.container-1-ERn5,
-.header-3OsQeK,
-.animatedContainer-2laTjx,
-.privateChannels-oVe7HL {
+.content__1a4fe,
+.chatContent__5dca8,
+.container__590e2,
+.container__7c79d,
+.header__104ca,
+.animatedContainer__341f6,
+.privateChannels__93473 {
     border-top-left-radius: 8px;
 }
-.content-1jQy2l:before {
+.content__1a4fe:before {
     content: none;
 }
-.sidebar-1tnWFu {
+.sidebar_ded4b5 {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
 }
-.platform-win .chat-2ZfjoI,
-.platform-osx .chat-2ZfjoI {
+.platform-win .chat__52833,
+.platform-osx .chat__52833 {
     border-top-left-radius: 8px;
 }
-.container-2NLBJg {
+.container_d667ff {
     border-bottom: none;
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
     padding: 0;
     padding-bottom: 4px;
 }
-.actionButtons-1DmM2g {
+.actionButtons_b58cbb {
     display: flex;
     gap: 12px;
     padding-top: 0;
     padding-right: 12px;
 }
-.actionButtons-1DmM2g .button-2gNyE9 {
+.actionButtons_b58cbb .button__66e8c {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -92,27 +92,27 @@
     background: var(--nitro-overlay,var(--background-primary));
     transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
 }
-.actionButtons-1DmM2g .button-2gNyE9:hover,
-.actionButtons-1DmM2g .button-2gNyE9[aria-expanded="true"] {
+.actionButtons_b58cbb .button__66e8c:hover,
+.actionButtons_b58cbb .button__66e8c[aria-expanded="true"] {
     background: var(--brand-500);
     border-radius: 16px;
 }
-.connection-3wznVd {
+.connection__5bb32 {
     padding: 8px;
     height: 60px;
     box-sizing: border-box;
 }
-.peopleColumn-1wMU14 .inner-2pOSmK {
+.peopleColumn__51df3 .inner__999f6 {
     height: 60px;
     padding: 0;
 }
-.nowPlayingColumn-1eCBCN .scroller-hE2gWq {
+.nowPlayingColumn_f5023f .scroller__00e7e {
     margin: 0;
     overflow: hidden overlay !important;
     padding-right: 16px !important;
     border: none;
 }
-.nowPlayingColumn-1eCBCN .header-Imy05m {
+.nowPlayingColumn_f5023f .header__123bf {
     margin: 0;
     width: calc(100% + 32px);
     margin-left: -16px;
@@ -125,6 +125,6 @@
     position: fixed;
     z-index: +1;
 }
-.nowPlayingColumn-1eCBCN .header-Imy05m + .itemCard-3Etziu {
+.nowPlayingColumn_f5023f .header__123bf + .itemCard__1f162 {
     margin-top: 60px;
 }
