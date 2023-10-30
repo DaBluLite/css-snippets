@@ -1,8 +1,8 @@
 @import url("https://dablulite.github.io/css-snippets/BetterTitlebar/import.css");
 .container__11d72 {
-    position: absolute;
-    top: -31px;
-    left: -312px;
+    position: fixed;
+    top: 0;
+    left: 0;
     height: 31px;
     min-height: unset;
     width: calc(100vw - (46px*3));
@@ -88,11 +88,6 @@
 .container__11d72 .tabBar__73938 .item_e4ca95.selected__5711d {
     background-color: var(--background-primary) !important;
     color: var(--interactive-active) !important;
-}
-.container__5c7e7 .container__11d72,
-.homeWrapper__59a03 .container__11d72,
-.shop-3sIaH8 .container__11d72 {
-    left: -72px;
 }
 .platform-win .standardSidebarView__1129a {
     top: 0;
@@ -523,4 +518,23 @@ html:has(#activeColorwayCSS:not(:empty)) .chat__52833:has(.newMessagesBar__8b6d7
 }
 .scrollerSpacer__9cd32 {
     height: 26px;
+}
+.notice__5fd4c {
+    height: 31px;
+    -webkit-app-regin: no-drag;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    top: unset;
+    box-shadow: none;
+}
+.notice__5fd4c:not(:first-of-type) {
+    border-radius: 0;
+}
+.notice__5fd4c > :is(.premiumIcon_e76cb7,.button__57d93) {
+    top: 0;
+}
+.notice__5fd4c > .closeButton_ffc97a {
+    height: 31px;
 }
