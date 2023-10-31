@@ -5,12 +5,15 @@
     left: 0;
     height: 31px;
     min-height: unset;
-    width: calc(100vw - (46px*3));
+    width: 100vw;
     background: none !important;
-    -webkit-app-region: drag;
     padding-left: 0;
-    padding-right: 0;
     box-shadow: none;
+    padding-right: calc(46px*3);
+    box-sizing: border-box;
+}
+.upperContainer__993ba {
+    -webkit-app-region: drag;
 }
 .chat__52833,
 .base__3e6af,
@@ -24,7 +27,10 @@
 }
 .appAsidePanelWrapper__714a6 {
     overflow: visible;
-    z-index: +10050;
+}
+.withFrame__485f4 {
+    width: fit-content;
+    margin-left: auto;
 }
 .bg__12180,
 .platform-win .layer__2efaa {
@@ -35,7 +41,7 @@
 .tabBody_b3d268:before {
     content: none;
 }
-#app-mount:has(.baseLayer__8fda3:not(.stop-animations)) .wordmarkWindows__05c46 {
+.wordmarkWindows__05c46 {
     display: none;
 }
 .topicClickTarget_eeb305 {
@@ -296,13 +302,10 @@ html:has(#activeColorwayCSS:not(:empty)) .children__32014 > .hiddenVisually__06c
     z-index: 100;
 }
 .chat__52833:has(.newMessagesBar__8b6d7) .container__11d72 {
-    padding-right: 46px;
+    padding-right: calc(46px*4);
     background: var(--brand-600) !important;
 }
 :root:has(.newMessagesBar__8b6d7) .container__11d72 .searchBar_e0c60b:not(:hover) {
-    background: var(--brand-600) !important;
-}
-:root:has(.newMessagesBar__8b6d7) .withFrame__485f4 {
     background: var(--brand-600) !important;
 }
 .chat__52833:has(.newMessagesBar__8b6d7) .titleWrapper__482dc {
@@ -537,4 +540,8 @@ html:has(#activeColorwayCSS:not(:empty)) .chat__52833:has(.newMessagesBar__8b6d7
 }
 .notice__5fd4c > .closeButton_ffc97a {
     height: 31px;
+}
+.layer__2efaa:not(.baseLayer__8fda3) {
+    top: -31px !important;
+    padding-top: 31px !important;
 }
