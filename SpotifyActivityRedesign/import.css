@@ -132,3 +132,27 @@
 .vc-spotify-button-row {
     gap: 8px !important
 }
+#vc-spotify-player {
+    display: flex;
+    flex-direction: column;
+}
+#vc-spotify-info-wrapper {
+    order: 0;
+}
+.vc-spotify-button-row {
+    order: 2;
+    margin: 5px 0 !important;
+}
+#vc-spotify-progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    order: 3;
+    margin: 0;
+}
+.vc-spotify-progress-time {
+    position: static;
+}
+#vc-spotify-progress-bar .sliderContainer__109be {
+    height: 12px;
+}
