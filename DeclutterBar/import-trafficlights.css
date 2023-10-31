@@ -7,6 +7,16 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
+.container__11d72 {
+    padding-left: 64px;
+    padding-right: 0;
+}
+#app-mount .withFrame__485f4 {
+    margin-left: 0;
+}
+.chat__52833:has(.newMessagesBar__8b6d7) .container__11d72 {
+    padding-right: 46px !important;
+}
 .winButtonClose__73489 {
     order: 3;
     margin: auto 0;
@@ -48,13 +58,6 @@
 .winButton__88672 {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
-}
-.typeWindows__5fa63 {
-    justify-content: start;
-}
-.container__11d72 {
-    left: 64px;
-    width: calc(100vw - 64px);
 }
 .newMessagesBar__8b6d7 .barButtonAlt__4b48f {
     right: calc((-46px * 5.6));
