@@ -16,7 +16,7 @@
 .listItem_fa7b36>.wrapper__3670f+div:not([class]),
 .wrapper__3af0b,
 .svg_ad7356>foreignObject {
-  width: var(--guild-list-width);
+  width: calc(var(--guild-list-width) - 12px);
   mask: none !important;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .svg_ad7356>foreignObject {
-  transform: translateX(calc(((var(--guild-list-width)*-1)/2) + 50%));
+  transform: translateX(calc((((var(--guild-list-width) - 12px)*-1)/2) + 50%));
 }
 
 .wrapper_d281dd,
