@@ -156,3 +156,29 @@
 #vc-spotify-progress-bar .sliderContainer__109be {
     height: 12px;
 }
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) {
+    --fallback-font: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-primary: "Spotify",var(--fallback-font);
+    --font-display: "Spotify",var(--fallback-font);
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .headerContainer__2ec4e {
+    display: none;
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .assets__5bee0,
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .assetsLargeImageUserPopoutV2__01dc1 {
+    height: 56px;
+    width: 56px;
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .contentImagesUserPopoutV2__04250 .textRow__4750e:nth-of-type(2) .activityName__47e51::after {
+    content: ", ";
+    font-size: 16px;
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .contentImagesUserPopoutV2__04250 .textRow__4750e:nth-of-type(2) > span:has(>.activityName__47e51):last-of-type .activityName__47e51::after {
+    content: none;
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .contentImagesUserPopoutV2__04250 .textRow__4750e:nth-of-type(2) .activityName__47e51 {
+    font-size: 12px;
+}
+.activityUserPopoutV2__32328:has(.spotifyButtonLogo__526f7) .contentImagesUserPopoutV2__04250 .textRow__4750e:nth-of-type(1) {
+    font-weight: normal;
+}
