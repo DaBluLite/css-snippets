@@ -1,12 +1,14 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css");
-.chat__52833 > .container__11d72 {
+.chat__52833 > .container__11d72,
+.headerWrapper__94dd8 > .container__11d72 {
     background: rgb(0,0,0,.6) !important;
-    top: -16px;
+    top: -16px !important;
     transition: .25s ease;
     z-index: +1000;
-    opacity: 0;
+    opacity: 0 !important;
 }
-.chat__52833 > .container__11d72 .upperContainer__993ba {
+.chat__52833 > .container__11d72 .upperContainer__993ba,
+.headerWrapper__94dd8 > .container__11d72 .upperContainer__993ba {
     -webkit-app-region: no-drag !important;
 }
 .titleBar__01af6 {
@@ -16,7 +18,8 @@
     opacity: .5;
     background: none !important;
 }
-.chat__52833 > .container__11d72::before {
+.chat__52833 > .container__11d72::before,
+.headerWrapper__94dd8 > .container__11d72::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -27,9 +30,12 @@
     order: 5;
 }
 .chat__52833 > .container__11d72:hover,
+.headerWrapper__94dd8 > .container__11d72:hover,
 #app-mount:has(.chat__52833 > .container__11d72:hover) .titleBar__01af6,
+#app-mount:has(.headerWrapper__94dd8 > .container__11d72:hover) .titleBar__01af6,
 .titleBar__01af6:hover,
-#app-mount:has(.titleBar__01af6:hover) .chat__52833 > .container__11d72 {
+#app-mount:has(.titleBar__01af6:hover) .chat__52833 > .container__11d72,
+#app-mount:has(.titleBar__01af6:hover) .headerWrapper__94dd8 > .container__11d72 {
     top: 0 !important;
     opacity: 1;
 }
