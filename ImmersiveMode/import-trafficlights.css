@@ -37,7 +37,7 @@
 #app-mount:has(.titleBar__01af6:hover) .chat__52833 > .container__11d72,
 #app-mount:has(.titleBar__01af6:hover) .headerWrapper__94dd8 > .container__11d72 {
     top: 0 !important;
-    opacity: 1;
+    opacity: 1 !important;
 }
 .platform-win .scroller__3d071 {
     padding-top: 32px;
