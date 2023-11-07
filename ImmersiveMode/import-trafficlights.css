@@ -1,0 +1,47 @@
+@import url("https://dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css");
+.chat__52833 > .container__11d72 {
+    background: rgb(0,0,0,.6) !important;
+    top: -16px;
+    transition: .25s ease;
+    z-index: +1000;
+    opacity: 0;
+}
+.chat__52833 > .container__11d72 .upperContainer__993ba {
+    -webkit-app-region: no-drag !important;
+}
+.titleBar__01af6 {
+    position: fixed;
+    left: 0;
+    transition: .25s ease;
+    opacity: .5;
+}
+.chat__52833 > .container__11d72::before {
+    content: "";
+    height: 84px;
+    width: 12px;
+    -webkit-app-region: drag;
+    position: fixed;
+    top: 0;
+    left: 0;
+    order: 5;
+}
+.chat__52833 > .container__11d72:hover,
+#app-mount:has(.chat__52833 > .container__11d72:hover) .titleBar__01af6,
+.titleBar__01af6:hover,
+#app-mount:has(.titleBar__01af6:hover) .chat__52833 > .container__11d72 {
+    top: 0 !important;
+    opacity: 1;
+}
+.platform-win .scroller__3d071 {
+    padding-top: 32px;
+}
+.platform-win .sidebar_ded4b5 {
+    border-radius: 0;
+}
+.members__9f47b {
+    padding-top: 31px;
+}
+.container_def45c > .container__11d72 {
+    padding-top: 31px;
+    height: 62px;
+}
