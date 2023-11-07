@@ -14,6 +14,7 @@
     left: 0;
     transition: .25s ease;
     opacity: .5;
+    background: none !important;
 }
 .chat__52833 > .container__11d72::before {
     content: "";
@@ -37,9 +38,6 @@
 }
 .platform-win .sidebar_ded4b5 {
     border-radius: 0;
-}
-.members__9f47b {
-    padding-top: 31px;
 }
 .container_def45c > .container__11d72 {
     padding-top: 31px;
