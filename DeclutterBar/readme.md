@@ -10,6 +10,23 @@ A modified version of the "Better Titlebar" snippet, that moves the channel acti
 ```css
 @import url(//dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css);
 ```
+#### Optional settings:
+```css
+:root {
+    --declutter-bar-height: 31px;
+    --declutter-bar-button-width: 46px;
+    --declutter-bar-icon-scale: 0.8;
+    --declutter-bar-font-size: 16px;
+    --declutter-bar-wordmark-color: var(--header-primary);
+    --declutter-bar-wordmark-font: var(--font-display);
+    --declutter-bar-wordmark-font-size: 12px;
+    /** 
+        "": on
+        none: off
+     */
+    --declutter-bar-wordmark-icon-enabled: "";
+}
+```
 
 ### Screenshots:
 ![image](https://github.com/DaBluLite/css-snippets/assets/73998678/4c1a6fb0-803d-451d-9cf6-df1fbe84122c)
