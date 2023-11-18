@@ -274,7 +274,7 @@ html:has(#activeColorwayCSS:not(:empty)) .children__32014 > .hiddenVisually__06c
 }
 .newMessagesBar__8b6d7 .barButtonAlt__4b48f {
     position: absolute;
-    top: calc(var(--declutter-bar-height,31px) * -1px);
+    top: calc(var(--declutter-bar-height,31px) * -1);
     font-size: 0;
     height: var(--declutter-bar-height,31px);
     width: var(--declutter-bar-button-width, 46px);
@@ -543,6 +543,6 @@ html:has(#activeColorwayCSS:not(:empty)) .chat__52833:has(.newMessagesBar__8b6d7
     height: var(--declutter-bar-height,31px);
 }
 .layer__2efaa:not(.baseLayer__8fda3) {
-    top: calc(var(--declutter-bar-height,31px) * -1px) !important;
+    top: calc(var(--declutter-bar-height,31px) * -1) !important;
     padding-top: var(--declutter-bar-height,31px) !important;
 }
