@@ -32,6 +32,10 @@
     width: fit-content;
     margin-left: auto;
 }
+.winButton__88672 {
+    height: var(--declutter-bar-height,31px);
+    width: var(--declutter-bar-button-width, 46px);
+}
 .bg__12180,
 .platform-win .layer__2efaa {
     top: 0 !important;
