@@ -272,47 +272,9 @@ html:has(#activeColorwayCSS:not(:empty)) .children__32014 > .hiddenVisually__06c
     background-color: var(--brand-experiment);
     border-radius: 8px;
 }
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f {
-    position: absolute;
-    top: calc(var(--declutter-bar-height,31px) * -1);
-    font-size: 0;
-    height: var(--declutter-bar-height,31px);
-    width: var(--declutter-bar-button-width, 46px);
-    -webkit-app-region: no-drag;
-    padding: 0;
-    justify-content: center;
-    right: calc((var(--declutter-bar-button-width, 46px) * -2.5) - 4px);
-}
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f:hover {
-    background-color: var(--background-modifier-hover);
-}
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f > .barButtonIcon__907ef {
-    margin-left: 0;
-}
-.newMessagesBar__8b6d7 .barButtonMain__0f5c6 {
-    display: none;
-}
-.newMessagesBar__8b6d7 {
-    background: none;
-    box-shadow: none;
-    height: 0;
-    min-height: 0;
-}
-.newMessagesBar__8b6d7,
-.messagesWrapper_ea2b0b {
-    z-index: 100;
-}
-.chat__52833:has(.newMessagesBar__8b6d7) .container__11d72 {
-    padding-right: calc(var(--declutter-bar-button-width, 46px)*4);
-    background: var(--brand-600) !important;
-}
+.chat__52833:has(.newMessagesBar__8b6d7) .container__11d72,
 :root:has(.newMessagesBar__8b6d7) .container__11d72 .searchBar_e0c60b:not(:hover) {
     background: var(--brand-600) !important;
-}
-.chat__52833:has(.newMessagesBar__8b6d7) .titleWrapper__482dc {
-    display: flex;
-    gap: 8px;
-    margin: 0;
 }
 .chat__52833:has(.newMessagesBar__8b6d7) .children__32014 > .hiddenVisually__06c3e:first-of-type::after {
     content: "Discord | Unread messages";
