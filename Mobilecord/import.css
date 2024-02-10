@@ -422,6 +422,9 @@
 .separator_fdbcfd + .item__48dda {
     border-radius: 12px 12px 0 0 !important;
 }
+.separator_fdbcfd + .item__48dda {
+    margin-top: 8px;
+}
 .item__48dda:has(+.separator_fdbcfd) {
     border-radius: 0 0 12px 12px !important
 }
