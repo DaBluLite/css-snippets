@@ -420,6 +420,7 @@
     border-radius: 0 !important;
     padding: 16px !important;
     background-color: var(--background-tertiary);
+    border-bottom: 1px solid var(--background-secondary);
 }
 .mobileSidebar_d9b56e .header_f72511 + .item__48dda,
 .mobileSidebar_d9b56e .separator_fdbcfd + .item__48dda {
@@ -429,11 +430,13 @@
     margin-top: 8px;
 }
 .mobileSidebar_d9b56e .item__48dda:has(+.separator_fdbcfd) {
-    border-radius: 0 0 12px 12px !important
+    border-radius: 0 0 12px 12px !important;
+    border-bottom: none;
 }
 .mobileSidebar_d9b56e .header_f72511 + .item__48dda:has(+.separator_fdbcfd),
 .mobileSidebar_d9b56e .separator_fdbcfd + .item__48dda:has(+.separator_fdbcfd) {
     border-radius: 12px !important;
+    border-bottom: none;
 }
 .closeButton__34341 {
     border: none;
