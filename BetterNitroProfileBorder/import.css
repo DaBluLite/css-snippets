@@ -1,8 +1,4 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
-.avatarWrapper_ba5175 {
-    width: 100%;
-    height: 53px;
-}
 .container_ca50b9 > .flex_f5fbb7 > button {
     background: transparent;
 }
@@ -201,14 +197,14 @@
 .nameTag__0e320 {
     display: none !important;
 }
-.container_ca50b9 {
-    flex-direction: row-reverse;
-}
 .avatarWrapper_ba5175 {
     justify-content: center;
-    width: calc(100%/4) !important;
+    width: calc(100vw/4) !important;
     background-color: transparent !important;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
+    height: 53px;
 }
 .avatarWrapper_ba5175::after {
     content: "You";
@@ -226,7 +222,7 @@
     background-color: transparent !important;
     transition: 0;
     flex-direction: column;
-    width: 100%;
+    width: calc(100vw/4) !important;
 }
 .container_ca50b9 .flex_f5fbb7 .button__4f306 > .contents_fb6220 {
     width: 32px;
@@ -258,6 +254,8 @@
     border-top: 1px solid var(--interactive-muted);
     animation: showBottomBar ease .3s;
     padding: 0;
+    flex-direction: row-reverse;
+    margin-bottom: 0;
 }
 @keyframes showBottomBar {
     from {
