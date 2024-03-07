@@ -2,6 +2,8 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    width: 150px !important;
+    height: 150px !important;
 }
 .container__4bde3 {
     backdrop-filter: blur(48px);
@@ -18,6 +20,8 @@
     width: fit-content !important;
     max-width: unset !important;
     line-height: unset !important;
+    font-family: var(--font-headline);
+    text-transform: none;
 }
 .text__32559 {
     position: absolute;
