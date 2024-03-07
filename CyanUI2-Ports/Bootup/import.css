@@ -14,19 +14,28 @@
 .theme-light .container__4bde3 {
     background-color: rgb(255 255 255/60%);
 }
+.tip__6e299 {
+    color: var(--header-primary);
+    font-size: 30px;
+    font-weight: 300;
+    opacity: .7;
+}
 .tipTitle_a7615c,
 .tip__6e299 {
-    font-size: 0;
     width: fit-content !important;
-    max-width: unset !important;
     line-height: unset !important;
+    max-width: 40vw;
     font-family: var(--font-headline);
     text-transform: none;
+    margin-bottom: 8px;
+    text-align: left;
 }
 .text__32559 {
     position: absolute;
     top: 57px;
     left: 35px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .problems__755eb {
     z-index: +1;
@@ -36,17 +45,12 @@
 .problemsText__046e8 {
     color: var(--header-primary);
 }
-.tipTitle_a7615c::after {
-    --var-loading-header: "Polishing surfaces...";
-    content: var(--var-loading-header);
-    color: var(--header-primary);
-    font-size: 30px;
-    font-weight: 300;
-    opacity: .7;
+.tipTitle_a7615c {
+    font-size: 0;
 }
-.tip__6e299::after {
-    counter-reset: cyan-version var(--cyan-version) cyan-subversion var(--cyan-subversion) cyan-patch-version var(--cyan-patch-version);
-    content: "Discord is loading...";
+.tipTitle_a7615c::after {
+    --var-loading-header: "Discord is loading...";
+    content: var(--var-loading-header);
     color: var(--header-primary);
     font-size: 22px;
     font-weight: 300;
