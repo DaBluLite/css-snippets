@@ -4,11 +4,11 @@ Porting some of the new UIs of Cyan 2 to vanilla Discord
 ## Imports:
 ### UserArea2:
 ```css
-@import url(//dablulite.github.io/css-snippets/CyanUI2-Ports/UserArea2/import.css);
+@import url("https://dablulite.github.io/css-snippets/CyanUI2-Ports/UserArea2/import.css");
 ```
 ### Bootup:
 ```css
-@import url(//dablulite.github.io/css-snippets/CyanUI2-Ports/Bootup/import.css);
+@import url("https://dablulite.github.io/css-snippets/CyanUI2-Ports/Bootup/import.css");
 ```
 
 ## Screenshots:
