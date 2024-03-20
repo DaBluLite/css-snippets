@@ -21,7 +21,9 @@
     border-radius: 8px 8px 0 0;
 }
 .quickswitcher_a3d29a .input__848cd[value=""] + .scroller__52ae7,
-.quickswitcher_a3d29a .protip__84833,
-.backdrop__7e89b:has(+ .layer_ad604d .quickswitcher_a3d29a) {
+.quickswitcher_a3d29a .protip__84833 {
     display: none;
+}
+.backdrop__7e89b:has(+ .layer_ad604d .quickswitcher_a3d29a) {
+    opacity: 0;
 }
