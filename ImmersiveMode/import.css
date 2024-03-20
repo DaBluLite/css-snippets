@@ -1,25 +1,15 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import.css");
-.chat__52833 > .container__11d72,
-.headerWrapper__94dd8 > .container__11d72 {
+.container__11d72 {
     background: rgb(0,0,0,.6) !important;
     top: -16px;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0;
 }
-.chat__52833 > .container__11d72 .upperContainer__993ba,
-.headerWrapper__94dd8 > .container__11d72 .upperContainer__993ba {
-    -webkit-app-region: no-drag !important;
+.container__11d72 .upperContainer__993ba {
+    -webkit-app-region: no-drag;
 }
-.titleBar__01af6 {
-    position: fixed;
-    right: 0;
-    transition: .25s ease;
-    opacity: .5;
-    background: none !important;
-}
-.chat__52833 > .container__11d72::before,
-.headerWrapper__94dd8 > .container__11d72::before {
+.container__11d72::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -29,13 +19,10 @@
     left: 0;
     order: 5;
 }
-.chat__52833 > .container__11d72:hover,
-.headerWrapper__94dd8 > .container__11d72:hover,
-#app-mount:has(.chat__52833 > .container__11d72:hover) .titleBar__01af6,
-#app-mount:has(.headerWrapper__94dd8 > .container__11d72:hover) .titleBar__01af6,
+.container__11d72:hover,
+#app-mount:has(.container__11d72:hover) .titleBar__01af6,
 .titleBar__01af6:hover,
-#app-mount:has(.titleBar__01af6:hover) .chat__52833 > .container__11d72,
-#app-mount:has(.titleBar__01af6:hover) .headerWrapper__94dd8 > .container__11d72 {
+#app-mount:has(.titleBar__01af6:hover) .container__11d72 {
     top: 0 !important;
     opacity: 1 !important;
 }
@@ -62,26 +49,12 @@
 :is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72 .upperContainer__993ba {
     -webkit-app-region: no-drag !important;
 }
-.titleBar__01af6,
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f {
+.titleBar__01af6 {
     position: fixed;
     right: 0;
     transition: .25s ease;
     opacity: .5;
     background: none !important;
-}
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f {
-    right: calc(46px*3);
-}
-:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72::before {
-    content: "";
-    height: 84px;
-    width: 12px;
-    -webkit-app-region: drag;
-    position: fixed;
-    top: 0;
-    left: 0;
-    order: 5;
 }
 :is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72:hover,
 #app-mount:has(:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72:hover) :is(.titleBar__01af6,.newMessagesBar__8b6d7 .barButtonAlt__4b48f),
