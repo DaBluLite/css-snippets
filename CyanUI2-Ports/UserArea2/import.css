@@ -6,11 +6,14 @@
     padding: 7px;
     width: calc((100%/4) - 14px) !important;
     justify-content: center;
-    min-width: unset;
+    min-width: unset !important;
     height: 42px !important;
     border-radius: 8px !important;
     cursor: pointer;
     transition: .2s ease;
+}
+.panels__58331 :has(.flex_f5fbb7 > :nth-child(4)) .avatarWrapper_ba5175 {
+    width: calc((100%/5) - 14px) !important;
 }
 .container_ca50b9 {
     padding: 6px;
@@ -20,6 +23,9 @@
     gap: 4px;
     width: calc((100%/4)*3);
     height: 56px;
+}
+.panels__58331 .flex_f5fbb7:has(>:nth-child(4)) {
+    width: calc((100%/5)*4);
 }
 .panels__58331 .flex_f5fbb7,
 .panels__58331 .avatarWrapper_ba5175 {
