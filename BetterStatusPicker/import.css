@@ -10,10 +10,10 @@
 #account-status-picker--invisible {
     --brand-experiment-560: var(--primary-400);
 }
-#account .submenu_acf564 .separator__18122 {
+#account [class*=submenu_] [class*=separator] {
     display: none;
 }
-#account .submenu_acf564 .description_ea6680 {
+#account [class*=submenu_] [class*=description] {
     height: fit-content;
     overflow: hidden;
     max-height: 0rem;
@@ -22,22 +22,25 @@
     flex: 0 0 100%;
     display: flex;
 }
-#account .submenu_acf564 .item__183e8.focused__27621 .description_ea6680 {
+#account [class*=submenu_] [class*=focused] [class*=description] {
     max-height: 4rem;
 }
-.statusItem__72404 {
+#account-status-picker--online [class*=statusItem], 
+#account-status-picker--idle [class*=statusItem], 
+#account-status-picker--dnd [class*=statusItem], 
+#account-status-picker--ofline [class*=statusItem] {
     display: flex;
     flex-wrap: wrap;
 }
-.statusItem__72404 .icon__37f95 {
+[class*=statusItem] [class*=icon__] {
     margin-right: 10px;
     flex: 0 0 10px;
 }
-.status__8c19b {
+[class*=statusItem] > [class*=status__] {
     width: calc(100% - 20px);
     display: flex;
 }
-#account-status-picker--idle .statusItem__72404::after {
+#account-status-picker--idle [class*=statusItem]::after {
     content: "Active but idle/away.";
     height: fit-content;
     overflow: hidden;
@@ -47,6 +50,6 @@
     flex: 0 0 100%;
     display: flex;
 }
-#account-status-picker--idle.focused__27621 .statusItem__72404::after {
-    max-height: 4rem;
+#account-status-picker--idle[class*=focused] [class*=statusItem]::after {
+    max-height: 1rem !important;
 }
