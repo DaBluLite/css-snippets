@@ -7,67 +7,67 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
-.container__11d72 {
+.container__26baa {
     padding-left: 64px;
     padding-right: 0;
 }
-#app-mount .withFrame__485f4 {
+#app-mount .withFrame__5e49e {
     margin-left: 0;
 }
-.chat__52833:has(.newMessagesBar__8b6d7) .container__11d72 {
+.chat__52833:has(.newMessagesBar__8b272) .container__26baa {
     padding-right: 46px !important;
 }
-.winButtonClose__73489 {
+.winButtonClose__6396d {
     order: 3;
     margin: auto 0;
 }
-.winButtonMinMax__72f36 {
+.winButtonMinMax_caf9c8 {
     order: 1;
     margin: auto 0;
 }
-.winButtonMinMax__72f36:last-child {
+.winButtonMinMax_caf9c8:last-child {
     margin: auto 0;
 }
-.winButton__88672:hover {
+.winButton_f17fb6:hover {
     background-color: transparent !important;
 }
-.winButtonClose__73489 > svg {
+.winButtonClose__6396d > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose__73489 > svg > polygon {
+.winButtonClose__6396d > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax__72f36 > svg {
+.winButtonMinMax_caf9c8 > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax__72f36:last-child > svg {
+.winButtonMinMax_caf9c8:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax__72f36 > svg > rect {
+.winButtonMinMax_caf9c8 > svg > rect {
     display: none !important;
 }
-.winButton__88672:hover {
+.winButton_f17fb6:hover {
     background-color: transparent;
 }
-.winButton__88672 {
+.winButton_f17fb6 {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f {
+.newMessagesBar__8b272 .barButtonAlt_e800ef {
     right: calc((-46px * 5.6));
 }
-.container__5c7e7 .container__11d72,
-.homeWrapper__59a03 .container__11d72,
-.shop-3sIaH8 .container__11d72 {
+.container_bd15da .container__26baa,
+.homeWrapper_d63773 .container__26baa,
+.shop-3sIaH8 .container__26baa {
     left: 0;
 }
-.winButtonClose__73489 > svg:hover,
-.winButtonMinMax__72f36 > svg:hover {
+.winButtonClose__6396d > svg:hover,
+.winButtonMinMax_caf9c8 > svg:hover {
     filter: brightness(.6);
 }
