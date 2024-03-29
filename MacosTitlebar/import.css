@@ -9,36 +9,36 @@
     --mactitlebar-max-btn-back: #39ea49;
     --macbuttons-serverlist-inner-top-margin: 32px;
 }
-.winButtonClose__73489 {
+.winButtonClose__6396d {
     order: 3;
     margin-left: var(--mactitlebar-left-margin);
 }
-.winButtonMinMax__72f36 {
+.winButtonMinMax_caf9c8 {
     order: 1;
 }
-.winButtonClose__73489 > svg {
+.winButtonClose__6396d > svg {
     background-color: var(--mactitlebar-close-btn-back) !important;
 }
-.winButtonMinMax__72f36 > svg {
+.winButtonMinMax_caf9c8 > svg {
     background-color: var(--mactitlebar-max-btn-back) !important;
 }
-.winButtonMinMax__72f36:last-child > svg {
+.winButtonMinMax_caf9c8:last-child > svg {
     background-color: var(--mactitlebar-min-btn-back) !important;
 }
-.winButton__88672 > svg {
+.winButton_f17fb6 > svg {
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButton__88672 > svg:hover {
+.winButton_f17fb6 > svg:hover {
     filter: brightness(.7);
 }
-.winButton__88672 > svg > :is(polygon, rect),
-.wordmarkWindows__05c46,
-.withFrame__485f4:before,
-.withFrame__485f4:after {
+.winButton_f17fb6 > svg > :is(polygon, rect),
+.wordmarkWindows_ffbc5e,
+.withFrame__5e49e:before,
+.withFrame__5e49e:after {
     display: none !important;
 }
-.winButton__88672 {
+.winButton_f17fb6 {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
     margin-top: var(--mactitlebar-top-margin);
@@ -48,23 +48,23 @@
     padding-top: var(--macbuttons-serverlist-inner-top-margin);
     height: calc(100vh - var(--macbuttons-serverlist-inner-top-margin));
 }
-.typeWindows__5fa63 {
+.typeWindows_e41dab {
     margin-top: 0;
     position: absolute;
     background-color: transparent;
 }
-.layer__2efaa :not(.baseLayer__8fda3),
-.platform-win .container__11d72 :is(.toolbar__88c63, .children__32014 > .titleWrapper__482dc:not(:last-of-type), .topic__16ae3) {
+.layer_f7d46a :not(.baseLayer__2b890),
+.platform-win .container__26baa :is(.toolbar__62fb5, .children_cde9af > .titleWrapper_d6133e:not(:last-of-type), .topic__16ae3) {
     -webkit-app-region: no-drag;
 }
-.platform-win .sidebar_ded4b5 {
+.platform-win .sidebar_e031be {
     border-radius: 0;
 }
-.layer__2efaa :not(.baseLayer__8fda3)::before,
-.platform-win .container__11d72 {
+.layer_f7d46a :not(.baseLayer__2b890)::before,
+.platform-win .container__26baa {
     -webkit-app-region: drag;
 }
-.layer__2efaa :not(.baseLayer__8fda3)::before {
+.layer_f7d46a :not(.baseLayer__2b890)::before {
     content: "";
     position: absolute;
     height: calc(var(--mactitlebar-top-margin) + var(--mactitlebar-button-height));
@@ -72,8 +72,8 @@
     top: 0;
     right: 0;
 }
-.platform-win .layer__2efaa ,
-.platform-win .standardSidebarView__1129a {
+.platform-win .layer_f7d46a ,
+.platform-win .standardSidebarView__12528 {
     padding-top: 0;
     top: 0;
 }
