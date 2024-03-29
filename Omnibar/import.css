@@ -3,9 +3,9 @@
     box-sizing: border-box;
 }
 .container_debb33 {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: -72px;
+    left: 0;
     background: none !important;
     height: 227px;
     width: 72px;
