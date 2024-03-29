@@ -1,15 +1,15 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import.css");
-.container__11d72 {
+.container__26baa {
     background: rgb(0,0,0,.6) !important;
     top: -16px;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0;
 }
-.container__11d72 .upperContainer__993ba {
+.container__26baa .upperContainer__57565 {
     -webkit-app-region: no-drag;
 }
-.container__11d72::before {
+.container__26baa::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -19,61 +19,61 @@
     left: 0;
     order: 5;
 }
-.container__11d72:hover,
-#app-mount:has(.container__11d72:hover) .titleBar__01af6,
-.titleBar__01af6:hover,
-#app-mount:has(.titleBar__01af6:hover) .container__11d72 {
+.container__26baa:hover,
+#app-mount:has(.container__26baa:hover) .titleBar__710b0,
+.titleBar__710b0:hover,
+#app-mount:has(.titleBar__710b0:hover) .container__26baa {
     top: 0 !important;
     opacity: 1 !important;
 }
-.platform-win .scroller__3d071 {
+.platform-win .scroller_de945b {
     padding-top: 12px;
 }
-.platform-win .sidebar_ded4b5 {
+.platform-win .sidebar_e031be {
     border-radius: 0;
 }
-.members__9f47b {
+.members__573eb {
     padding-top: 31px;
 }
-.container_def45c > .container__11d72 {
+.container__694a1 > .container__26baa {
     padding-top: 31px;
     height: 62px;
 }
-:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72 {
+:is(.chat__52833,.headerWrapper_ea51a0,.container_bd15da,.homeWrapper_d63773,.shop_b31ed2) > .container__26baa {
     background: rgb(0,0,0,.6) !important;
     top: -16px;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0;
 }
-:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72 .upperContainer__993ba {
+:is(.chat__52833,.headerWrapper_ea51a0,.container_bd15da,.homeWrapper_d63773,.shop_b31ed2) > .container__26baa .upperContainer__57565 {
     -webkit-app-region: no-drag !important;
 }
-.titleBar__01af6 {
+.titleBar__710b0 {
     position: fixed;
     right: 0;
     transition: .25s ease;
     opacity: .5;
     background: none !important;
 }
-:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72:hover,
-#app-mount:has(:is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72:hover) :is(.titleBar__01af6,.newMessagesBar__8b6d7 .barButtonAlt__4b48f),
-.titleBar__01af6:hover,
-.newMessagesBar__8b6d7 .barButtonAlt__4b48f:hover,
-#app-mount:has(.titleBar__01af6:hover,.newMessagesBar__8b6d7 .barButtonAlt__4b48f:hover) :is(.chat__52833,.headerWrapper__94dd8,.container__5c7e7,.homeWrapper__59a03,.shop_b31ed2) > .container__11d72 {
+:is(.chat__52833,.headerWrapper_ea51a0,.container_bd15da,.homeWrapper_d63773,.shop_b31ed2) > .container__26baa:hover,
+#app-mount:has(:is(.chat__52833,.headerWrapper_ea51a0,.container_bd15da,.homeWrapper_d63773,.shop_b31ed2) > .container__26baa:hover) :is(.titleBar__710b0,.newMessagesBar__8b272 .barButtonAlt_e800ef),
+.titleBar__710b0:hover,
+.newMessagesBar__8b272 .barButtonAlt_e800ef:hover,
+#app-mount:has(.titleBar__710b0:hover,.newMessagesBar__8b272 .barButtonAlt_e800ef:hover) :is(.chat__52833,.headerWrapper_ea51a0,.container_bd15da,.homeWrapper_d63773,.shop_b31ed2) > .container__26baa {
     top: 0 !important;
     opacity: 1 !important;
 }
-.platform-win .scroller__3d071 {
+.platform-win .scroller_de945b {
     padding-top: 12px;
 }
-.platform-win .sidebar_ded4b5 {
+.platform-win .sidebar_e031be {
     border-radius: 0;
 }
-.members__9f47b {
+.members__573eb {
     padding-top: 31px;
 }
-.container_def45c > .container__11d72 {
+.container__694a1 > .container__26baa {
     padding-top: 31px;
     height: 62px;
 }
