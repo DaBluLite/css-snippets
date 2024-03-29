@@ -1,5 +1,5 @@
 @import url(//dablulite.github.io/css-snippets/HorizontalServerList/import-topbar.css);
-.container_ca50b9 .avatarWrapper_ba5175 {
+.container_debb33 .avatarWrapper__500a6 {
   height: 48px;
   padding: 0;
   width: 48px;
@@ -7,32 +7,32 @@
   margin-right: 0;
   background: none !important;
 }
-.container_ca50b9 .avatarWrapper_ba5175 .svg_f5b652 .avatar__991e2 {
+.container_debb33 .avatarWrapper__500a6 .svg_a6bf1c .avatar__991e2 {
   border-radius: 50%;
   transition: .2s !important;
 }
-.container_ca50b9 .avatarWrapper_ba5175:hover .svg_f5b652 .avatar__991e2 {
+.container_debb33 .avatarWrapper__500a6:hover .svg_a6bf1c .avatar__991e2 {
   border-radius: 10px !important;
 }
-.container_ca50b9 .avatarWrapper_ba5175 .nameTag__0e320 {
+.container_debb33 .avatarWrapper__500a6 .nameTag__77ab2 {
   display: none;
 }
-.container_ca50b9 .avatarWrapper_ba5175 .avatar_f8541f {
+.container_debb33 .avatarWrapper__500a6 .avatar_f8541f {
   width: 48px !important;
   height: 48px !important;
 }
-.container_ca50b9 .svg_f5b652 {
+.container_debb33 .svg_a6bf1c {
   width: 60px !important;
   height: 60px !important;
 }
-.container_ca50b9 .svg_f5b652 > :is(svg,.pointerEvents__33f6a) {
+.container_debb33 .svg_a6bf1c > :is(svg,.pointerEvents__585e6) {
   display: none;
 }
-.container_ca50b9 .svg_f5b652,
-.container_ca50b9 .svg_f5b652 > foreignObject {
+.container_debb33 .svg_a6bf1c,
+.container_debb33 .svg_a6bf1c > foreignObject {
   mask: none !important;
 }
-.container_ca50b9 {
+.container_debb33 {
   width: fit-content;
   padding-right: 7px;
   min-width: unset;
@@ -42,22 +42,22 @@
   width: calc(100vw - 228px);
   z-index: +2;
 }
-.container_ca50b9 .button_afdfd9 {
+.container_debb33 .button__581d0 {
   width: 48px;
   height: 48px;
   border-radius: 50%;
   transition: .2s;
   background-color: var(--background-primary);
 }
-.container_ca50b9 .button_afdfd9:hover {
+.container_debb33 .button__581d0:hover {
   border-radius: 16px;
   background-color: var(--brand-experiment);
   color: var(--interactive-active);
 }
-.container_ca50b9 > .flex_f5fbb7 {
+.container_debb33 > .flex_f18b02 {
   gap: 7px;
 }
-.container_ca50b9::after {
+.container_debb33::after {
   content: "";
   width: 2px;
   height: 32px;
@@ -65,23 +65,23 @@
   background-color: var(--background-modifier-accent);
 }
 .panels__58331,
-.sidebar_ded4b5 {
+.sidebar_e031be {
   overflow: visible;
 }
-.container__037ed:has(.panels__58331 .container_ca50b9 .button_afdfd9 path[d="M182 856q-51 0-79-35.5T82 734l42-300q9-60 53.5-99T282 296h396q60 0 104.5 39t53.5 99l42 300q7 51-21 86.5T778 856q-21 0-39-7.5T706 826l-90-90H344l-90 90q-15 15-33 22.5t-39 7.5Zm498-240q17 0 28.5-11.5T720 576q0-17-11.5-28.5T680 536q-17 0-28.5 11.5T640 576q0 17 11.5 28.5T680 616Zm-80-120q17 0 28.5-11.5T640 456q0-17-11.5-28.5T600 416q-17 0-28.5 11.5T560 456q0 17 11.5 28.5T600 496ZM310 616h60v-70h70v-60h-70v-70h-60v70h-70v60h70v70Z"]) .guilds__2b93a {
+.container_d1f8f5:has(.panels__58331 .container_debb33 .button__581d0 path[d="M182 856q-51 0-79-35.5T82 734l42-300q9-60 53.5-99T282 296h396q60 0 104.5 39t53.5 99l42 300q7 51-21 86.5T778 856q-21 0-39-7.5T706 826l-90-90H344l-90 90q-15 15-33 22.5t-39 7.5Zm498-240q17 0 28.5-11.5T720 576q0-17-11.5-28.5T680 536q-17 0-28.5 11.5T640 576q0 17 11.5 28.5T680 616Zm-80-120q17 0 28.5-11.5T640 456q0-17-11.5-28.5T600 416q-17 0-28.5 11.5T560 456q0 17 11.5 28.5T600 496ZM310 616h60v-70h70v-60h-70v-70h-60v70h-70v60h70v70Z"]) .guilds__2b93a {
   width: calc(100vw - 228px - 7px - 48px);
 }
-.chat__52833, .container_def45c, .container__5c7e7, .applicationStore_fc7d76, .containerSidenav__2623a {
+.chat__52833, .container__694a1, .container_bd15da, .applicationStore__444b9, .containerSidenav_c2b517 {
     padding-top: 0;
     margin-top: 72px;
 }
-.container_ca50b9:has(.flex_f5fbb7 .button_afdfd9:nth-of-type(4)) {
+.container_debb33:has(.flex_f18b02 .button__581d0:nth-of-type(4)) {
     width: calc(227px + 56px) !important;
 }
-.guilds__2b93a:has(~ .base__3e6af .container_ca50b9 .flex_f5fbb7 .button_afdfd9:nth-of-type(4)) {
+.guilds__2b93a:has(~ .base_c0676e .container_debb33 .flex_f18b02 .button__581d0:nth-of-type(4)) {
     width: calc(100vw - 228px - 56px) !important;
 }
-.sidebar_ded4b5 {
+.sidebar_e031be {
     overflow: visible !important;
 }
 .ColorwaySelectorBtnContainer {
