@@ -5,13 +5,13 @@
     width: 150px !important;
     height: 150px !important;
 }
-.container__4bde3 {
+.container__827e6 {
     backdrop-filter: blur(48px);
 }
-.theme-dark .container__4bde3 {
+.theme-dark .container__827e6 {
     background-color: rgb(0 0 0/60%);
 }
-.theme-light .container__4bde3 {
+.theme-light .container__827e6 {
     background-color: rgb(255 255 255/60%);
 }
 .tip__6e299 {
@@ -20,7 +20,7 @@
     font-weight: 300;
     opacity: .7;
 }
-.tipTitle_a7615c,
+.tipTitle_ebc1d5,
 .tip__6e299 {
     width: fit-content !important;
     line-height: unset !important;
@@ -30,25 +30,25 @@
     margin-bottom: 8px;
     text-align: left;
 }
-.text__32559 {
+.text__35f5c {
     position: absolute;
     top: 57px;
     left: 35px;
     display: flex;
     flex-direction: column-reverse;
 }
-.problems__755eb {
+.problems__4ae6d {
     z-index: +1;
     width: fit-content;
     padding-left: 35px;
 }
-.problemsText__046e8 {
+.problemsText__5f1c5 {
     color: var(--header-primary);
 }
-.tipTitle_a7615c {
+.tipTitle_ebc1d5 {
     font-size: 0;
 }
-.tipTitle_a7615c::after {
+.tipTitle_ebc1d5::after {
     --var-loading-header: "Discord is loading...";
     content: var(--var-loading-header);
     color: var(--header-primary);
