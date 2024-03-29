@@ -9,7 +9,7 @@ Gets rid of the unsightly outer 4px border/padding and replaces it with a gradie
 #### With BetterNitroProfileBorders:
 ```css
 @import url("https://dablulite.github.io/css-snippets/BetterNitroProfileBorder/import.css");
-.userPopoutOuter-1OHwPL:has(.userProfileInnerThemedNonPremium-2AJg-H) .avatarWrapper-eenWra {
+.userPopoutOuter__3884e:has(.userProfileInnerThemedNonPremium_ed9022) .avatarWrapper__0cd44 {
     left: 22px !important;
     top: 16px !important;
 }
