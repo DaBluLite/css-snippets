@@ -15,16 +15,6 @@
 .upperContainer__57565 {
     -webkit-app-region: drag;
 }
-.chat__52833,
-.base_c0676e,
-.container_d1f8f5,
-.layers__1c917>.layer_f7d46a,
-.notAppAsidePanel__95814,
-.app_b1f720,
-.app_de4237,
-.layers__1c917 {
-    overflow: visible !important;
-}
 .appAsidePanelWrapper__5e6e2 {
     overflow: visible;
 }
@@ -101,11 +91,6 @@
 }
 .platform-win .standardSidebarView__12528 {
     top: 0;
-}
-.searchBar__310d8 {
-    margin: 0;
-    border-radius: 0;
-    z-index: +2;
 }
 .container__694a1 .container__26baa {
     position: static;
