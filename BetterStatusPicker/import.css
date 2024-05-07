@@ -1,14 +1,18 @@
-#account-status-picker--online {
-    --brand-experiment-560: var(--green-360);
+#account-status-picker--online[class*=focused],
+#account-status-picker[class*=focused]:has([mask="url(#svg-mask-status-online)"]) {
+    background-color: var(--green-360);
 }
-#account-status-picker--dnd {
-    --brand-experiment-560: var(--red-400);
+#account-status-picker--dnd[class*=focused],
+#account-status-picker[class*=focused]:has([mask="url(#svg-mask-status-dnd)"]) {
+    background-color: var(--red-400);
 }
-#account-status-picker--idle {
-    --brand-experiment-560: var(--yellow-330);
+#account-status-picker--idle[class*=focused],
+#account-status-picker[class*=focused]:has([mask="url(#svg-mask-status-idle)"]) {
+    background-color: var(--yellow-330);
 }
-#account-status-picker--invisible {
-    --brand-experiment-560: var(--primary-400);
+#account-status-picker--invisible[class*=focused],
+#account-status-picker[class*=focused]:has([mask="url(#svg-mask-status-invisible)"]) {
+    background-color: var(--primary-400);
 }
 #account .submenu_aed9ee .separator__174fc {
     display: none;
@@ -38,7 +42,7 @@
     display: flex;
 }
 #account-status-picker--idle .statusItem__24445::after {
-    content: "Active but idle/away.";
+    content: "Away from Discord/PC.";
     height: fit-content;
     overflow: hidden;
     max-height: 0rem;
