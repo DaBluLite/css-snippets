@@ -1,29 +1,29 @@
-.layer_c14d31:has(.quickswitcher_b5bb0a) {
+.layer_c9e2da:has(.quickswitcher_f4e139) {
     justify-content: start;
 }
-.quickswitcher_b5bb0a {
+.quickswitcher_f4e139 {
     background: none;
     padding: 0;
 }
-.quickswitcher_b5bb0a .scroller_d4b86c {
+.quickswitcher_f4e139 .scroller_f4e139 {
     margin: 0;
     border-radius: 0 0 8px 8px;
     scrollbar-width: none;
     padding: 8px !important;
 }
-.quickswitcher_b5bb0a .input__2a648 {
+.quickswitcher_f4e139 .input_f4e139 {
     height: 50px;
 }
-.quickswitcher_b5bb0a .input__2a648[value=""] {
+.quickswitcher_f4e139 .input_f4e139[value=""] {
     border-radius: 8px;
 }
-.quickswitcher_b5bb0a .input__2a648:not([value=""]) {
+.quickswitcher_f4e139 .input_f4e139:not([value=""]) {
     border-radius: 8px 8px 0 0;
 }
-.quickswitcher_b5bb0a .input__2a648[value=""] + .scroller_d4b86c,
-.quickswitcher_b5bb0a .protip__84833 {
+.quickswitcher_f4e139 .input_f4e139[value=""] + .scroller_f4e139,
+.quickswitcher_f4e139 .protip_f4e139 {
     display: none;
 }
-.backdrop__1a911:has(+ .layer_c14d31 .quickswitcher_b5bb0a) {
+.backdrop__1a911:has(+ .layer_c9e2da .quickswitcher_f4e139) {
     opacity: 0;
 }
