@@ -1,14 +1,14 @@
-.background__4e802 {
+.background_b69b77 {
     background-color: transparent;
     padding: 0;
 }
-.fieldList__4e6dd {
+.fieldList_b69b77 {
     background-color: transparent;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
 }
-.field__69fa0 {
+.field_b69b77 {
     width: 100%;
     border-radius: 8px;
     background-color: var(--background-primary);
@@ -21,42 +21,42 @@
     height: 120px;
     margin-bottom: 0;
 }
-.field__69fa0 .fieldButton__1edf0 {
+.field_b69b77 .fieldButton_b69b77 {
     background-color: var(--button-secondary-background);
     border-radius: 6px;
     -webkit-transition: background-color .17s ease,color .17s ease;
     transition: background-color .17s ease,color .17s ease;
 }
-.field__69fa0 .fieldButton__1edf0:hover {
+.field_b69b77 .fieldButton_b69b77:hover {
     background-color: var(--button-secondary-background-hover);
 }
-.field__69fa0 .fieldButton__1edf0:hover > div {
+.field_b69b77 .fieldButton_b69b77:hover > div {
     background: none;
 }
-.field__69fa0 .fieldButton__1edf0 {
+.field_b69b77 .fieldButton_b69b77 {
     width: 100%;
     margin-right: 0;
     position: relative;
 }
-.field__69fa0 .fieldButtonList_fd9518 {
+.field_b69b77 .fieldButtonList_b69b77 {
     gap: 5px;
 }
-.field__69fa0::-webkit-scrollbar {
+.field_b69b77::-webkit-scrollbar {
     width: 16px;
     height: 16px;
 }
-.field__69fa0::-webkit-scrollbar-corner {
+.field_b69b77::-webkit-scrollbar-corner {
     background-color: transparent;
 }
-.field__69fa0::-webkit-scrollbar-thumb {
+.field_b69b77::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-auto-thumb);
     min-height: 40px;
 }
-.field__69fa0::-webkit-scrollbar-track {
+.field_b69b77::-webkit-scrollbar-track {
     background-color: var(--scrollbar-auto-track);
 }
-.field__69fa0::-webkit-scrollbar-thumb,
-.field__69fa0::-webkit-scrollbar-track {
+.field_b69b77::-webkit-scrollbar-thumb,
+.field_b69b77::-webkit-scrollbar-track {
     border: 4px solid transparent;
     background-clip: padding-box;
     border-radius: 8px;
