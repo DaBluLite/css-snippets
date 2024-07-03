@@ -34,6 +34,11 @@
 .svg_c5f96a>foreignObject {
   transform: translateX(calc((((var(--guild-list-width) - 12px)*-1)/2) + 50%));
 }
+.wrapper_f90abb {
+    translate: 12px;
+    border-radius: 50px;
+    overflow: hidden;
+}
 
 .wrapper__8436d,
 .folder_bc7085,
