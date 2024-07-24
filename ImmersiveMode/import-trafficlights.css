@@ -1,25 +1,25 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css");
-.chat__52833 > .container__26baa,
-.headerWrapper_ea51a0 > .container__26baa {
+.chat_a7d72e > .container_fc4f04,
+.headerWrapper_d880dc > .container_fc4f04 {
     background: rgb(0,0,0,.6) !important;
     top: -16px !important;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0 !important;
 }
-.chat__52833 > .container__26baa .upperContainer__57565,
-.headerWrapper_ea51a0 > .container__26baa .upperContainer__57565 {
+.chat_a7d72e > .container_fc4f04 .upperContainer_fc4f,
+.headerWrapper_d880dc > .container_fc4f04 .upperContainer_fc4f {
     -webkit-app-region: no-drag !important;
 }
-.titleBar__710b0 {
+.titleBar_a934d8 {
     position: fixed;
     left: 0;
     transition: .25s ease;
     opacity: .5;
     background: none !important;
 }
-.chat__52833 > .container__26baa::before,
-.headerWrapper_ea51a0 > .container__26baa::before {
+.chat_a7d72e > .container_fc4f04::before,
+.headerWrapper_d880dc > .container_fc4f04::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -29,23 +29,23 @@
     left: 0;
     order: 5;
 }
-.chat__52833 > .container__26baa:hover,
-.headerWrapper_ea51a0 > .container__26baa:hover,
-#app-mount:has(.chat__52833 > .container__26baa:hover) .titleBar__710b0,
-#app-mount:has(.headerWrapper_ea51a0 > .container__26baa:hover) .titleBar__710b0,
-.titleBar__710b0:hover,
-#app-mount:has(.titleBar__710b0:hover) .chat__52833 > .container__26baa,
-#app-mount:has(.titleBar__710b0:hover) .headerWrapper_ea51a0 > .container__26baa {
+.chat_a7d72e > .container_fc4f04:hover,
+.headerWrapper_d880dc > .container_fc4f04:hover,
+#app-mount:has(.chat_a7d72e > .container_fc4f04:hover) .titleBar_a934d8,
+#app-mount:has(.headerWrapper_d880dc > .container_fc4f04:hover) .titleBar_a934d8,
+.titleBar_a934d8:hover,
+#app-mount:has(.titleBar_a934d8:hover) .chat_a7d72e > .container_fc4f04,
+#app-mount:has(.titleBar_a934d8:hover) .headerWrapper_d880dc > .container_fc4f04 {
     top: 0 !important;
     opacity: 1 !important;
 }
-.platform-win .scroller_de945b {
+.platform-win .scroller_fea3ef {
     padding-top: 32px;
 }
-.platform-win .sidebar_e031be {
+.platform-win .sidebar_a4d4d9 {
     border-radius: 0;
 }
-.container__694a1 > .container__26baa {
+.container_d1c246 > .container_fc4f04 {
     padding-top: 31px;
     height: 62px;
 }
