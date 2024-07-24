@@ -7,52 +7,52 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
-.winButtonClose__6396d {
+.winButtonClose_a934d8 {
     order: 3;
     margin: auto 0;
 }
-.winButtonMinMax_caf9c8 {
+.winButtonMinMax_a934d8 {
     order: 1;
     margin: auto 0;
 }
-.winButtonMinMax_caf9c8:last-child {
+.winButtonMinMax_a934d8:last-child {
     margin: auto 0;
 }
-.winButton_f17fb6:hover {
+.winButton_a934d8:hover {
     background-color: transparent !important;
 }
-.winButtonClose__6396d > svg {
+.winButtonClose_a934d8 > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose__6396d > svg > polygon {
+.winButtonClose_a934d8 > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax_caf9c8 > svg {
+.winButtonMinMax_a934d8 > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax_caf9c8:last-child > svg {
+.winButtonMinMax_a934d8:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax_caf9c8 > svg > rect {
+.winButtonMinMax_a934d8 > svg > rect {
     display: none !important;
 }
-.winButton_f17fb6:hover {
+.winButton_a934d8:hover {
     background-color: transparent;
 }
-.winButton_f17fb6 {
+.winButton_a934d8 {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.typeWindows_e41dab {
+.typeWindows_a934d8 {
     justify-content: start;
 }
-.winButtonClose__6396d > svg:hover,
-.winButtonMinMax_caf9c8 > svg:hover {
+.winButtonClose_a934d8 > svg:hover,
+.winButtonMinMax_a934d8 > svg:hover {
     filter: brightness(.6);
 }
