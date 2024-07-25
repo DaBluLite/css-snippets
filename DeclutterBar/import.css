@@ -12,7 +12,7 @@
     padding-right: calc(var(--declutter-bar-button-width, 46px)*3);
     box-sizing: border-box;
 }
-.upperContainer_fc4f {
+.upperContainer_fc4f04 {
     -webkit-app-region: drag;
 }
 .appAsidePanelWrapper_bd26cc {
@@ -26,10 +26,8 @@
     height: var(--declutter-bar-height,31px);
     width: var(--declutter-bar-button-width, 46px);
 }
-.bg_d4b6c5,
-.platform-win .layer_d4b6c5 {
-    top: 0 !important;
-    padding-top: 0;
+.bg_d4b6c5 {
+    top: calc(var(--declutter-bar-height,31px) * -1) !important;
 }
 .children_fc4f04:after,
 .tabBody_c2739c:before {
