@@ -56,3 +56,6 @@ html:has(#activeColorwayCSS:not(:empty)) .wordmarkWindows_a934d8::after{
     padding-top: 31px !important;
     top: -31px !important;
 }
+.bg_d4b6c5 {
+    top: -31px !important;
+}
