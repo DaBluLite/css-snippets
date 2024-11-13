@@ -5,19 +5,28 @@
   --guild-item-spacing: 8px;
   --guild-item-font-size: 16px;
 }
+
 .guilds_a4d4d9 {
   width: var(--guild-list-width);
+}
+
+.gradient_aa1bff {
+    width: var(--guild-list-width);
 }
 
 .listItem_c96c45,
 .wrapper_bc7085,
 .svg_c5f96a,
 .blobContainer_a5ad63,
-.listItem_c96c45>.wrapper_fd07a3+div:not([class]),
+.listItem_c96c45>.wrapper_c4cd66+div:not([class]),
 .wrapper_c5f96a,
 .svg_c5f96a>foreignObject {
   width: calc(var(--guild-list-width) - 12px);
   mask: none !important;
+}
+
+.colorwaysServerListItem {
+    width: var(--guild-list-width);
 }
 
 .listItem_c96c45:not(:has(.guildSeparator_d0c57e)),
@@ -36,6 +45,10 @@
 }
 .wrapper_f90abb {
     translate: 12px;
+}
+
+.childWrapper_f90abb,
+.icon_f90abb {
     border-radius: 50px;
     overflow: hidden;
 }
@@ -72,9 +85,6 @@
   left: calc(12px + var(--guild-list-height) + 6px);
   flex-wrap: nowrap;
   align-items: center;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   color: var(--channels-default);
   font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
@@ -110,9 +120,6 @@
   top: 0;
   left: calc(12px + var(--guild-list-height) + 6px);
   align-items: center;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   color: var(--green-360);
   font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
@@ -129,16 +136,13 @@
   color: var(--interactive-active);
 }
 
-.wrapper__8436d[data-list-item-id*="guildsnav___"]::after {
+.wrapper_f90abb[data-list-item-id*="guildsnav___"]::after {
   content: attr(aria-label);
   width: calc(var(--guild-list-width) - 24px - var(--guild-list-height) - 12px);
   position: absolute;
   top: 0;
-  left: calc(12px + var(--guild-list-height) + 6px);
+  left: calc(6px + var(--guild-list-height));
   align-items: center;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   color: var(--channels-default);
   font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
@@ -148,9 +152,11 @@
   text-overflow: ellipsis;
   transition: color .15s ease-out, background-color .15s ease-out;
   pointer-events: none;
+  display: inline-block;
+  z-index: 5555;
 }
 
-.wrapper__8436d[data-list-item-id*="guildsnav___"].selected_ae80f7::after {
+.wrapper_f90abb[data-list-item-id*="guildsnav___"].selected_ae80f7::after {
   color: var(--interactive-active);
 }
 
@@ -185,7 +191,7 @@
 }
 
 .ColorwaySelectorBtn:hover::before {
-  background-color: var(--brand-experiment);
+  background-color: var(--brand-500);
 }
 
 .ColorwaySelectorBtn::after {
@@ -195,9 +201,6 @@
   top: 0;
   left: calc(6px + 48px);
   align-items: center;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
   color: var(--channels-default);
   font-size: var(--guild-item-font-size);
   line-height: var(--guild-list-height);
@@ -207,6 +210,12 @@
   text-overflow: ellipsis;
   transition: color .15s ease-out, background-color .15s ease-out;
   pointer-events: none;
+  z-index: +1;
+}
+
+.ColorwaySelectorBtn .dc-pallete-icon {
+    z-index: +1;
+    width: var(--guild-list-height);
 }
 
 .wrapper_bc7085>[id*="folder-items-"] {
@@ -225,13 +234,13 @@
 }
 
 .pill_db6521,
-.wrapper_fd07a3,
+.wrapper_c4cd66,
 .colorwaysBtnPill {
   height: var(--guild-list-height) !important;
   align-items: center;
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
   max-height: var(--guild-list-height);
 }
 
