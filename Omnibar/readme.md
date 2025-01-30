@@ -3,7 +3,7 @@ A combined Guild bar and User area
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/Omnibar/import.css);
+@import url("https://dablulite.github.io/css-snippets/Omnibar/import.css");
 ```
 
 ### Screenshots:

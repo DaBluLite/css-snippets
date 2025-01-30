@@ -3,7 +3,7 @@ A replica of the macOS traffic lights.
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/MacosTitlebar/import.css);
+@import url("https://dablulite.github.io/css-snippets/MacosTitlebar/import.css");
 :root {
     --mactitlebar-left-margin: 5px;
     --mactitlebar-top-margin: 10px;

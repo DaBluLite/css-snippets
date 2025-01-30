@@ -3,7 +3,7 @@ Replaces the Discord logo on the DMs Button for the TabsV2 Messages Icon
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css);
+@import url("https://dablulite.github.io/css-snippets/TabsV2HomeIcon/import.css");
 ```
 
 ### Screenshots:

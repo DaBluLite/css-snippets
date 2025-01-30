@@ -4,11 +4,11 @@ A modified version of the "Better Titlebar" snippet, that moves the channel acti
 ### Importing
 #### Normal:
 ```css
-@import url(//dablulite.github.io/css-snippets/DeclutterBar/import.css);
+@import url("https://dablulite.github.io/css-snippets/DeclutterBar/import.css");
 ```
 #### With macOS Traffic Lights:
 ```css
-@import url(//dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css);
+@import url("https://dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css");
 ```
 #### Optional settings:
 ```css

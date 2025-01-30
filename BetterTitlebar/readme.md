@@ -4,11 +4,11 @@ A redesign to the original Windows titlebar, making it bigger, as well as giving
 ### Importing
 #### Normal:
 ```css
-@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+@import url("https://dablulite.github.io/css-snippets/BetterTitlebar/import.css");
 ```
 #### With macOS Traffic Lights:
 ```css
-@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import-trafficlights.css);
+@import url("https://dablulite.github.io/css-snippets/BetterTitlebar/import-trafficlights.css");
 ```
 
 ### Screenshots:

@@ -1,9 +1,9 @@
 #app-mount,
 .app__160d8,
 .base_c48ade,
-.container__9293f,
+.container_fc4f04,
 .sidebar_c48ade + div,
-.chatContent_f75fb0,
+.chatContent_a7d72e,
 .content_c48ade,
 .layer_d4b6c5 ,
 .app_a3002d,
@@ -60,9 +60,9 @@ body,
 	--text-normal: var(--black-500);
 	--text-muted: var(--black-400);
 }
-.content_f75fb0:before,
-.form_f75fb0:before,
-.children__9293f:after {
+.content_a7d72e:before,
+.form_a7d72e:before,
+.children_fc4f04:after {
   content: none;
 }
 .header_f37cb1,

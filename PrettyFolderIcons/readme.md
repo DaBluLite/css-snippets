@@ -3,7 +3,7 @@ Makes the expanded folder icons white and their backgrounds colored
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/PrettyFolderIcons/import.css);
+@import url("https://dablulite.github.io/css-snippets/PrettyFolderIcons/import.css");
 ```
 
 ### Screenshots:

@@ -4,7 +4,7 @@ A snippet that makes it simple to swap the Accent/Brand color of Discord
 ### Importing:
 #### Import
 ```css
-@import url(//dablulite.github.io/css-snippets/AccentSwap/import.css);
+@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
 :root:root {
     --accent-h: 235;
     --accent-s: 86%;

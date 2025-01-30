@@ -1,7 +1,7 @@
 .theme-dark .sidebar_c48ade,
 .theme-dark .sidebarRegionScroller__23e6b,
 .theme-dark .searchResultsWrap_a9e706,
-.theme-dark .callContainer_cb9592,
+.theme-dark .callContainer_d880dc,
 .theme-dark .mainCard_f369db,
 .theme-dark .replyBar__841c8,
 .theme-dark .stackedBars__74017,
@@ -15,7 +15,7 @@
 .theme-light .sidebar_c48ade,
 .theme-light .sidebarRegionScroller__23e6b,
 .theme-light .searchResultsWrap_a9e706,
-.theme-light .callContainer_cb9592,
+.theme-light .callContainer_d880dc,
 .theme-light .mainCard_f369db,
 .theme-light .replyBar__841c8,
 .theme-light .stackedBars__74017,
@@ -29,10 +29,10 @@
 .mainCard_f369db .input__0f084 {
     background: none;
 }
-.theme-dark .callContainer_cb9592 {
+.theme-dark .callContainer_d880dc {
     background: var(--bg-overlay-1,var(--background-secondary)) !important;
 }
-.theme-light .callContainer_cb9592 {
+.theme-light .callContainer_d880dc {
     background: var(--bg-overlay-1,var(--background-secondary)) !important;
 }
 .pageWrapper_a3a4ce,

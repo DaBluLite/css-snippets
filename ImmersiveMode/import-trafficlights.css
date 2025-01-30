@@ -1,14 +1,14 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import-trafficlights.css");
-.chat_f75fb0 > .container__9293f,
-.headerWrapper_cb9592 > .container__9293f {
+.chat_a7d72e > .container_fc4f04,
+.headerWrapper_d880dc > .container_fc4f04 {
     background: rgb(0,0,0,.6) !important;
     top: -16px !important;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0 !important;
 }
-.chat_f75fb0 > .container__9293f .upperContainer_fc4f,
-.headerWrapper_cb9592 > .container__9293f .upperContainer_fc4f {
+.chat_a7d72e > .container_fc4f04 .upperContainer_fc4f,
+.headerWrapper_d880dc > .container_fc4f04 .upperContainer_fc4f {
     -webkit-app-region: no-drag !important;
 }
 .titleBar_a934d8 {
@@ -18,8 +18,8 @@
     opacity: .5;
     background: none !important;
 }
-.chat_f75fb0 > .container__9293f::before,
-.headerWrapper_cb9592 > .container__9293f::before {
+.chat_a7d72e > .container_fc4f04::before,
+.headerWrapper_d880dc > .container_fc4f04::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -29,13 +29,13 @@
     left: 0;
     order: 5;
 }
-.chat_f75fb0 > .container__9293f:hover,
-.headerWrapper_cb9592 > .container__9293f:hover,
-#app-mount:has(.chat_f75fb0 > .container__9293f:hover) .titleBar_a934d8,
-#app-mount:has(.headerWrapper_cb9592 > .container__9293f:hover) .titleBar_a934d8,
+.chat_a7d72e > .container_fc4f04:hover,
+.headerWrapper_d880dc > .container_fc4f04:hover,
+#app-mount:has(.chat_a7d72e > .container_fc4f04:hover) .titleBar_a934d8,
+#app-mount:has(.headerWrapper_d880dc > .container_fc4f04:hover) .titleBar_a934d8,
 .titleBar_a934d8:hover,
-#app-mount:has(.titleBar_a934d8:hover) .chat_f75fb0 > .container__9293f,
-#app-mount:has(.titleBar_a934d8:hover) .headerWrapper_cb9592 > .container__9293f {
+#app-mount:has(.titleBar_a934d8:hover) .chat_a7d72e > .container_fc4f04,
+#app-mount:has(.titleBar_a934d8:hover) .headerWrapper_d880dc > .container_fc4f04 {
     top: 0 !important;
     opacity: 1 !important;
 }
@@ -45,7 +45,7 @@
 .platform-win .sidebar_c48ade {
     border-radius: 0;
 }
-.container__01ae2 > .container__9293f {
+.container__01ae2 > .container_fc4f04 {
     padding-top: 31px;
     height: 62px;
 }

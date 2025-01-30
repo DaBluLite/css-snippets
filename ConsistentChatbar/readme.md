@@ -3,7 +3,7 @@ A snippet that artificially makes the chatbar look like a continuous user area
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/ConsistentChatbar/import.css);
+@import url("https://dablulite.github.io/css-snippets/ConsistentChatbar/import.css");
 ```
 
 ### Screenshots

@@ -1,4 +1,4 @@
-@import url(//dablulite.github.io/css-snippets/HorizontalServerList/import.css);
+@import url("https://dablulite.github.io/css-snippets/HorizontalServerList/import.css");
 .container__37e49 .avatarWrapper__37e49 {
   height: 48px;
   padding: 0;
@@ -71,7 +71,7 @@
 .container_c48ade:has(.panels_c48ade .container__37e49 .button__201d5 path[d="M182 856q-51 0-79-35.5T82 734l42-300q9-60 53.5-99T282 296h396q60 0 104.5 39t53.5 99l42 300q7 51-21 86.5T778 856q-21 0-39-7.5T706 826l-90-90H344l-90 90q-15 15-33 22.5t-39 7.5Zm498-240q17 0 28.5-11.5T720 576q0-17-11.5-28.5T680 536q-17 0-28.5 11.5T640 576q0 17 11.5 28.5T680 616Zm-80-120q17 0 28.5-11.5T640 456q0-17-11.5-28.5T600 416q-17 0-28.5 11.5T560 456q0 17 11.5 28.5T600 496ZM310 616h60v-70h70v-60h-70v-70h-60v70h-70v60h70v70Z"]) .guilds_c48ade {
   width: calc(100vw - 228px - 7px - 48px);
 }
-.chat_f75fb0, .container__01ae2, .container__133bf, .applicationStore_f07d62, .containerSidenav_dc2e0e {
+.chat_a7d72e, .container__01ae2, .container__133bf, .applicationStore_f07d62, .containerSidenav_dc2e0e {
     padding-top: 0;
     margin-top: 0;
 }

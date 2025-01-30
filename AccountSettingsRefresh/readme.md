@@ -3,7 +3,7 @@ A fresh take on the "Account Settings" area design.
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/AccountSettingsRefresh/import.css);
+@import url("https://dablulite.github.io/css-snippets/AccountSettingsRefresh/import.css");
 ```
 
 ### Screenshots:

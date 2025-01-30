@@ -3,7 +3,7 @@ A refresh to the now archived "account details columns" snippet.
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+@import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
 ```
 
 ### Screenshots:

@@ -1,15 +1,15 @@
 @import url("https://dablulite.github.io/css-snippets/DeclutterBar/import.css");
-.container__9293f {
+.container_fc4f04 {
     background: rgb(0,0,0,.6) !important;
     top: -16px;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0;
 }
-.container__9293f .upperContainer_fc4f {
+.container_fc4f04 .upperContainer_fc4f {
     -webkit-app-region: no-drag;
 }
-.container__9293f::before {
+.container_fc4f04::before {
     content: "";
     height: 84px;
     width: 12px;
@@ -19,10 +19,10 @@
     left: 0;
     order: 5;
 }
-.container__9293f:hover,
-#app-mount:has(.container__9293f:hover) .titleBar_a934d8,
+.container_fc4f04:hover,
+#app-mount:has(.container_fc4f04:hover) .titleBar_a934d8,
 .titleBar_a934d8:hover,
-#app-mount:has(.titleBar_a934d8:hover) .container__9293f {
+#app-mount:has(.titleBar_a934d8:hover) .container_fc4f04 {
     top: 0 !important;
     opacity: 1 !important;
 }
@@ -35,18 +35,18 @@
 .members_c8ffbb {
     padding-top: 31px;
 }
-.container__01ae2 > .container__9293f {
+.container__01ae2 > .container_fc4f04 {
     padding-top: 31px;
     height: 62px;
 }
-:is(.chat_f75fb0,.headerWrapper_cb9592,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container__9293f {
+:is(.chat_a7d72e,.headerWrapper_d880dc,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container_fc4f04 {
     background: rgb(0,0,0,.6) !important;
     top: -16px;
     transition: .25s ease;
     z-index: +1000;
     opacity: 0;
 }
-:is(.chat_f75fb0,.headerWrapper_cb9592,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container__9293f .upperContainer_fc4f {
+:is(.chat_a7d72e,.headerWrapper_d880dc,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container_fc4f04 .upperContainer_fc4f {
     -webkit-app-region: no-drag !important;
 }
 .titleBar_a934d8 {
@@ -56,11 +56,11 @@
     opacity: .5;
     background: none !important;
 }
-:is(.chat_f75fb0,.headerWrapper_cb9592,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container__9293f:hover,
-#app-mount:has(:is(.chat_f75fb0,.headerWrapper_cb9592,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container__9293f:hover) :is(.titleBar_a934d8,.newMessagesBar__0f481 .barButtonAlt__0f481),
+:is(.chat_a7d72e,.headerWrapper_d880dc,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container_fc4f04:hover,
+#app-mount:has(:is(.chat_a7d72e,.headerWrapper_d880dc,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container_fc4f04:hover) :is(.titleBar_a934d8,.newMessagesBar__0f481 .barButtonAlt__0f481),
 .titleBar_a934d8:hover,
 .newMessagesBar__0f481 .barButtonAlt__0f481:hover,
-#app-mount:has(.titleBar_a934d8:hover,.newMessagesBar__0f481 .barButtonAlt__0f481:hover) :is(.chat_f75fb0,.headerWrapper_cb9592,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container__9293f {
+#app-mount:has(.titleBar_a934d8:hover,.newMessagesBar__0f481 .barButtonAlt__0f481:hover) :is(.chat_a7d72e,.headerWrapper_d880dc,.container__133bf,.homeWrapper__0920e,.shop__6db1d) > .container_fc4f04 {
     top: 0 !important;
     opacity: 1 !important;
 }
@@ -73,7 +73,7 @@
 .members_c8ffbb {
     padding-top: 31px;
 }
-.container__01ae2 > .container__9293f {
+.container__01ae2 > .container_fc4f04 {
     padding-top: 31px;
     height: 62px;
 }

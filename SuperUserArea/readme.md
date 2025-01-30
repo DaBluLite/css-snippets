@@ -3,7 +3,7 @@ Yet another User area redesign, this time aiming to unify Discord's main actions
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/SuperUserArea/import.css);
+@import url("https://dablulite.github.io/css-snippets/SuperUserArea/import.css");
 ```
 
 ### Screenshots:

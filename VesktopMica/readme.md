@@ -3,7 +3,7 @@ A basic transparency import to make Acrylic/Mica/Tabbed effects visible
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/VesktopMica/import.css);
+@import url("https://dablulite.github.io/css-snippets/VesktopMica/import.css");
 ```
 
 ### Screenshots:

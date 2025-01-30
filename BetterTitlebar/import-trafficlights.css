@@ -1,4 +1,4 @@
-@import url(//dablulite.github.io/css-snippets/BetterTitlebar/import.css);
+@import url("https://dablulite.github.io/css-snippets/BetterTitlebar/import.css");
 :root {
     --mactitlebar-button-width: 20px;
     --mactitlebar-button-height: 20px;

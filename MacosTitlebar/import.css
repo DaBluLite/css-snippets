@@ -54,14 +54,14 @@
     background-color: transparent;
 }
 .layer_d4b6c5 :not(.baseLayer_d4b6c5),
-.platform-win .container__9293f :is(.toolbar__9293f, .children__9293f > .titleWrapper__9293f:not(:last-of-type), .topic__6ec1a) {
+.platform-win .container_fc4f04 :is(.toolbar_fc4f04, .children_fc4f04 > .titleWrapper_fc4f04:not(:last-of-type), .topic_bf3bbb) {
     -webkit-app-region: no-drag;
 }
 .platform-win .sidebar_c48ade {
     border-radius: 0;
 }
 .layer_d4b6c5 :not(.baseLayer_d4b6c5)::before,
-.platform-win .container__9293f {
+.platform-win .container_fc4f04 {
     -webkit-app-region: drag;
 }
 .layer_d4b6c5 :not(.baseLayer_d4b6c5)::before {

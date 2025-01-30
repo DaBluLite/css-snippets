@@ -51,8 +51,8 @@
     background: var(--brand-500);
     border-radius: 16px;
 }
-.content_f75fb0,
-.chatContent_f75fb0,
+.content_a7d72e,
+.chatContent_a7d72e,
 .container__2637a,
 .container_f37cb1,
 .header_f37cb1,
@@ -60,14 +60,14 @@
 .privateChannels__35e86 {
     border-top-left-radius: 8px;
 }
-.content_f75fb0:before {
+.content_a7d72e:before {
     content: none;
 }
 .sidebar_c48ade {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
 }
-.platform-win .chat_f75fb0,
-.platform-osx .chat_f75fb0 {
+.platform-win .chat_a7d72e,
+.platform-osx .chat_a7d72e {
     border-top-left-radius: 8px;
 }
 .container_e131a9 {

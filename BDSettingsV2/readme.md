@@ -3,7 +3,7 @@ A complete redesign on the BetterDiscord Settings Section, inspired by dav's "BD
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/BDSettingsV2/import.css);
+@import url("https://dablulite.github.io/css-snippets/BDSettingsV2/import.css");
 ```
 
 ### Screenshots

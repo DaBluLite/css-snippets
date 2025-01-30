@@ -3,7 +3,7 @@ A replica of the nitro profile customization system.
 
 ### Importing:
 ```css
-@import url(//dablulite.github.io/css-snippets/FreeNitroProfile/import.css);
+@import url("https://dablulite.github.io/css-snippets/FreeNitroProfile/import.css");
 ```
 
 ### Customizing
