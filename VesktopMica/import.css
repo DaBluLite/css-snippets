@@ -1,18 +1,18 @@
 #app-mount,
-.app_de4237,
-.base_c0676e,
-.container__26baa,
-.sidebar_e031be + div,
-.chatContent_f087cb,
-.content__76dcf,
-.layer_f7d46a ,
-.app_b1f720,
-.appMount_c99875,
+.app__160d8,
+.base_c48ade,
+.container__9293f,
+.sidebar_c48ade + div,
+.chatContent_f75fb0,
+.content_c48ade,
+.layer__960e4 ,
+.app_a3002d,
+.appMount__51fd7,
 body,
-.bg__12180,
-.container__6b2e5,
-.container__03ec9,
-.header__71942 {
+.bg__960e4,
+.container_c2efea,
+.container__0b563,
+.header__0b563 {
   background: none !important;
 }
 :root {
@@ -32,10 +32,10 @@ body,
     --button-secondary-background-disabled: var(--primary-430);
     --button-secondary-background-hover: hsl(var(--primary-560-hsl)/.2);
 }
-.base_c0676e {
+.base_c48ade {
     border-top-left-radius: 5px;
 }
-.innerWrapper_cfb768 {
+.innerWrapper_b4589b {
 	background-color: hsl(var(--primary-560-hsl)/.3) !important;
 }
 .theme-dark {
@@ -60,12 +60,12 @@ body,
 	--text-normal: var(--black-500);
 	--text-muted: var(--black-400);
 }
-.content__01e65:before,
-.form_d8a4a1:before,
-.children_cde9af:after {
+.content_f75fb0:before,
+.form_f75fb0:before,
+.children__9293f:after {
   content: none;
 }
-.header__77c95,
-.searchBar__621ec {
+.header_f37cb1,
+.searchBar__35e86 {
   box-shadow: none;
 }

@@ -7,52 +7,52 @@
     --mactitlebar-min-btn-back: #fac536;
     --mactitlebar-max-btn-back: #39ea49;
 }
-.winButtonClose_a934d8 {
+.winButtonClose__421ed {
     order: 3;
     margin: auto 0;
 }
-.winButtonMinMax_a934d8 {
+.winButtonMinMax__421ed {
     order: 1;
     margin: auto 0;
 }
-.winButtonMinMax_a934d8:last-child {
+.winButtonMinMax__421ed:last-child {
     margin: auto 0;
 }
-.winButton_a934d8:hover {
+.winButton__421ed:hover {
     background-color: transparent !important;
 }
-.winButtonClose_a934d8 > svg {
+.winButtonClose__421ed > svg {
     background: var(--mactitlebar-close-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonClose_a934d8 > svg > polygon {
+.winButtonClose__421ed > svg > polygon {
     display: none !important;
 }
-.winButtonMinMax_a934d8 > svg {
+.winButtonMinMax__421ed > svg {
     background: var(--mactitlebar-max-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax_a934d8:last-child > svg {
+.winButtonMinMax__421ed:last-child > svg {
     background: var(--mactitlebar-min-btn-back) !important;
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButtonMinMax_a934d8 > svg > rect {
+.winButtonMinMax__421ed > svg > rect {
     display: none !important;
 }
-.winButton_a934d8:hover {
+.winButton__421ed:hover {
     background-color: transparent;
 }
-.winButton_a934d8 {
+.winButton__421ed {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
 }
-.typeWindows_a934d8 {
+.typeWindows__421ed {
     justify-content: start;
 }
-.winButtonClose_a934d8 > svg:hover,
-.winButtonMinMax_a934d8 > svg:hover {
+.winButtonClose__421ed > svg:hover,
+.winButtonMinMax__421ed > svg:hover {
     filter: brightness(.6);
 }

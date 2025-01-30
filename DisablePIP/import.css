@@ -1,5 +1,5 @@
-div:not(:has(.videoWrapper_f8a4f3)) + .pictureInPicture_e0c856,
-div:not(:has(.videoWrapper_f8a4f3)) + .pictureInPicture_e0c856 * {
+div:not(:has(.videoWrapper__6981d)) + .pictureInPicture__6341f,
+div:not(:has(.videoWrapper__6981d)) + .pictureInPicture__6341f * {
     opacity: 0;
     pointer-events: none !important;
     transition: 0s !important;

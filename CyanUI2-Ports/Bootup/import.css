@@ -1,27 +1,27 @@
-.ready__61f2f {
+.ready_a2f514 {
     position: absolute;
     right: 0;
     bottom: 0;
     width: 150px !important;
     height: 150px !important;
 }
-.container__827e6 {
+.container_a2f514 {
     backdrop-filter: blur(48px);
 }
-.theme-dark .container__827e6 {
+.theme-dark .container_a2f514 {
     background-color: rgb(0 0 0/60%);
 }
-.theme-light .container__827e6 {
+.theme-light .container_a2f514 {
     background-color: rgb(255 255 255/60%);
 }
-.tip__6e299 {
+.tip_a2f514 {
     color: var(--header-primary);
     font-size: 30px;
     font-weight: 300;
     opacity: .7;
 }
-.tipTitle_ebc1d5,
-.tip__6e299 {
+.tipTitle_a2f514,
+.tip_a2f514 {
     width: fit-content !important;
     line-height: unset !important;
     max-width: 40vw;
@@ -30,25 +30,25 @@
     margin-bottom: 8px;
     text-align: left;
 }
-.text__35f5c {
+.text_a2f514 {
     position: absolute;
     top: 57px;
     left: 35px;
     display: flex;
     flex-direction: column-reverse;
 }
-.problems__4ae6d {
+.problems_a2f514 {
     z-index: +1;
     width: fit-content;
     padding-left: 35px;
 }
-.problemsText__5f1c5 {
+.problemsText_a2f514 {
     color: var(--header-primary);
 }
-.tipTitle_ebc1d5 {
+.tipTitle_a2f514 {
     font-size: 0;
 }
-.tipTitle_ebc1d5::after {
+.tipTitle_a2f514::after {
     --var-loading-header: "Discord is loading...";
     content: var(--var-loading-header);
     color: var(--header-primary);

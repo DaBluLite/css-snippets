@@ -7,14 +7,14 @@
 #authorized-apps-tab .deleteApp_b3a490:hover {
   background-color: var(--button-danger-background-hover);
 }
-#authorized-apps-tab .children_a6ae9b {
+#authorized-apps-tab .children__7bffb {
   counter-reset: section -1;
   position: relative;
 }
-#authorized-apps-tab .children_a6ae9b > .authedApp_f0135d {
+#authorized-apps-tab .children__7bffb > .authedApp__50a54 {
   counter-increment: section;
 }
-#authorized-apps-tab .children_a6ae9b::after {
+#authorized-apps-tab .children__7bffb::after {
   counter-increment: section;
   content: "Authorized Apps: "counter(section);
   order: -1;
@@ -25,13 +25,13 @@
   font-size: 20px;
   line-height: 24px;
 }
-#authorized-apps-tab .children_a6ae9b .flexChild_bba380 > h3 {
+#authorized-apps-tab .children__7bffb .flexChild__7c0ba > h3 {
   display: flex;
 }
-#authorized-apps-tab .sectionTitle_a6ae9b {
+#authorized-apps-tab .sectionTitle__7bffb {
   opacity: 0;
 }
-#authorized-apps-tab .appAvatar_f0135d {
+#authorized-apps-tab .appAvatar__50a54 {
   width: 46px;
   height: 46px;
   background-color: var(--background-floating);
@@ -47,29 +47,29 @@
   margin-left: 0;
   font-size: 20px;
 }
-#authorized-apps-tab .authedApp_f0135d:not(:nth-child(2)) {
+#authorized-apps-tab .authedApp__50a54:not(:nth-child(2)) {
   margin-top: 40px;
 }
-#authorized-apps-tab .permission_f0135d {
+#authorized-apps-tab .permission__50a54 {
   border-bottom: 1px solid hsl(var(--primary-300-hsl)/.3);
   padding: 6px;
   height: fit-content;
   transition: .05s;
 }
-#authorized-apps-tab .permission_f0135d:hover {
+#authorized-apps-tab .permission__50a54:hover {
   border-color: var(--primary-300);
 }
-#authorized-apps-tab .authedApp_f0135d {
+#authorized-apps-tab .authedApp__50a54 {
   background-color: var(--background-secondary-alt);
   transition: box-shadow .2s ease-out,transform .2s ease-out,background .2s ease-out,opacity .2s ease-in,-webkit-box-shadow .2s ease-out,-webkit-transform .2s ease-out;
   border: none;
   border-radius: 8px;
 }
-#authorized-apps-tab .authedApp_f0135d:hover {
+#authorized-apps-tab .authedApp__50a54:hover {
   background-color: var(--background-tertiary);
   transform: translateY(-1px);
   box-shadow: var(--elevation-high);
 }
-#authorized-apps-tab .authedApp_f0135d:hover .appAvatar_f0135d {
+#authorized-apps-tab .authedApp__50a54:hover .appAvatar__50a54 {
   box-shadow: 0 0 0 5px var(--background-floating),var(--elevation-high);
 }

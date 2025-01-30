@@ -9,62 +9,62 @@
     --mactitlebar-max-btn-back: #39ea49;
     --macbuttons-serverlist-inner-top-margin: 32px;
 }
-.winButtonClose__6396d {
+.winButtonClose__421ed {
     order: 3;
     margin-left: var(--mactitlebar-left-margin);
 }
-.winButtonMinMax_caf9c8 {
+.winButtonMinMax__421ed {
     order: 1;
 }
-.winButtonClose__6396d > svg {
+.winButtonClose__421ed > svg {
     background-color: var(--mactitlebar-close-btn-back) !important;
 }
-.winButtonMinMax_caf9c8 > svg {
+.winButtonMinMax__421ed > svg {
     background-color: var(--mactitlebar-max-btn-back) !important;
 }
-.winButtonMinMax_caf9c8:last-child > svg {
+.winButtonMinMax__421ed:last-child > svg {
     background-color: var(--mactitlebar-min-btn-back) !important;
 }
-.winButton_f17fb6 > svg {
+.winButton__421ed > svg {
     background-size: contain !important;
     border-radius: var(--mactitlebar-button-border-radius);
 }
-.winButton_f17fb6 > svg:hover {
+.winButton__421ed > svg:hover {
     filter: brightness(.7);
 }
-.winButton_f17fb6 > svg > :is(polygon, rect),
-.wordmarkWindows_ffbc5e,
-.withFrame__5e49e:before,
-.withFrame__5e49e:after {
+.winButton__421ed > svg > :is(polygon, rect),
+.wordmarkWindows__421ed,
+.withFrame__421ed:before,
+.withFrame__421ed:after {
     display: none !important;
 }
-.winButton_f17fb6 {
+.winButton__421ed {
     width: var(--mactitlebar-button-width) !important;
     height: var(--mactitlebar-button-height) !important;
     margin-top: var(--mactitlebar-top-margin);
     background-color: transparent !important;
 }
-.guilds__2b93a {
+.guilds_c48ade {
     padding-top: var(--macbuttons-serverlist-inner-top-margin);
     height: calc(100vh - var(--macbuttons-serverlist-inner-top-margin));
 }
-.typeWindows_e41dab {
+.typeWindows__421ed {
     margin-top: 0;
     position: absolute;
     background-color: transparent;
 }
-.layer_f7d46a :not(.baseLayer__2b890),
-.platform-win .container__26baa :is(.toolbar__62fb5, .children_cde9af > .titleWrapper_d6133e:not(:last-of-type), .topic__16ae3) {
+.layer__960e4 :not(.baseLayer__960e4),
+.platform-win .container__9293f :is(.toolbar__9293f, .children__9293f > .titleWrapper__9293f:not(:last-of-type), .topic__6ec1a) {
     -webkit-app-region: no-drag;
 }
-.platform-win .sidebar_e031be {
+.platform-win .sidebar_c48ade {
     border-radius: 0;
 }
-.layer_f7d46a :not(.baseLayer__2b890)::before,
-.platform-win .container__26baa {
+.layer__960e4 :not(.baseLayer__960e4)::before,
+.platform-win .container__9293f {
     -webkit-app-region: drag;
 }
-.layer_f7d46a :not(.baseLayer__2b890)::before {
+.layer__960e4 :not(.baseLayer__960e4)::before {
     content: "";
     position: absolute;
     height: calc(var(--mactitlebar-top-margin) + var(--mactitlebar-button-height));
@@ -72,8 +72,8 @@
     top: 0;
     right: 0;
 }
-.platform-win .layer_f7d46a ,
-.platform-win .standardSidebarView__12528 {
+.platform-win .layer__960e4 ,
+.platform-win .standardSidebarView__23e6b {
     padding-top: 0;
     top: 0;
 }

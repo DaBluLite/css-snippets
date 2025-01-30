@@ -1,7 +1,7 @@
-.panels__58331 {
+.panels_c48ade {
     order: -1;
 }
-.container_debb33 {
+.container__37e49 {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
     justify-content: space-between;
     padding: 0;
@@ -11,11 +11,11 @@
     height: fit-content;
     padding-top: 12px;
 }
-.platform-win .container_debb33,
-.platform-osx .container_debb33 {
+.platform-win .container__37e49,
+.platform-osx .container__37e49 {
     padding-top: 4px;
 }
-.container_debb33 .flex_f18b02 > .button_ae40a4 {
+.container__37e49 .flex__7c0ba > .button__67645 {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -23,7 +23,7 @@
     background: var(--nitro-overlay,var(--background-primary));
     transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
 }
-.container_debb33 .avatarWrapper__500a6 {
+.container__37e49 .avatarWrapper__37e49 {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -37,52 +37,52 @@
     justify-content: center;
     cursor: pointer;
 }
-.container_debb33 .flex_f18b02 {
+.container__37e49 .flex__7c0ba {
     justify-content: space-between;
     width: 100%;
     padding-right: 12px;
 }
-.container_debb33 .avatarWrapper__500a6 .nameTag__77ab2 {
+.container__37e49 .avatarWrapper__37e49 .nameTag__37e49 {
     display: none;
 }
-.container_debb33 .avatarWrapper__500a6:hover,
-.container_debb33 .avatarWrapper__500a6[aria-expanded="true"],
-.container_debb33 .flex_f18b02 > .button_ae40a4:hover {
+.container__37e49 .avatarWrapper__37e49:hover,
+.container__37e49 .avatarWrapper__37e49[aria-expanded="true"],
+.container__37e49 .flex__7c0ba > .button__67645:hover {
     background: var(--brand-500);
     border-radius: 16px;
 }
-.content__01e65,
-.chatContent_f087cb,
-.container__7e23c,
-.container_f41675,
-.header__77c95,
-.animatedContainer__0e828,
-.privateChannels__9b518 {
+.content_f75fb0,
+.chatContent_f75fb0,
+.container__2637a,
+.container_f37cb1,
+.header_f37cb1,
+.animatedContainer_f37cb1,
+.privateChannels__35e86 {
     border-top-left-radius: 8px;
 }
-.content__01e65:before {
+.content_f75fb0:before {
     content: none;
 }
-.sidebar_e031be {
+.sidebar_c48ade {
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
 }
-.platform-win .chat__52833,
-.platform-osx .chat__52833 {
+.platform-win .chat_f75fb0,
+.platform-osx .chat_f75fb0 {
     border-top-left-radius: 8px;
 }
-.container_e1958d {
+.container_e131a9 {
     border-bottom: none;
     background: var(--bg-overlay-app-frame,var(--background-tertiary)) !important;
     padding: 0;
     padding-bottom: 4px;
 }
-.actionButtons__85e3c {
+.actionButtons_e131a9 {
     display: flex;
     gap: 12px;
     padding-top: 0;
     padding-right: 12px;
 }
-.actionButtons__85e3c .button_b82d53 {
+.actionButtons_e131a9 .button_e131a9 {
     --nitro-overlay: rgb(var(--bg-overlay-color-inverse)/var(--bg-overlay-opacity-6));
     width: 48px;
     height: 48px;
@@ -92,27 +92,27 @@
     background: var(--nitro-overlay,var(--background-primary));
     transition: background-color .15s ease-out,color .15s ease-out, border-radius .2s ease;
 }
-.actionButtons__85e3c .button_b82d53:hover,
-.actionButtons__85e3c .button_b82d53[aria-expanded="true"] {
+.actionButtons_e131a9 .button_e131a9:hover,
+.actionButtons_e131a9 .button_e131a9[aria-expanded="true"] {
     background: var(--brand-500);
     border-radius: 16px;
 }
-.connection__38593 {
+.connection_e131a9 {
     padding: 8px;
     height: 60px;
     box-sizing: border-box;
 }
-.peopleColumn__0c784 .inner__999f6 {
+.peopleColumn__133bf .inner__999f6 {
     height: 60px;
     padding: 0;
 }
-.nowPlayingColumn_b025fe .scroller__7c25e {
+.nowPlayingColumn__133bf .scroller__7d20c {
     margin: 0;
     overflow: hidden overlay !important;
     padding-right: 16px !important;
     border: none;
 }
-.nowPlayingColumn_b025fe .header_c56a27 {
+.nowPlayingColumn__133bf .header__7d20c {
     margin: 0;
     width: calc(100% + 32px);
     margin-left: -16px;
@@ -125,6 +125,6 @@
     position: fixed;
     z-index: +1;
 }
-.nowPlayingColumn_b025fe .header_c56a27 + .itemCard_b64118 {
+.nowPlayingColumn__133bf .header__7d20c + .itemCard__7e549 {
     margin-top: 60px;
 }

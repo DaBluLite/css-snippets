@@ -1,7 +1,7 @@
-.nameTag__77ab2 {
+.nameTag__37e49 {
     display: none;
 }
-.avatarWrapper__500a6 {
+.avatarWrapper__37e49 {
     margin: 0;
     padding: 7px;
     width: calc((100%/4) - 14px) !important;
@@ -12,27 +12,27 @@
     cursor: pointer;
     transition: .2s ease;
 }
-.panels__58331 :has(.flex_f18b02 > :nth-child(4)) .avatarWrapper__500a6 {
+.panels_c48ade :has(.flex__7c0ba > :nth-child(4)) .avatarWrapper__37e49 {
     width: calc((100%/5) - 14px) !important;
 }
-.container_debb33 {
+.container__37e49 {
     padding: 6px;
     gap: 4px;
 }
-.panels__58331 .flex_f18b02 {
+.panels_c48ade .flex__7c0ba {
     gap: 4px;
     width: calc((100%/4)*3);
     height: 56px;
 }
-.panels__58331 .flex_f18b02:has(>:nth-child(4)) {
+.panels_c48ade .flex__7c0ba:has(>:nth-child(4)) {
     width: calc((100%/5)*4);
 }
-.panels__58331 .flex_f18b02,
-.panels__58331 .avatarWrapper__500a6 {
+.panels_c48ade .flex__7c0ba,
+.panels_c48ade .avatarWrapper__37e49 {
     height: 100%;
     align-items: center;
 }
-.panels__58331 .flex_f18b02 .button_ae40a4 {
+.panels_c48ade .flex__7c0ba .button__67645 {
     width: 100%;
     border-radius: 8px !important;
     cursor: pointer;

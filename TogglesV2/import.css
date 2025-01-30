@@ -1,25 +1,25 @@
-.container__2ed72 .slider__41d94 > rect {
+.container__87bf1 .slider__87bf1 > rect {
     transition: fill .2s ease;
     fill: white !important;
 }
-.container__2ed72 .slider__41d94 {
+.container__87bf1 .slider__87bf1 {
     margin-top: 3px;
     margin-left: 2px;
 }
-.container__2ed72.checked__36fdc .slider__41d94 {
+.container__87bf1.checked__87bf1 .slider__87bf1 {
     margin-left: 10px;
 }
-.container__2ed72 .slider__41d94 > svg {
+.container__87bf1 .slider__87bf1 > svg {
     display: none;
 }
-.container__2ed72.checked__36fdc .slider__41d94 > rect {
+.container__87bf1.checked__87bf1 .slider__87bf1 > rect {
     fill: var(--brand-experiment) !important;
 }
-.container__2ed72:has(.slider__41d94) {
+.container__87bf1:has(.slider__87bf1) {
     height: 24px;
     width: 46px !important;
     transition: .2s ease;
 }
-.container__2ed72.checked__36fdc:has(.slider__41d94) {
+.container__87bf1.checked__87bf1:has(.slider__87bf1) {
     background-color: var(--brand-experiment-300) !important;
 }

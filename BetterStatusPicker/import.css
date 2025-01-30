@@ -14,10 +14,10 @@
 #status-status-picker[class*=focused]:has([mask="url(#svg-mask-status-invisible)"]) {
     background-color: var(--primary-400);
 }
-#status .submenu_d90b3d .separator_d90b3d {
+#status .submenu_c1e9c4 .separator_c1e9c4 {
     display: none;
 }
-#status .submenu_d90b3d .description_ad5fac {
+#status .submenu_c1e9c4 .description_af7fb7 {
     height: fit-content;
     overflow: hidden;
     max-height: 0rem;
@@ -26,22 +26,22 @@
     flex: 0 0 100%;
     display: flex;
 }
-#status .submenu_d90b3d .item_d90b3d.focused_d90b3d .description_ad5fac {
+#status .submenu_c1e9c4 .item_c1e9c4.focused_c1e9c4 .description_af7fb7 {
     max-height: 4rem;
 }
-.statusItem_ad5fac {
+.statusItem_af7fb7 {
     display: flex;
     flex-wrap: wrap;
 }
-.statusItem_ad5fac .icon_ad5fac {
+.statusItem_af7fb7 .icon_af7fb7 {
     margin-right: 10px;
     flex: 0 0 10px;
 }
-.status_ad5fac {
+.status_af7fb7 {
     width: calc(100% - 20px);
     display: flex;
 }
-#status-status-picker--idle .statusItem_ad5fac::after {
+#status-status-picker--idle .statusItem_af7fb7::after {
     content: "Away from Discord/PC.";
     height: fit-content;
     overflow: hidden;
@@ -51,6 +51,6 @@
     flex: 0 0 100%;
     display: flex;
 }
-#status-status-picker--idle.focused_d90b3d .statusItem_ad5fac::after {
+#status-status-picker--idle.focused_c1e9c4 .statusItem_af7fb7::after {
     max-height: 4rem;
 }

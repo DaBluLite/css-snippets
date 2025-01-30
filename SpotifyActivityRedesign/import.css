@@ -1,47 +1,47 @@
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) {
     border-radius: 8px;
     background-color: #000;
     padding: 16px
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) :is(.content__7246b, .anchor_c8ddc0, .themed__857a7 .text__6822d) {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) :is(.content__2ef49, .anchor_edefb8, .themed_c8b06d .text_c8b06d) {
     color: #fff
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .barInner__0f713 {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .barInner_c8b06d {
     background-color: #fff !important
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .state_a85ac0,
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .state__2ef49,
 .vc-spotify-ellipoverflow:has(>#vc-spotify-album-title),
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34)>.headerContainer_b7a30f {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34)>.headerContainer__2ef49 {
     display: none
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(2),
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(2),
 .vc-spotify-ellipoverflow:has(>.vc-spotify-artist) {
     font-size: 0;
     line-height: unset
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(2) .activityName_a7b7de {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(2) .activityName__2ef49 {
     font-size: 14px;
     opacity: .6
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .assetsLargeImage__57902 {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .assetsLargeImage__2ef49 {
     border-radius: 4px
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .buttonColor_fd4fe8 {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .buttonColor_e36233 {
     background-color: transparent !important;
     border-radius: 50px;
     border: 1px solid #fff;
     transition: none !important;
     color: #1fdf64 !important
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .platformIcon_a2d873 {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .platformIcon__2ef49 {
     display: none !important
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .iconButton__11faf,
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .iconButton__11faf,
 .vc-spotify-button:has(>:is(.vc-spotify-pause,.vc-spotify-play)) {
     background-color: #fff !important;
     color: #000 !important
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .buttonColor_fd4fe8:hover,
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .buttonColor_e36233:hover,
 .vc-spotify-button:has(>.vc-spotify-pause):hover {
     scale: 1.05
 }
@@ -65,28 +65,28 @@
     src: url(https://encore.scdn.co/fonts/CircularSpTitle-Black-3f9afb402080d53345ca1850226ca724.woff2);
     font-weight: 800
 }
-#vc-spotify-player .bar_e58961,
-#vc-spotify-player .barFill__1f56b {
+#vc-spotify-player .bar_a562c8,
+#vc-spotify-player .barFill_a562c8 {
     border-radius: 8px
 }
-#vc-spotify-player .grabber_e3daf3 {
+#vc-spotify-player .grabber_a562c8 {
     background-color: #fff !important;
     border-color: #fff !important;
     opacity: 0
 }
-#vc-spotify-player .bar_e58961:is(:hover, :has(.barFill__1f56b:hover))+.track_b31f5a>.grabber_e3daf3,
-#vc-spotify-player .grabber_e3daf3:hover {
+#vc-spotify-player .bar_a562c8:is(:hover, :has(.barFill_a562c8:hover))+.track_a562c8>.grabber_a562c8,
+#vc-spotify-player .grabber_a562c8:hover {
     opacity: 1
 }
-#vc-spotify-player .bar_e58961,
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .bar_e63719 {
+#vc-spotify-player .bar_a562c8,
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .bar_c8b06d {
     background-color: #4d4d4d
 }
-#vc-spotify-player .barFill__1f56b {
+#vc-spotify-player .barFill_a562c8 {
     background-color: #fff
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .bar_e63719:hover>.barInner__0f713,
-#vc-spotify-player .bar_e58961:hover>.barFill__1f56b {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .bar_c8b06d:hover>.barInner_c8b06d,
+#vc-spotify-player .bar_a562c8:hover>.barFill_a562c8 {
     background-color: #1bc357 !important
 }
 #vc-spotify-player {
@@ -119,14 +119,14 @@
     background-color: transparent;
     cursor: default
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34),
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34),
 #vc-spotify-controls {
     --fallback-font: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-primary: "Spotify", var(--fallback-font);
     --font-display: "Spotify", var(--fallback-font);
     font-family: var(--font-display) !important
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) :is(.activityName_a7b7de, .detailsWrap_a126c3) {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) :is(.activityName__2ef49, .detailsWrap__2ef49) {
     font-weight: 400
 }
 .vc-spotify-button-row {
@@ -153,32 +153,32 @@
 .vc-spotify-progress-time {
     position: static;
 }
-#vc-spotify-progress-bar .sliderContainer__1d624 {
+#vc-spotify-progress-bar .sliderContainer__65039 {
     height: 12px;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) {
     --fallback-font: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     --font-primary: "Spotify",var(--fallback-font);
     --font-display: "Spotify",var(--fallback-font);
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .headerContainer_b7a30f {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .headerContainer__2ef49 {
     display: none;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .assets__5bee0,
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .assetsLargeImageUserPopoutV2_ec599c {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .assets__2ef49,
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .assetsLargeImageUserPopoutV2_c1d9fd {
     height: 56px;
     width: 56px;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(2) .activityName_a7b7de::after {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(2) .activityName__2ef49::after {
     content: ", ";
     font-size: 16px;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(2) > span:has(>.activityName_a7b7de):last-of-type .activityName_a7b7de::after {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(2) > span:has(>.activityName__2ef49):last-of-type .activityName__2ef49::after {
     content: none;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(2) .activityName_a7b7de {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(2) .activityName__2ef49 {
     font-size: 12px;
 }
-.activityUserPopoutV2__89098:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_cbfb04 .textRow_c835f1:nth-of-type(1) {
+.activityUserPopoutV2_c1d9fd:has(.spotifyButtonLogo__6ca34) .contentImagesUserPopoutV2_c1d9fd .textRow__2ef49:nth-of-type(1) {
     font-weight: normal;
 }
