@@ -18,22 +18,22 @@
 .appAsidePanelWrapper_a3002d {
     overflow: visible;
 }
-.withFrame__421ed {
+.withFrame_a934d8 {
     width: fit-content;
     margin-left: auto;
 }
-.winButton__421ed {
+.winButton_a934d8 {
     height: var(--declutter-bar-height,31px);
     width: var(--declutter-bar-button-width, 46px);
 }
-.bg__960e4 {
+.bg_d4b6c5 {
     top: calc(var(--declutter-bar-height,31px) * -1) !important;
 }
 .children__9293f:after,
 .tabBody__133bf:before {
     content: none;
 }
-.wordmarkWindows__421ed {
+.wordmarkWindows_a934d8 {
     display: none;
 }
 .topicClickTarget__6ec1a {
@@ -269,7 +269,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat_f75fb0:has(.newMessagesBar__0f481
 .chat_f75fb0:has(.newMessagesBar__0f481) .container__9293f :is(.icon__9293f,.icon__97492,.topic__6ec1a) {
     color: var(--interactive-hover);
 }
-:root:has(.newMessagesBar__0f481) .withFrame__421ed .winButton__421ed {
+:root:has(.newMessagesBar__0f481) .withFrame_a934d8 .winButton_a934d8 {
     color: var(--interactive-hover);
 }
 .form_f75fb0 {
@@ -440,7 +440,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat_f75fb0:has(.newMessagesBar__0f481
     height: var(--declutter-bar-height,31px);
     line-height: var(--declutter-bar-height,31px);
 }
-.typeWindows__421ed {
+.typeWindows_a934d8 {
     height: var(--declutter-bar-height,31px);
     box-sizing: border-box;
 }
@@ -487,7 +487,7 @@ html:has(#activeColorwayCSS:not(:empty)) .chat_f75fb0:has(.newMessagesBar__0f481
 .notice__5fd4c > .closeButton__90904 {
     height: var(--declutter-bar-height,31px);
 }
-.layer__960e4:not(.baseLayer__960e4) {
+.layer_d4b6c5:not(.baseLayer_d4b6c5) {
     top: calc(var(--declutter-bar-height,31px) * -1) !important;
     padding-top: var(--declutter-bar-height,31px) !important;
 }

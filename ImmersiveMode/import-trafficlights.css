@@ -11,7 +11,7 @@
 .headerWrapper_cb9592 > .container__9293f .upperContainer_fc4f {
     -webkit-app-region: no-drag !important;
 }
-.titleBar__421ed {
+.titleBar_a934d8 {
     position: fixed;
     left: 0;
     transition: .25s ease;
@@ -31,11 +31,11 @@
 }
 .chat_f75fb0 > .container__9293f:hover,
 .headerWrapper_cb9592 > .container__9293f:hover,
-#app-mount:has(.chat_f75fb0 > .container__9293f:hover) .titleBar__421ed,
-#app-mount:has(.headerWrapper_cb9592 > .container__9293f:hover) .titleBar__421ed,
-.titleBar__421ed:hover,
-#app-mount:has(.titleBar__421ed:hover) .chat_f75fb0 > .container__9293f,
-#app-mount:has(.titleBar__421ed:hover) .headerWrapper_cb9592 > .container__9293f {
+#app-mount:has(.chat_f75fb0 > .container__9293f:hover) .titleBar_a934d8,
+#app-mount:has(.headerWrapper_cb9592 > .container__9293f:hover) .titleBar_a934d8,
+.titleBar_a934d8:hover,
+#app-mount:has(.titleBar_a934d8:hover) .chat_f75fb0 > .container__9293f,
+#app-mount:has(.titleBar_a934d8:hover) .headerWrapper_cb9592 > .container__9293f {
     top: 0 !important;
     opacity: 1 !important;
 }
